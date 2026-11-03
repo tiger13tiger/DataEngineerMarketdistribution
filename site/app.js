@@ -1,9 +1,18 @@
 const PALETTE = ["#3b6ef0", "#15b88a", "#d98c15", "#e0528a", "#8a5cf6", "#2fa9c9"];
 
+// Validated dataviz palette slots used by the trend section (see data/palette
+// tokens in style.css): slot 1 (blue) for the single-series line + positive
+// bars, the diverging red for negative bars, green/red for good/bad deltas.
+Chart.register(ChartDataLabels);
+Chart.defaults.set("plugins.datalabels", { display: false });
+
+let trendSnapshot = null;
+
 async function main() {
   const manifest = await fetchJSON("data/manifest.json");
   const latest = manifest.snapshots[manifest.snapshots.length - 1];
   const snapshot = await fetchJSON(latest.data);
+  trendSnapshot = snapshot;
 
   document.getElementById("subtitle").textContent =
     `${latest.title} — source: ${snapshot.source}`;
@@ -17,11 +26,11 @@ async function main() {
   }
   document.getElementById("methodology").textContent = snapshot.methodology || "";
 
+  setupTrendSection(snapshot);
   renderStats(snapshot);
   renderLevel(snapshot);
   renderCloud(snapshot);
   renderOrEmpty("chart-weekly", snapshot.weekly_postings, () => renderWeekly(snapshot));
-  renderOrEmpty("chart-trend", snapshot.monthly_trend?.ict_mom_history?.values, () => renderTrend(snapshot));
   renderOrEmpty("chart-skills", snapshot.skills_pct, () => renderBarPct("chart-skills", snapshot.skills_pct, "skill"));
   renderOrEmpty("chart-resp", snapshot.responsibilities_pct, () => renderBarPct("chart-resp", snapshot.responsibilities_pct, "responsibility"));
 }
@@ -43,6 +52,142 @@ function renderOrEmpty(canvasId, data, renderFn) {
   }
   renderFn();
 }
+
+// ---------- Market trend section ----------
+
+let trendLevelChart = null;
+let trendMomChart = null;
+
+function setupTrendSection(s) {
+  const section = document.getElementById("trend-section");
+  const trend = s.monthly_trend;
+  if (!trend || !trend.metrics || trend.metrics.length === 0) {
+    section.hidden = true;
+    return;
+  }
+
+  const select = document.getElementById("series-select");
+  select.innerHTML = trend.metrics
+    .map((m, i) => `<option value="${i}">${m.label}</option>`)
+    .join("");
+  select.addEventListener("change", () => renderTrendMetric(trend.metrics[select.selectedIndex]));
+
+  renderTrendMetric(trend.metrics[0]);
+}
+
+function monthLabel(monthStr) {
+  const [y, m] = monthStr.split("-").map(Number);
+  const d = new Date(Date.UTC(y, m - 1, 1));
+  return d.toLocaleString("en-AU", { month: "short", timeZone: "UTC" }) + " " + String(y).slice(2);
+}
+
+function formatDelta(v) {
+  const sign = v >= 0 ? "+" : "−";
+  return `${sign}${Math.abs(v)}%`;
+}
+
+function renderTrendMetric(metric) {
+  document.getElementById("trend-line-title").textContent =
+    `Monthly job ads (3-month avg) · ${metric.label}`;
+
+  const latestMonth = metric.history.length
+    ? monthLabel(metric.history[metric.history.length - 1].month)
+    : "latest";
+
+  document.getElementById("trend-stats").innerHTML = `
+    <div class="stat-tile big">
+      <div class="tile-label">Ads · ${latestMonth}</div>
+      <div class="tile-value">${metric.latest_level.toLocaleString()}</div>
+    </div>
+    <div class="stat-tile big">
+      <div class="tile-label">Month on month</div>
+      <div class="tile-value ${metric.mom_pct >= 0 ? "delta-good" : "delta-bad"}">${formatDelta(metric.mom_pct)}</div>
+    </div>
+    <div class="stat-tile big">
+      <div class="tile-label">Year on year</div>
+      <div class="tile-value ${metric.yoy_pct >= 0 ? "delta-good" : "delta-bad"}">${formatDelta(metric.yoy_pct)}</div>
+    </div>
+  `;
+
+  if (trendLevelChart) { trendLevelChart.destroy(); trendLevelChart = null; }
+  if (trendMomChart) { trendMomChart.destroy(); trendMomChart = null; }
+
+  const hasHistory = metric.history && metric.history.length > 0;
+  document.getElementById("chart-trend-level").hidden = !hasHistory;
+  document.getElementById("trend-level-empty").hidden = hasHistory;
+  document.getElementById("chart-trend-mom").hidden = !hasHistory;
+  document.getElementById("trend-mom-empty").hidden = hasHistory;
+  if (!hasHistory) return;
+
+  const labels = metric.history.map((h) => monthLabel(h.month));
+  const seriesColor = getSeriesColor();
+
+  trendLevelChart = new Chart(document.getElementById("chart-trend-level"), {
+    type: "line",
+    data: {
+      labels,
+      datasets: [
+        {
+          label: metric.label,
+          data: metric.history.map((h) => h.level),
+          borderColor: seriesColor,
+          borderWidth: 2,
+          pointRadius: 0,
+          pointHoverRadius: 5,
+          pointHitRadius: 10,
+          tension: 0.35,
+          fill: false,
+        },
+      ],
+    },
+    options: baseOptions({
+      plugins: { legend: { display: false } },
+      scales: { y: { ticks: { color: getMutedColor() }, beginAtZero: true, grid: { color: getBorderColor() } } },
+    }),
+  });
+
+  const posColor = getSeriesColor();
+  const negColor = getDivergingNegColor();
+
+  trendMomChart = new Chart(document.getElementById("chart-trend-mom"), {
+    type: "bar",
+    data: {
+      labels,
+      datasets: [
+        {
+          label: "MoM %",
+          data: metric.history.map((h) => h.mom_pct),
+          backgroundColor: metric.history.map((h) => (h.mom_pct >= 0 ? posColor : negColor)),
+          borderRadius: 4,
+          maxBarThickness: 24,
+        },
+      ],
+    },
+    options: baseOptions({
+      plugins: {
+        legend: { display: false },
+        datalabels: {
+          display: true,
+          color: getMutedColor(),
+          anchor: (ctx) => (ctx.dataset.data[ctx.dataIndex] >= 0 ? "end" : "start"),
+          align: (ctx) => (ctx.dataset.data[ctx.dataIndex] >= 0 ? "end" : "start"),
+          font: { size: 10 },
+          formatter: (v) => formatDelta(v),
+        },
+      },
+      scales: { y: { ticks: { color: getMutedColor(), callback: (v) => `${v}%` }, grid: { color: getBorderColor() } } },
+    }),
+  });
+}
+
+function getSeriesColor() {
+  return getComputedStyle(document.documentElement).getPropertyValue("--series-1").trim();
+}
+function getDivergingNegColor() {
+  return getComputedStyle(document.documentElement).getPropertyValue("--diverging-neg").trim();
+}
+
+// ---------- Live job ads dataset section ----------
 
 function renderStats(s) {
   const tiles = [
@@ -113,18 +258,6 @@ function renderWeekly(s) {
     data: {
       labels: s.weekly_postings.map((w) => w.week_start),
       datasets: [{ label: "Ads posted", data: s.weekly_postings.map((w) => w.ads), borderColor: PALETTE[2], tension: 0.3 }],
-    },
-    options: baseOptions({ plugins: { legend: { display: false } } }),
-  });
-}
-
-function renderTrend(s) {
-  const hist = s.monthly_trend.ict_mom_history;
-  new Chart(document.getElementById("chart-trend"), {
-    type: "line",
-    data: {
-      labels: hist.months,
-      datasets: [{ label: "MoM %", data: hist.values, borderColor: PALETTE[3], tension: 0.3 }],
     },
     options: baseOptions({ plugins: { legend: { display: false } } }),
   });

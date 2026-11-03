@@ -6,6 +6,12 @@
   --border: #e3e3e8;
   --accent: #3b6ef0;
   --accent-2: #15b88a;
+
+  /* dataviz palette tokens (see dataviz skill references/palette.md) */
+  --series-1: #2a78d6;
+  --diverging-neg: #e34948;
+  --delta-good: #006300;
+  --delta-bad: #d03b3b;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -17,6 +23,11 @@
     --border: #2d2e37;
     --accent: #7da2ff;
     --accent-2: #4fd6ad;
+
+    --series-1: #3987e5;
+    --diverging-neg: #e66767;
+    --delta-good: #0ca30c;
+    --delta-bad: #e66767;
   }
 }
 
@@ -28,6 +39,11 @@
   --border: #2d2e37;
   --accent: #7da2ff;
   --accent-2: #4fd6ad;
+
+  --series-1: #3987e5;
+  --diverging-neg: #e66767;
+  --delta-good: #0ca30c;
+  --delta-bad: #e66767;
 }
 
 * { box-sizing: border-box; }
@@ -80,6 +96,59 @@ h1 {
 
 main { padding: 16px; max-width: 1100px; margin: 0 auto; }
 
+.section-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 28px 0 14px;
+}
+
+.section-head h2 {
+  font-size: 1.05rem;
+  margin: 0;
+}
+
+.series-select {
+  font-size: 0.85rem;
+  padding: 6px 10px;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text);
+}
+
+.trend-section .card { margin-bottom: 16px; }
+
+.stat-row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.stat-tile.big {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 16px;
+}
+
+.tile-label {
+  color: var(--text-muted);
+  font-size: 0.8rem;
+  margin-bottom: 6px;
+}
+
+.tile-value {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.tile-value.delta-good { color: var(--delta-good); }
+.tile-value.delta-bad { color: var(--delta-bad); }
+
 .stats {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
@@ -119,10 +188,12 @@ main { padding: 16px; max-width: 1100px; margin: 0 auto; }
   min-height: 260px;
 }
 
-.card h2 {
+.card h2,
+.card h3 {
   font-size: 0.95rem;
   margin: 0 0 10px;
   color: var(--text-muted);
+  font-weight: 600;
 }
 
 .card-wide { grid-column: 1 / -1; min-height: 320px; }
