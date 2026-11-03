@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sydney Data Engineer Market Dashboard</title>
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="topbar-inner">
+    <h1>Sydney Data Engineer Market</h1>
+    <span class="env-badge" data-env="__ENV__">__ENV__</span>
+  </div>
+  <p class="subtitle" id="subtitle">Loading latest snapshot…</p>
+</header>
+
+<main id="app">
+  <section class="stats" id="stats"></section>
+
+  <section class="grid">
+    <div class="card">
+      <h2>Seniority mix</h2>
+      <canvas id="chart-level"></canvas>
+    </div>
+    <div class="card">
+      <h2>Cloud named in ad</h2>
+      <canvas id="chart-cloud"></canvas>
+    </div>
+    <div class="card">
+      <h2>Weekly postings</h2>
+      <canvas id="chart-weekly"></canvas>
+    </div>
+    <div class="card">
+      <h2>ICT vacancies, month-on-month %</h2>
+      <canvas id="chart-trend"></canvas>
+    </div>
+    <div class="card card-wide">
+      <h2>Top skills mentioned</h2>
+      <canvas id="chart-skills"></canvas>
+    </div>
+    <div class="card card-wide">
+      <h2>Top responsibilities mentioned</h2>
+      <canvas id="chart-resp"></canvas>
+    </div>
+  </section>
+
+  <footer>
+    <p id="report-link"></p>
+    <p class="methodology" id="methodology"></p>
+  </footer>
+</main>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.4/chart.umd.min.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

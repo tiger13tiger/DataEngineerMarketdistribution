@@ -1,0 +1,87 @@
+{
+  "id": "sydney-de-market-2026-11",
+  "date": "2026-11-02",
+  "source": "SEEK live ads, All Sydney NSW + JSA Internet Vacancy Index",
+  "totals": {
+    "ads": 75,
+    "senior_plus": 36,
+    "mid_junior": 39
+  },
+  "by_cloud": [
+    {"cloud": "Azure", "ads": 33, "senior_plus": 16},
+    {"cloud": "AWS", "ads": 21, "senior_plus": 13},
+    {"cloud": "GCP", "ads": 12, "senior_plus": 6},
+    {"cloud": "No cloud named", "ads": 23, "senior_plus": null}
+  ],
+  "work_type": {"full_time": 52, "contract": 18, "contract_pct": 26},
+  "level": [
+    {"level": "Junior", "ads": 1},
+    {"level": "Mid", "ads": 36},
+    {"level": "Senior", "ads": 15},
+    {"level": "Lead/Architect", "ads": 8},
+    {"level": "Principal/Manager", "ads": 10}
+  ],
+  "salary": {"median_aud": 165000, "sample_size": 15, "min_aud": 135000, "max_aud": 250000},
+  "weekly_postings": [
+    {"week_start": "2026-09-28", "ads": 1},
+    {"week_start": "2026-10-05", "ads": 6},
+    {"week_start": "2026-10-12", "ads": 13},
+    {"week_start": "2026-10-19", "ads": 23},
+    {"week_start": "2026-10-26", "ads": 27}
+  ],
+  "skills_pct": [
+    {"skill": "Data governance/quality", "pct": 79},
+    {"skill": "SQL", "pct": 74},
+    {"skill": "Data modelling", "pct": 64},
+    {"skill": "Python/PySpark", "pct": 64},
+    {"skill": "CI/CD & Git", "pct": 56},
+    {"skill": "AI/ML/GenAI", "pct": 51},
+    {"skill": "Snowflake", "pct": 43},
+    {"skill": "Azure", "pct": 41},
+    {"skill": "Legacy ETL tools", "pct": 37},
+    {"skill": "Databricks", "pct": 33},
+    {"skill": "AWS", "pct": 30},
+    {"skill": "dbt", "pct": 30},
+    {"skill": "Lakehouse/Delta/Iceberg", "pct": 30},
+    {"skill": "Spark", "pct": 27},
+    {"skill": "Power BI", "pct": 27},
+    {"skill": "Kafka/streaming", "pct": 21},
+    {"skill": "Terraform/IaC", "pct": 19},
+    {"skill": "GCP", "pct": 17},
+    {"skill": "Airflow", "pct": 17},
+    {"skill": "Fabric", "pct": 14},
+    {"skill": "Tableau", "pct": 7},
+    {"skill": "Docker/K8s", "pct": 6}
+  ],
+  "responsibilities_pct": [
+    {"responsibility": "Pipelines ETL/ELT", "pct": 90},
+    {"responsibility": "Monitoring & support", "pct": 89},
+    {"responsibility": "Data quality/governance/security", "pct": 87},
+    {"responsibility": "Platform architecture", "pct": 84},
+    {"responsibility": "Stakeholder collaboration", "pct": 83},
+    {"responsibility": "Enable BI/reporting", "pct": 79},
+    {"responsibility": "Documentation & standards", "pct": 79},
+    {"responsibility": "Performance & cost", "pct": 76},
+    {"responsibility": "Data modelling/warehouse", "pct": 73},
+    {"responsibility": "CI/CD & DevOps", "pct": 70},
+    {"responsibility": "Enable ML/AI", "pct": 51},
+    {"responsibility": "Mentoring/leading", "pct": 41},
+    {"responsibility": "Migration/modernisation", "pct": 29},
+    {"responsibility": "Real-time/streaming", "pct": 26}
+  ],
+  "monthly_trend": {
+    "note": "JSA Internet Vacancy Index, 3-month avg, to Sep 2026",
+    "series": [
+      {"metric": "Greater Sydney ICT Professionals", "level": 2016, "mom_pct": 2.4, "yoy_pct": -15.8},
+      {"metric": "NSW Software & Applications Programmers (2613)", "level": 1060, "mom_pct": 2.2, "yoy_pct": -28.0},
+      {"metric": "NSW Database/Systems Admins & ICT Security (2621)", "level": 166, "mom_pct": 1.8, "yoy_pct": -8.8},
+      {"metric": "Greater Sydney all jobs", "level": 44625, "mom_pct": 2.9, "yoy_pct": -2.6}
+    ],
+    "ict_mom_history": {
+      "note": "Greater Sydney ICT Professionals MoM%, Oct 2025 to Sep 2026",
+      "months": ["2025-10","2025-11","2025-12","2026-01","2026-02","2026-03","2026-04","2026-05","2026-06","2026-07","2026-08","2026-09"],
+      "values": [-3.5,-2.9,-11.6,-2.8,1.5,13.6,-2.7,-1.7,-7.9,1.8,-1.3,2.4]
+    }
+  },
+  "methodology": "Keyword/regex match on full ad text; broad terms (e.g. \"AI\", \"governance\", \"support\") inflate some shares."
+}

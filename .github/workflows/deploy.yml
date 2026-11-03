@@ -1,0 +1,43 @@
+name: Deploy dashboard
+
+on:
+  push:
+    branches: [dev, main]
+
+permissions:
+  contents: write
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Validate snapshot data
+        run: python scripts/validate_data.py
+
+      - name: Determine target environment
+        id: env
+        run: |
+          if [ "${{ github.ref_name }}" = "main" ]; then
+            echo "label=production" >> "$GITHUB_OUTPUT"
+            echo "dir=." >> "$GITHUB_OUTPUT"
+          else
+            echo "label=development" >> "$GITHUB_OUTPUT"
+            echo "dir=dev" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Build site
+        run: bash scripts/build_site.sh dist "${{ steps.env.outputs.label }}"
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: dist
+          destination_dir: ${{ steps.env.outputs.dir }}
+          keep_files: true
