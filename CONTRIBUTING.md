@@ -21,11 +21,17 @@ CI always runs first.
    `pipeline/transform_staging.py`.
 3. **Golden** (`data/<id>.json` + `data/manifest.json`) — the aggregated
    metrics the dashboard actually reads. `pipeline/transform_golden.py`.
+4. **Delta** (`data/deltas/<date>.json` + `data/deltas/manifest.json`) — the
+   diff between this run's golden snapshot and the previous one (ads,
+   senior+/mid-junior, contract %, by-cloud, by-level, all as
+   `{from, to, change}`). `pipeline/compute_delta.py`. No-ops on the first
+   ever run, since there's nothing yet to diff against. Read by the
+   `site/trends.html` page — see [README](README.md#dashboards).
 
-`.github/workflows/pipeline.yml` runs this weekly (and on manual
+`.github/workflows/pipeline.yml` runs this daily (and on manual
 `workflow_dispatch`) and opens a PR into `dev` with the new bronze/staging/
-golden files — it never pushes directly, so CI and a human review still gate
-every data update, same as any other change.
+golden/delta files — it never pushes directly, so CI and a human review still
+gate every data update, same as any other change.
 
 **Caveats, read before trusting the schedule:**
 - `pipeline/extract_seek.py` hits an undocumented SEEK endpoint reverse
