@@ -107,9 +107,9 @@ function renderTrendMetric(metric) {
   if (trendMomChart) { trendMomChart.destroy(); trendMomChart = null; }
 
   const hasHistory = metric.history && metric.history.length > 0;
-  document.getElementById("chart-trend-level").hidden = !hasHistory;
+  document.getElementById("chart-trend-level-wrap").hidden = !hasHistory;
   document.getElementById("trend-level-empty").hidden = hasHistory;
-  document.getElementById("chart-trend-mom").hidden = !hasHistory;
+  document.getElementById("chart-trend-mom-wrap").hidden = !hasHistory;
   document.getElementById("trend-mom-empty").hidden = hasHistory;
   if (!hasHistory) return;
 
