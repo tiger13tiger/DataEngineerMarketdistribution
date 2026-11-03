@@ -26,13 +26,13 @@
 
     <div class="card">
       <h3 id="trend-line-title">Monthly job ads (3-month avg)</h3>
-      <canvas id="chart-trend-level"></canvas>
+      <div class="chart-wrap" id="chart-trend-level-wrap"><canvas id="chart-trend-level"></canvas></div>
       <p class="empty-note" id="trend-level-empty" hidden>No monthly history for this series yet.</p>
     </div>
 
     <div class="card">
       <h3>Month-on-month increase rate</h3>
-      <canvas id="chart-trend-mom"></canvas>
+      <div class="chart-wrap" id="chart-trend-mom-wrap"><canvas id="chart-trend-mom"></canvas></div>
       <p class="empty-note" id="trend-mom-empty" hidden>No monthly history for this series yet.</p>
     </div>
   </section>
@@ -45,23 +45,23 @@
   <section class="grid">
     <div class="card">
       <h3>Seniority mix</h3>
-      <canvas id="chart-level"></canvas>
+      <div class="chart-wrap"><canvas id="chart-level"></canvas></div>
     </div>
     <div class="card">
       <h3>Cloud named in ad</h3>
-      <canvas id="chart-cloud"></canvas>
+      <div class="chart-wrap"><canvas id="chart-cloud"></canvas></div>
     </div>
     <div class="card card-wide">
       <h3>Weekly postings</h3>
-      <canvas id="chart-weekly"></canvas>
+      <div class="chart-wrap"><canvas id="chart-weekly"></canvas></div>
     </div>
     <div class="card card-wide">
       <h3>Top skills mentioned</h3>
-      <canvas id="chart-skills"></canvas>
+      <div class="chart-wrap chart-wrap-tall"><canvas id="chart-skills"></canvas></div>
     </div>
     <div class="card card-wide">
       <h3>Top responsibilities mentioned</h3>
-      <canvas id="chart-resp"></canvas>
+      <div class="chart-wrap chart-wrap-tall"><canvas id="chart-resp"></canvas></div>
     </div>
   </section>
 
