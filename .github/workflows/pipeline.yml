@@ -1,0 +1,74 @@
+name: Market data pipeline
+
+on:
+  schedule:
+    # Weekly. NOTE: GitHub only reads `schedule:` from the workflow file on
+    # the repo's default branch (main) - it won't fire until this file is
+    # promoted there. Use "Run workflow" below on any branch in the meantime.
+    - cron: "17 19 * * 0"
+  workflow_dispatch:
+    inputs:
+      detail_fetch_limit:
+        description: "Max ads to fetch full detail text for (skills/responsibilities match). 0 disables."
+        required: false
+        default: "30"
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  run-pipeline:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: dev
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install pipeline dependencies
+        run: pip install -r pipeline/requirements.txt
+
+      - name: Compute run date
+        id: date
+        run: echo "value=$(date -u +%Y-%m-%d)" >> "$GITHUB_OUTPUT"
+
+      - name: Extract (bronze)
+        run: python pipeline/extract_seek.py --out-dir "bronze/seek/${{ steps.date.outputs.value }}"
+
+      - name: Transform (staging)
+        run: >
+          python pipeline/transform_staging.py
+          --bronze-dir "bronze/seek/${{ steps.date.outputs.value }}"
+          --out-dir "staging/${{ steps.date.outputs.value }}"
+          --detail-fetch-limit "${{ github.event.inputs.detail_fetch_limit || '30' }}"
+
+      - name: Transform (golden)
+        run: >
+          python pipeline/transform_golden.py
+          --staging-dir "staging/${{ steps.date.outputs.value }}"
+          --run-date "${{ steps.date.outputs.value }}"
+
+      - name: Validate
+        run: python scripts/validate_data.py
+
+      - name: Open PR with new snapshot
+        uses: peter-evans/create-pull-request@v6
+        with:
+          branch: pipeline/${{ steps.date.outputs.value }}
+          base: dev
+          title: "Market data pipeline run: ${{ steps.date.outputs.value }}"
+          body: >
+            Automated SEEK extract -> staging -> golden run for
+            ${{ steps.date.outputs.value }}. Review the new
+            data/seek-sydney-de-market-${{ steps.date.outputs.value }}.json
+            before merging into dev. bronze/ and staging/ hold the raw and
+            intermediate data for this run.
+          commit-message: "Market data pipeline run: ${{ steps.date.outputs.value }}"
+          add-paths: |
+            bronze/**
+            staging/**
+            data/**
