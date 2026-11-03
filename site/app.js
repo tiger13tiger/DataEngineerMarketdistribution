@@ -20,11 +20,8 @@ async function main() {
   }
   document.getElementById("methodology").textContent = snapshot.methodology || "";
 
-  setupTrendSection(snapshot);
-  renderStats(snapshot);
-  setupPositionFilter(snapshot);
-  renderLevel(snapshot, "all");
-  renderCloud(snapshot, "all");
+  renderTrendContext(snapshot);
+  setupPositionSelect(snapshot);
   renderOrEmpty("chart-weekly", snapshot.weekly_postings, () => renderWeekly(snapshot));
   renderOrEmpty("chart-skills", snapshot.skills_pct, () => renderBarPct("chart-skills", snapshot.skills_pct, "skill"));
   renderOrEmpty("chart-resp", snapshot.responsibilities_pct, () => renderBarPct("chart-resp", snapshot.responsibilities_pct, "responsibility"));
@@ -53,21 +50,19 @@ function renderOrEmpty(canvasId, data, renderFn) {
 let trendLevelChart = null;
 let trendMomChart = null;
 
-function setupTrendSection(s) {
+// The trend charts always show Greater Sydney - ICT Professionals as
+// broad market context. JSA has no Data-Engineer-specific series, so this
+// doesn't change with the Position selector - only the dataset section
+// below does.
+function renderTrendContext(s) {
   const section = document.getElementById("trend-section");
   const trend = s.monthly_trend;
   if (!trend || !trend.metrics || trend.metrics.length === 0) {
     section.hidden = true;
     return;
   }
-
-  const select = document.getElementById("series-select");
-  select.innerHTML = trend.metrics
-    .map((m, i) => `<option value="${i}">${m.label}</option>`)
-    .join("");
-  select.addEventListener("change", () => renderTrendMetric(trend.metrics[select.selectedIndex]));
-
-  renderTrendMetric(trend.metrics[0]);
+  const metric = trend.metrics.find((m) => m.id === "ict-professionals") || trend.metrics[0];
+  renderTrendMetric(metric);
 }
 
 function monthLabel(monthStr) {
@@ -193,25 +188,57 @@ const POSITION_GROUPS = {
   sde: ["Senior", "Lead/Architect", "Principal/Manager"],
 };
 
-function setupPositionFilter(s) {
+function setupPositionSelect(s) {
   const select = document.getElementById("position-select");
   select.value = "all";
-  select.addEventListener("change", () => {
-    renderLevel(s, select.value);
-    renderCloud(s, select.value);
-  });
+  const apply = () => {
+    const position = select.value;
+    renderStats(s, position);
+    renderLevel(s, position);
+    renderCloud(s, position);
+    updateDatasetHeading(position);
+  };
+  select.addEventListener("change", apply);
+  apply();
 }
 
-function renderStats(s) {
-  const tiles = [
-    { value: s.totals.ads, label: "Total ads" },
-    { value: s.totals.senior_plus, label: "Senior & above" },
-    { value: s.totals.mid_junior, label: "Mid & junior" },
-    { value: `${s.work_type.contract_pct}%`, label: "Contract roles" },
-  ];
-  if (s.salary?.median_aud) {
-    tiles.push({ value: `$${Math.round(s.salary.median_aud / 1000)}k`, label: "Median salary" });
+function updateDatasetHeading(position) {
+  const title = document.getElementById("dataset-title");
+  const note = document.getElementById("dataset-filter-note");
+  const commonNote =
+    "Skills, responsibilities and weekly postings below weren't split by position in this snapshot, so they always show the full dataset.";
+  if (position === "de") {
+    title.textContent = "Data Engineer ads (Mid & Junior)";
+    note.textContent = commonNote;
+  } else if (position === "sde") {
+    title.textContent = "Senior Data Engineer ads (Senior+)";
+    note.textContent = commonNote;
+  } else {
+    title.textContent = "Live job ads dataset — all levels";
+    note.textContent = `"Seniority mix" and "Cloud named in ad" plus the stat tiles respond to the Position filter above. ${commonNote}`;
   }
+}
+
+function renderStats(s, position) {
+  let tiles;
+  if (position === "de") {
+    tiles = [{ value: s.totals.mid_junior, label: "Data Engineer ads" }];
+  } else if (position === "sde") {
+    tiles = [{ value: s.totals.senior_plus, label: "Senior Data Engineer ads" }];
+  } else {
+    tiles = [
+      { value: s.totals.ads, label: "Total ads" },
+      { value: s.totals.senior_plus, label: "Senior & above" },
+      { value: s.totals.mid_junior, label: "Mid & junior" },
+    ];
+  }
+
+  const levelNote = position === "all" ? "" : " (all levels)";
+  tiles.push({ value: `${s.work_type.contract_pct}%`, label: `Contract roles${levelNote}` });
+  if (s.salary?.median_aud) {
+    tiles.push({ value: `$${Math.round(s.salary.median_aud / 1000)}k`, label: `Median salary${levelNote}` });
+  }
+
   document.getElementById("stats").innerHTML = tiles
     .map((t) => `<div class="stat-tile"><div class="value">${t.value}</div><div class="label">${t.label}</div></div>`)
     .join("");

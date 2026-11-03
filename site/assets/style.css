@@ -88,6 +88,18 @@ h1 {
   background: #d98c15;
 }
 
+.position-bar {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 10px 0 2px;
+}
+
+.position-bar label {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+
 .subtitle {
   color: var(--text-muted);
   margin: 6px 0 16px;
