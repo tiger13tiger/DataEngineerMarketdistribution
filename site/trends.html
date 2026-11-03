@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Delta Trends — Sydney Data Engineer Market</title>
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="topbar-inner">
+    <h1>Delta Trends</h1>
+    <span class="env-badge" data-env="__ENV__">__ENV__</span>
+  </div>
+  <nav class="page-nav"><a href="index.html">&larr; Back to dashboard</a></nav>
+  <p class="subtitle" id="subtitle">Loading delta history…</p>
+</header>
+
+<main id="app">
+  <section class="stat-row" id="latest-delta-stats"></section>
+
+  <section class="section-head">
+    <h2>Total ads over time</h2>
+  </section>
+  <div class="card">
+    <h3>Total ads per run</h3>
+    <div class="chart-wrap" id="chart-ads-level-wrap"><canvas id="chart-ads-level"></canvas></div>
+    <p class="empty-note" id="ads-level-empty" hidden>Not enough runs yet to show a trend — this fills in after the daily pipeline has run at least twice.</p>
+  </div>
+
+  <section class="section-head">
+    <h2>Day-on-day change</h2>
+  </section>
+  <div class="card">
+    <h3>Change in total ads</h3>
+    <div class="chart-wrap" id="chart-ads-delta-wrap"><canvas id="chart-ads-delta"></canvas></div>
+    <p class="empty-note" id="ads-delta-empty" hidden>Not enough runs yet to show a trend.</p>
+  </div>
+
+  <section class="section-head">
+    <h2>Recent runs</h2>
+  </section>
+  <div class="card card-wide">
+    <table class="delta-table" id="delta-table">
+      <thead>
+        <tr><th>Date</th><th>Ads</th><th>Senior+</th><th>Mid/Junior</th><th>Contract %</th></tr>
+      </thead>
+      <tbody id="delta-table-body"></tbody>
+    </table>
+    <p class="empty-note" id="delta-table-empty" hidden>No delta runs recorded yet.</p>
+  </div>
+</main>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
+<script src="trends.js"></script>
+</body>
+</html>

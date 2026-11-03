@@ -2,10 +2,10 @@ name: Market data pipeline
 
 on:
   schedule:
-    # Weekly. NOTE: GitHub only reads `schedule:` from the workflow file on
+    # Daily. NOTE: GitHub only reads `schedule:` from the workflow file on
     # the repo's default branch (main) - it won't fire until this file is
     # promoted there. Use "Run workflow" below on any branch in the meantime.
-    - cron: "17 19 * * 0"
+    - cron: "17 19 * * *"
   workflow_dispatch:
     inputs:
       detail_fetch_limit:
@@ -60,6 +60,9 @@ jobs:
           --staging-dir "staging/${{ steps.date.outputs.value }}"
           --run-date "${{ steps.date.outputs.value }}"
 
+      - name: Compute delta vs previous run
+        run: python pipeline/compute_delta.py
+
       - name: Validate
         run: python scripts/validate_data.py
 
@@ -70,11 +73,13 @@ jobs:
           base: dev
           title: "Market data pipeline run: ${{ steps.date.outputs.value }}"
           body: >
-            Automated SEEK extract -> staging -> golden run for
+            Automated SEEK extract -> staging -> golden -> delta run for
             ${{ steps.date.outputs.value }}. Review the new
             data/seek-sydney-de-market-${{ steps.date.outputs.value }}.json
-            before merging into dev. bronze/ and staging/ hold the raw and
-            intermediate data for this run.
+            and data/deltas/${{ steps.date.outputs.value }}.json (if a
+            previous snapshot existed to diff against) before merging into
+            dev. bronze/ and staging/ hold the raw and intermediate data
+            for this run.
           commit-message: "Market data pipeline run: ${{ steps.date.outputs.value }}"
           add-paths: |
             bronze/**

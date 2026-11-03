@@ -17,6 +17,23 @@ def fail(msg: str) -> None:
     sys.exit(1)
 
 
+def validate_deltas() -> int:
+    deltas_manifest_path = DATA_DIR / "deltas" / "manifest.json"
+    if not deltas_manifest_path.exists():
+        return 0
+
+    deltas_manifest = json.loads(deltas_manifest_path.read_text())
+    deltas = deltas_manifest.get("deltas", [])
+    for entry in deltas:
+        file_rel = entry.get("file")
+        if not file_rel:
+            fail(f"delta {entry.get('date')} has no 'file' path")
+        if not (ROOT / file_rel).exists():
+            fail(f"delta {entry['date']} references missing file {file_rel}")
+
+    return len(deltas)
+
+
 def main() -> None:
     manifest_path = DATA_DIR / "manifest.json"
     if not manifest_path.exists():
@@ -45,7 +62,8 @@ def main() -> None:
         if report_rel and not (ROOT / report_rel).exists():
             fail(f"snapshot {entry['id']} references missing report {report_rel}")
 
-    print(f"validated {len(snapshots)} snapshot(s) OK")
+    delta_count = validate_deltas()
+    print(f"validated {len(snapshots)} snapshot(s) and {delta_count} delta(s) OK")
 
 
 if __name__ == "__main__":
