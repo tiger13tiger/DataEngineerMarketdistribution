@@ -39,6 +39,14 @@ jobs:
       - name: Extract (bronze)
         run: python pipeline/extract_seek.py --out-dir "bronze/seek/${{ steps.date.outputs.value }}"
 
+      - name: Upload bronze output for debugging
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: bronze-${{ steps.date.outputs.value }}
+          path: bronze/seek/${{ steps.date.outputs.value }}
+          retention-days: 14
+
       - name: Transform (staging)
         run: >
           python pipeline/transform_staging.py
