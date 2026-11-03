@@ -7,17 +7,23 @@ async function main() {
 
   document.getElementById("subtitle").textContent =
     `${latest.title} — source: ${snapshot.source}`;
-  document.getElementById("report-link").innerHTML =
-    `Full narrative report: <a href="${latest.report.replace("snapshots/", "../snapshots/")}">${latest.report}</a>`;
+
+  if (latest.report) {
+    document.getElementById("report-link").innerHTML =
+      `Full narrative report: <a href="${latest.report.replace("snapshots/", "../snapshots/")}">${latest.report}</a>`;
+  } else {
+    document.getElementById("report-link").textContent =
+      "Automated snapshot — no narrative report for this run.";
+  }
   document.getElementById("methodology").textContent = snapshot.methodology || "";
 
   renderStats(snapshot);
   renderLevel(snapshot);
   renderCloud(snapshot);
-  renderWeekly(snapshot);
-  renderTrend(snapshot);
-  renderBarPct("chart-skills", snapshot.skills_pct, "skill");
-  renderBarPct("chart-resp", snapshot.responsibilities_pct, "responsibility");
+  renderOrEmpty("chart-weekly", snapshot.weekly_postings, () => renderWeekly(snapshot));
+  renderOrEmpty("chart-trend", snapshot.monthly_trend?.ict_mom_history?.values, () => renderTrend(snapshot));
+  renderOrEmpty("chart-skills", snapshot.skills_pct, () => renderBarPct("chart-skills", snapshot.skills_pct, "skill"));
+  renderOrEmpty("chart-resp", snapshot.responsibilities_pct, () => renderBarPct("chart-resp", snapshot.responsibilities_pct, "responsibility"));
 }
 
 async function fetchJSON(path) {
@@ -26,14 +32,28 @@ async function fetchJSON(path) {
   return res.json();
 }
 
+function renderOrEmpty(canvasId, data, renderFn) {
+  if (!data || data.length === 0) {
+    const canvas = document.getElementById(canvasId);
+    const note = document.createElement("p");
+    note.className = "empty-note";
+    note.textContent = "No data in this snapshot yet.";
+    canvas.replaceWith(note);
+    return;
+  }
+  renderFn();
+}
+
 function renderStats(s) {
   const tiles = [
     { value: s.totals.ads, label: "Total ads" },
     { value: s.totals.senior_plus, label: "Senior & above" },
     { value: s.totals.mid_junior, label: "Mid & junior" },
     { value: `${s.work_type.contract_pct}%`, label: "Contract roles" },
-    { value: `$${Math.round(s.salary.median_aud / 1000)}k`, label: "Median salary" },
   ];
+  if (s.salary?.median_aud) {
+    tiles.push({ value: `$${Math.round(s.salary.median_aud / 1000)}k`, label: "Median salary" });
+  }
   document.getElementById("stats").innerHTML = tiles
     .map((t) => `<div class="stat-tile"><div class="value">${t.value}</div><div class="label">${t.label}</div></div>`)
     .join("");
@@ -99,8 +119,7 @@ function renderWeekly(s) {
 }
 
 function renderTrend(s) {
-  const hist = s.monthly_trend?.ict_mom_history;
-  if (!hist) return;
+  const hist = s.monthly_trend.ict_mom_history;
   new Chart(document.getElementById("chart-trend"), {
     type: "line",
     data: {
