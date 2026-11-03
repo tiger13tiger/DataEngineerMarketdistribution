@@ -12,15 +12,23 @@
     <h1>Sydney Data Engineer Market</h1>
     <span class="env-badge" data-env="production">production</span>
   </div>
+  <div class="position-bar">
+    <label for="position-select">Position</label>
+    <select id="position-select" class="series-select" aria-label="Filter by position">
+      <option value="all">All levels</option>
+      <option value="de">Data Engineer (Mid &amp; Junior)</option>
+      <option value="sde">Senior Data Engineer (Senior+)</option>
+    </select>
+  </div>
   <p class="subtitle" id="subtitle">Loading latest snapshot…</p>
 </header>
 
 <main id="app">
   <section class="trend-section" id="trend-section">
     <div class="section-head">
-      <h2 id="trend-title">Market trend · all ICT roles</h2>
-      <select id="series-select" class="series-select" aria-label="Select trend series"></select>
+      <h2>Market trend · Sydney ICT (context)</h2>
     </div>
+    <p class="filter-note">JSA publishes no Data Engineer–specific series, so this tracks the closest public proxy — Greater Sydney ICT Professionals — as market context. It doesn't change with the Position filter above.</p>
 
     <div class="stat-row" id="trend-stats"></div>
 
@@ -38,8 +46,9 @@
   </section>
 
   <section class="section-head">
-    <h2>Live job ads dataset</h2>
+    <h2 id="dataset-title">Live job ads dataset</h2>
   </section>
+  <p class="filter-note" id="dataset-filter-note"></p>
   <section class="stats" id="stats"></section>
 
   <section class="grid">
