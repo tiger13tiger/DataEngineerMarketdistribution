@@ -16,31 +16,51 @@
 </header>
 
 <main id="app">
+  <section class="trend-section" id="trend-section">
+    <div class="section-head">
+      <h2 id="trend-title">Market trend · all ICT roles</h2>
+      <select id="series-select" class="series-select" aria-label="Select trend series"></select>
+    </div>
+
+    <div class="stat-row" id="trend-stats"></div>
+
+    <div class="card">
+      <h3 id="trend-line-title">Monthly job ads (3-month avg)</h3>
+      <canvas id="chart-trend-level"></canvas>
+      <p class="empty-note" id="trend-level-empty" hidden>No monthly history for this series yet.</p>
+    </div>
+
+    <div class="card">
+      <h3>Month-on-month increase rate</h3>
+      <canvas id="chart-trend-mom"></canvas>
+      <p class="empty-note" id="trend-mom-empty" hidden>No monthly history for this series yet.</p>
+    </div>
+  </section>
+
+  <section class="section-head">
+    <h2>Live job ads dataset</h2>
+  </section>
   <section class="stats" id="stats"></section>
 
   <section class="grid">
     <div class="card">
-      <h2>Seniority mix</h2>
+      <h3>Seniority mix</h3>
       <canvas id="chart-level"></canvas>
     </div>
     <div class="card">
-      <h2>Cloud named in ad</h2>
+      <h3>Cloud named in ad</h3>
       <canvas id="chart-cloud"></canvas>
     </div>
-    <div class="card">
-      <h2>Weekly postings</h2>
+    <div class="card card-wide">
+      <h3>Weekly postings</h3>
       <canvas id="chart-weekly"></canvas>
     </div>
-    <div class="card">
-      <h2>ICT vacancies, month-on-month %</h2>
-      <canvas id="chart-trend"></canvas>
-    </div>
     <div class="card card-wide">
-      <h2>Top skills mentioned</h2>
+      <h3>Top skills mentioned</h3>
       <canvas id="chart-skills"></canvas>
     </div>
     <div class="card card-wide">
-      <h2>Top responsibilities mentioned</h2>
+      <h3>Top responsibilities mentioned</h3>
       <canvas id="chart-resp"></canvas>
     </div>
   </section>
@@ -52,6 +72,7 @@
 </main>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.4/chart.umd.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/chartjs-plugin-datalabels/2.2.0/chartjs-plugin-datalabels.min.js"></script>
 <script src="app.js"></script>
 </body>
 </html>
