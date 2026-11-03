@@ -38,7 +38,7 @@ MAX_PAGES_PER_KEYWORD = 5
 REQUEST_DELAY_RANGE = (1.5, 3.0)
 
 
-def fetch_page(keyword: str, page: int) -> dict:
+def fetch_page(keyword: str, page: int, out_dir: Path) -> dict:
     params = {
         "keywords": keyword,
         "where": WHERE,
@@ -53,8 +53,28 @@ def fetch_page(keyword: str, page: int) -> dict:
         headers={"User-Agent": USER_AGENT, "Accept": "application/json"},
         timeout=20,
     )
-    resp.raise_for_status()
-    return resp.json()
+
+    if not resp.ok or "json" not in resp.headers.get("Content-Type", ""):
+        # Save exactly what SEEK sent back so a failure is debuggable from
+        # the Action's artifact/log instead of a bare "request failed".
+        dump_path = out_dir / f"_failure_{slugify(keyword)}_page{page}.txt"
+        dump_path.write_text(
+            f"GET {resp.url}\n"
+            f"status: {resp.status_code}\n"
+            f"content-type: {resp.headers.get('Content-Type')}\n"
+            f"headers: {dict(resp.headers)}\n\n"
+            f"body (first 2000 chars):\n{resp.text[:2000]}"
+        )
+        raise RuntimeError(
+            f"HTTP {resp.status_code}, content-type={resp.headers.get('Content-Type')!r} "
+            f"(saved full response to {dump_path.name}). This usually means the endpoint "
+            f"changed, requires different params/headers, or is blocking this runner's IP."
+        )
+
+    try:
+        return resp.json()
+    except ValueError as exc:
+        raise RuntimeError(f"response claimed JSON but failed to parse: {exc}") from exc
 
 
 def slugify(text: str) -> str:
@@ -75,9 +95,10 @@ def main() -> None:
     for keyword in KEYWORDS:
         for page in range(1, MAX_PAGES_PER_KEYWORD + 1):
             try:
-                payload = fetch_page(keyword, page)
+                payload = fetch_page(keyword, page, out_dir)
             except Exception as exc:  # noqa: BLE001 - record and move to next keyword
                 errors.append({"keyword": keyword, "page": page, "error": str(exc)})
+                print(f"::error::[{keyword!r} page {page}] {exc}")
                 break
 
             out_path = out_dir / f"{slugify(keyword)}_page{page}.json"
