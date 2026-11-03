@@ -4,22 +4,29 @@ simply visualise the distribution or trend of Data engineer and Senior data engi
 ## Dashboards
 - Production: https://tiger13tiger.github.io/DataEngineerMarketdistribution/
 - Staging (dev branch preview): https://tiger13tiger.github.io/DataEngineerMarketdistribution/dev/
+- Delta trends (both environments, `/trends.html`): shows only the summary
+  and trend of day-over-day changes — e.g.
+  https://tiger13tiger.github.io/DataEngineerMarketdistribution/trends.html
 
-Both are built and deployed automatically by GitHub Actions (`.github/workflows/deploy.yml`)
-from the static site in `site/`, driven by the data in `data/`.
+All three are built and deployed automatically by GitHub Actions
+(`.github/workflows/deploy.yml`) from the static site in `site/`, driven by
+the data in `data/`.
 
 ## How data gets there
 
 ```
-SEEK search API --extract--> bronze/ --transform--> staging/ --aggregate--> data/ (golden) --fetch--> dashboard
+SEEK search API --extract--> bronze/ --transform--> staging/ --aggregate--> data/ (golden) --diff--> data/deltas/ --fetch--> dashboard + trends page
 ```
 
 - `pipeline/extract_seek.py` — bronze: raw SEEK API responses.
 - `pipeline/transform_staging.py` — staging: cleaned, deduplicated ad table.
 - `pipeline/transform_golden.py` — golden: the `data/<id>.json` files the
-  dashboard reads.
-- `.github/workflows/pipeline.yml` — runs the three steps on a schedule (and
-  on demand) and opens a PR into `dev` with the result, so every data update
+  main dashboard reads.
+- `pipeline/compute_delta.py` — delta: diffs each new golden snapshot
+  against the previous one into `data/deltas/<date>.json`; `trends.html`
+  reads only these, not the full snapshots.
+- `.github/workflows/pipeline.yml` — runs all four steps daily (and on
+  demand) and opens a PR into `dev` with the result, so every data update
   still goes through CI + review like any other change.
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for the full dev → main workflow, how
@@ -43,7 +50,11 @@ Sources: SEEK live ads (keyword-matched skills/responsibilities) and the JSA Int
 - `snapshots/` — human-readable narrative report per hand-written snapshot.
 - `data/` — the golden layer: structured metrics per snapshot
   (`manifest.json` lists them), read directly by the dashboard.
-- `site/` — the static dashboard (plain HTML/CSS/JS + Chart.js via CDN).
+- `data/deltas/` — the delta layer: one `{from, to, change}` diff per
+  pipeline run (`manifest.json` lists them), read only by `trends.html`.
+- `site/` — the static pages (plain HTML/CSS/JS + Chart.js via CDN):
+  `index.html` is the main dashboard, `trends.html` is the delta-only
+  summary/trend page.
 - `scripts/` — `validate_data.py` (schema check) and `build_site.sh` (bundles
   `site/` + `data/` + `snapshots/` into a deployable folder), run by CI and
   by the deploy workflow.
