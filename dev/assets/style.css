@@ -88,10 +88,52 @@ h1 {
   background: #d98c15;
 }
 
+.position-bar {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 10px 0 2px;
+}
+
+.position-bar label {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+
+.page-nav {
+  font-size: 0.82rem;
+  margin: 6px 0 0;
+}
+
+.page-nav a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.page-nav a:hover { text-decoration: underline; }
+
 .subtitle {
   color: var(--text-muted);
   margin: 6px 0 16px;
   font-size: 0.9rem;
+}
+
+.delta-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.85rem;
+}
+
+.delta-table th,
+.delta-table td {
+  text-align: left;
+  padding: 8px 10px;
+  border-bottom: 1px solid var(--border);
+}
+
+.delta-table th {
+  color: var(--text-muted);
+  font-weight: 600;
 }
 
 main { padding: 16px; max-width: 1100px; margin: 0 auto; }
@@ -185,7 +227,6 @@ main { padding: 16px; max-width: 1100px; margin: 0 auto; }
   border: 1px solid var(--border);
   border-radius: 12px;
   padding: 16px;
-  min-height: 260px;
 }
 
 .card h2,
@@ -196,7 +237,16 @@ main { padding: 16px; max-width: 1100px; margin: 0 auto; }
   font-weight: 600;
 }
 
-.card-wide { grid-column: 1 / -1; min-height: 320px; }
+.card-wide { grid-column: 1 / -1; }
+
+/* Chart.js with maintainAspectRatio:false needs a parent with an EXPLICIT
+   bounded height, or the canvas grows unbounded. This is that bound. */
+.chart-wrap {
+  position: relative;
+  height: 220px;
+}
+
+.chart-wrap-tall { height: 380px; }
 
 footer {
   margin: 24px 0 40px;
@@ -209,6 +259,12 @@ footer a { color: var(--accent); }
 
 @media (max-width: 720px) {
   .grid { grid-template-columns: 1fr; }
+}
+
+.filter-note {
+  color: var(--text-muted);
+  font-size: 0.78rem;
+  margin: -6px 0 14px;
 }
 
 .empty-note {

@@ -12,56 +12,66 @@
     <h1>Sydney Data Engineer Market</h1>
     <span class="env-badge" data-env="development">development</span>
   </div>
+  <div class="position-bar">
+    <label for="position-select">Position</label>
+    <select id="position-select" class="series-select" aria-label="Filter by position">
+      <option value="all">All levels</option>
+      <option value="de">Data Engineer (Mid &amp; Junior)</option>
+      <option value="sde">Senior Data Engineer (Senior+)</option>
+    </select>
+  </div>
+  <nav class="page-nav"><a href="trends.html">Delta trends &rarr;</a></nav>
   <p class="subtitle" id="subtitle">Loading latest snapshot…</p>
 </header>
 
 <main id="app">
   <section class="trend-section" id="trend-section">
     <div class="section-head">
-      <h2 id="trend-title">Market trend · all ICT roles</h2>
-      <select id="series-select" class="series-select" aria-label="Select trend series"></select>
+      <h2>Market trend · Sydney ICT (context)</h2>
     </div>
+    <p class="filter-note">JSA publishes no Data Engineer–specific series, so this tracks the closest public proxy — Greater Sydney ICT Professionals — as market context. It doesn't change with the Position filter above.</p>
 
     <div class="stat-row" id="trend-stats"></div>
 
     <div class="card">
       <h3 id="trend-line-title">Monthly job ads (3-month avg)</h3>
-      <canvas id="chart-trend-level"></canvas>
+      <div class="chart-wrap" id="chart-trend-level-wrap"><canvas id="chart-trend-level"></canvas></div>
       <p class="empty-note" id="trend-level-empty" hidden>No monthly history for this series yet.</p>
     </div>
 
     <div class="card">
       <h3>Month-on-month increase rate</h3>
-      <canvas id="chart-trend-mom"></canvas>
+      <div class="chart-wrap" id="chart-trend-mom-wrap"><canvas id="chart-trend-mom"></canvas></div>
       <p class="empty-note" id="trend-mom-empty" hidden>No monthly history for this series yet.</p>
     </div>
   </section>
 
   <section class="section-head">
-    <h2>Live job ads dataset</h2>
+    <h2 id="dataset-title">Live job ads dataset</h2>
   </section>
+  <p class="filter-note" id="dataset-filter-note"></p>
   <section class="stats" id="stats"></section>
 
   <section class="grid">
     <div class="card">
       <h3>Seniority mix</h3>
-      <canvas id="chart-level"></canvas>
+      <div class="chart-wrap"><canvas id="chart-level"></canvas></div>
     </div>
     <div class="card">
       <h3>Cloud named in ad</h3>
-      <canvas id="chart-cloud"></canvas>
+      <div class="chart-wrap"><canvas id="chart-cloud"></canvas></div>
     </div>
     <div class="card card-wide">
       <h3>Weekly postings</h3>
-      <canvas id="chart-weekly"></canvas>
+      <div class="chart-wrap"><canvas id="chart-weekly"></canvas></div>
     </div>
     <div class="card card-wide">
       <h3>Top skills mentioned</h3>
-      <canvas id="chart-skills"></canvas>
+      <div class="chart-wrap chart-wrap-tall"><canvas id="chart-skills"></canvas></div>
     </div>
     <div class="card card-wide">
       <h3>Top responsibilities mentioned</h3>
-      <canvas id="chart-resp"></canvas>
+      <div class="chart-wrap chart-wrap-tall"><canvas id="chart-resp"></canvas></div>
     </div>
   </section>
 
@@ -71,8 +81,8 @@
   </footer>
 </main>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.4/chart.umd.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/chartjs-plugin-datalabels/2.2.0/chartjs-plugin-datalabels.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.2.0/dist/chartjs-plugin-datalabels.min.js"></script>
 <script src="app.js"></script>
 </body>
 </html>
