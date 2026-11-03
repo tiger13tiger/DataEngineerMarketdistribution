@@ -22,8 +22,9 @@ async function main() {
 
   setupTrendSection(snapshot);
   renderStats(snapshot);
-  renderLevel(snapshot);
-  renderCloud(snapshot);
+  setupPositionFilter(snapshot);
+  renderLevel(snapshot, "all");
+  renderCloud(snapshot, "all");
   renderOrEmpty("chart-weekly", snapshot.weekly_postings, () => renderWeekly(snapshot));
   renderOrEmpty("chart-skills", snapshot.skills_pct, () => renderBarPct("chart-skills", snapshot.skills_pct, "skill"));
   renderOrEmpty("chart-resp", snapshot.responsibilities_pct, () => renderBarPct("chart-resp", snapshot.responsibilities_pct, "responsibility"));
@@ -183,6 +184,24 @@ function getDivergingNegColor() {
 
 // ---------- Live job ads dataset section ----------
 
+// "Data Engineer" / "Senior Data Engineer" map onto the same Mid&Junior vs
+// Senior+ split already used for totals.senior_plus/mid_junior and
+// by_cloud[].senior_plus - no new data needed for these two charts.
+const POSITION_GROUPS = {
+  all: null,
+  de: ["Junior", "Mid"],
+  sde: ["Senior", "Lead/Architect", "Principal/Manager"],
+};
+
+function setupPositionFilter(s) {
+  const select = document.getElementById("position-select");
+  select.value = "all";
+  select.addEventListener("change", () => {
+    renderLevel(s, select.value);
+    renderCloud(s, select.value);
+  });
+}
+
 function renderStats(s) {
   const tiles = [
     { value: s.totals.ads, label: "Total ads" },
@@ -221,27 +240,42 @@ function getBorderColor() {
   return getComputedStyle(document.documentElement).getPropertyValue("--border").trim();
 }
 
-function renderLevel(s) {
-  new Chart(document.getElementById("chart-level"), {
+let levelChart = null;
+let cloudChart = null;
+
+function renderLevel(s, position) {
+  const include = POSITION_GROUPS[position];
+  const rows = include ? s.level.filter((l) => include.includes(l.level)) : s.level;
+
+  if (levelChart) { levelChart.destroy(); levelChart = null; }
+  levelChart = new Chart(document.getElementById("chart-level"), {
     type: "bar",
     data: {
-      labels: s.level.map((l) => l.level),
-      datasets: [{ label: "Ads", data: s.level.map((l) => l.ads), backgroundColor: PALETTE[0] }],
+      labels: rows.map((l) => l.level),
+      datasets: [{ label: "Ads", data: rows.map((l) => l.ads), backgroundColor: PALETTE[0] }],
     },
     options: baseOptions({ plugins: { legend: { display: false } } }),
   });
 }
 
-function renderCloud(s) {
-  new Chart(document.getElementById("chart-cloud"), {
+function renderCloud(s, position) {
+  const labels = s.by_cloud.map((c) => c.cloud);
+  let datasets;
+  if (position === "sde") {
+    datasets = [{ label: "Senior+", data: s.by_cloud.map((c) => c.senior_plus ?? 0), backgroundColor: PALETTE[1] }];
+  } else if (position === "de") {
+    datasets = [{ label: "Mid & junior", data: s.by_cloud.map((c) => c.ads - (c.senior_plus ?? 0)), backgroundColor: PALETTE[0] }];
+  } else {
+    datasets = [
+      { label: "All ads", data: s.by_cloud.map((c) => c.ads), backgroundColor: PALETTE[0] },
+      { label: "Senior+", data: s.by_cloud.map((c) => c.senior_plus ?? 0), backgroundColor: PALETTE[1] },
+    ];
+  }
+
+  if (cloudChart) { cloudChart.destroy(); cloudChart = null; }
+  cloudChart = new Chart(document.getElementById("chart-cloud"), {
     type: "bar",
-    data: {
-      labels: s.by_cloud.map((c) => c.cloud),
-      datasets: [
-        { label: "All ads", data: s.by_cloud.map((c) => c.ads), backgroundColor: PALETTE[0] },
-        { label: "Senior+", data: s.by_cloud.map((c) => c.senior_plus ?? 0), backgroundColor: PALETTE[1] },
-      ],
-    },
+    data: { labels, datasets },
     options: baseOptions(),
   });
 }

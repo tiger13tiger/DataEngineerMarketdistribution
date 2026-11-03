@@ -219,6 +219,12 @@ footer a { color: var(--accent); }
   .grid { grid-template-columns: 1fr; }
 }
 
+.filter-note {
+  color: var(--text-muted);
+  font-size: 0.78rem;
+  margin: -6px 0 14px;
+}
+
 .empty-note {
   color: var(--text-muted);
   font-size: 0.85rem;

@@ -39,7 +39,13 @@
 
   <section class="section-head">
     <h2>Live job ads dataset</h2>
+    <select id="position-select" class="series-select" aria-label="Filter by position">
+      <option value="all">All levels</option>
+      <option value="de">Data Engineer (Mid &amp; Junior)</option>
+      <option value="sde">Senior Data Engineer (Senior+)</option>
+    </select>
   </section>
+  <p class="filter-note">Position filter applies to "Seniority mix" and "Cloud named in ad" only — skills, responsibilities, weekly postings and the stat tiles below weren't split by position in this snapshot, so they always show the full dataset.</p>
   <section class="stats" id="stats"></section>
 
   <section class="grid">
