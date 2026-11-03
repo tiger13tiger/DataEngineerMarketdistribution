@@ -1,11 +1,5 @@
 const PALETTE = ["#3b6ef0", "#15b88a", "#d98c15", "#e0528a", "#8a5cf6", "#2fa9c9"];
 
-// Validated dataviz palette slots used by the trend section (see data/palette
-// tokens in style.css): slot 1 (blue) for the single-series line + positive
-// bars, the diverging red for negative bars, green/red for good/bad deltas.
-Chart.register(ChartDataLabels);
-Chart.defaults.set("plugins.datalabels", { display: false });
-
 let trendSnapshot = null;
 
 async function main() {
@@ -275,6 +269,18 @@ function renderBarPct(canvasId, rows, labelKey) {
   });
 }
 
-main().catch((err) => {
-  document.getElementById("subtitle").textContent = `Failed to load dashboard data: ${err.message}`;
-});
+// Guarded startup: if Chart.js itself failed to load (CDN blocked, network
+// issue, ad-blocker), show that plainly instead of letting a ReferenceError
+// kill the whole script before any of the error handling below can run.
+if (typeof Chart === "undefined") {
+  document.getElementById("subtitle").textContent =
+    "Failed to load Chart.js from the CDN — check your connection/ad-blocker and reload.";
+} else {
+  if (typeof ChartDataLabels !== "undefined") {
+    Chart.register(ChartDataLabels);
+    Chart.defaults.set("plugins.datalabels", { display: false });
+  }
+  main().catch((err) => {
+    document.getElementById("subtitle").textContent = `Failed to load dashboard data: ${err.message}`;
+  });
+}
