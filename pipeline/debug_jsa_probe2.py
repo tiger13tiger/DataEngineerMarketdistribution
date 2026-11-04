@@ -55,13 +55,34 @@ def find_api_hints(url: str) -> None:
     print()
 
 
+def dump_resources(package_name: str) -> None:
+    url = f"https://data.gov.au/data/api/3/action/package_show?id={package_name}"
+    print(f"=== package_show: {package_name} ===")
+    try:
+        resp = requests.get(url, headers=HEADERS, timeout=25)
+    except Exception as exc:  # noqa: BLE001
+        print(f"request failed: {exc}")
+        print()
+        return
+    print(f"status={resp.status_code}")
+    if resp.status_code != 200:
+        print(resp.text[:500])
+        print()
+        return
+    data = resp.json()
+    result = data.get("result", {})
+    print(f"title: {result.get('title')}")
+    print(f"notes: {(result.get('notes') or '')[:500]}")
+    resources = result.get("resources", [])
+    print(f"{len(resources)} resource(s):")
+    for res in resources:
+        print(f"  - name={res.get('name')!r} format={res.get('format')} last_modified={res.get('last_modified') or res.get('created')}")
+        print(f"    url={res.get('url')}")
+    print()
+
+
 def main() -> None:
-    find_api_hints("https://data.gov.au/")
-    probe("https://data.gov.au/robots.txt")
-    probe("https://data.gov.au/sitemap.xml")
-    probe("https://data.gov.au/data/api/3/action/package_search?q=internet+vacancy+index")
-    probe("https://www.lmip.gov.au/")
-    probe("https://labourmarketinsights.gov.au/")
+    dump_resources("internet-vacancy-index")
 
 
 if __name__ == "__main__":
