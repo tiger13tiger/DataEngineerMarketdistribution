@@ -2,6 +2,82 @@
   "data": [
     {
       "advertiser": {
+        "id": "28031400",
+        "description": "Aurec"
+      },
+      "bulletPoints": [],
+      "branding": {},
+      "classifications": [
+        {
+          "classification": {
+            "id": "6281",
+            "description": "Information & Communication Technology"
+          },
+          "subclassification": {
+            "id": "6286",
+            "description": "Database Development & Administration"
+          }
+        }
+      ],
+      "companyName": "Aurec Group",
+      "companyProfileStructuredDataId": 23682,
+      "displayType": "standard",
+      "employer": {
+        "id": "23682",
+        "name": "Aurec Group"
+      },
+      "id": "95739556",
+      "isFeatured": false,
+      "listingDate": "2026-11-06T04:21:25Z",
+      "listingDateDisplay": "7d ago",
+      "locations": [
+        {
+          "label": "Kogarah, Sydney NSW",
+          "countryCode": "AU",
+          "seoHierarchy": [
+            {
+              "contextualName": "Kogarah NSW 2217"
+            },
+            {
+              "contextualName": "All Sydney NSW"
+            }
+          ]
+        }
+      ],
+      "roleId": "database-engineer",
+      "salaryLabel": "Bonus",
+      "solMetadata": {
+        "searchRequestToken": "20945cfc-633b-4741-bb81-279d0b3feab0",
+        "token": "0~20945cfc-633b-4741-bb81-279d0b3feab0",
+        "jobId": "95739556",
+        "section": "MAIN",
+        "sectionRank": 67,
+        "jobAdType": "ORGANIC",
+        "tags": {
+          "mordor__flights": "mordor_1242",
+          "mordor__s": "4"
+        }
+      },
+      "teaser": "Zero routine tickets, 50/50 flex, and enterprise AI across 4,000+ instances-the most forward-thinking L3 database role in Sydney just opened up!",
+      "title": "Senior Database Engineer - SQL Server / Azure / AI",
+      "tracking": "ewogICJ0b2tlbiI6ICI0MTFjZGQ1Yy1hZDVlLTRkNjEtOWJmZC0zYzc4ZDVmYjY4MWRfMSIKfQ==",
+      "workTypes": [
+        "Full time"
+      ],
+      "workArrangements": {
+        "data": [
+          {
+            "id": "2",
+            "label": {
+              "text": "Hybrid"
+            }
+          }
+        ],
+        "displayText": "Hybrid"
+      }
+    },
+    {
+      "advertiser": {
         "id": "61404587",
         "description": "SG Fleet Group Ltd"
       },
@@ -54,11 +130,11 @@
       "roleId": "analyst",
       "salaryLabel": "",
       "solMetadata": {
-        "searchRequestToken": "cc9ba889-19ea-4eef-b515-9591762b66a1",
-        "token": "0~cc9ba889-19ea-4eef-b515-9591762b66a1",
+        "searchRequestToken": "20945cfc-633b-4741-bb81-279d0b3feab0",
+        "token": "0~20945cfc-633b-4741-bb81-279d0b3feab0",
         "jobId": "95638308",
         "section": "MAIN",
-        "sectionRank": 67,
+        "sectionRank": 68,
         "jobAdType": "ORGANIC",
         "tags": {
           "mordor__flights": "mordor_1242",
@@ -67,7 +143,7 @@
       },
       "teaser": "Miles technical authority driving platform architecture, modernisation, integration, governance and scalable solutions across a enterprise environment",
       "title": "Principal Analyst (Miles)",
-      "tracking": "ewogICJ0b2tlbiI6ICI5YTFmOWE4MS0wYzAxLTRjYzItYmJkNC05NGI4MTUyMDIwZTBfMSIKfQ==",
+      "tracking": "ewogICJ0b2tlbiI6ICI0MTFjZGQ1Yy1hZDVlLTRkNjEtOWJmZC0zYzc4ZDVmYjY4MWRfMiIKfQ==",
       "workTypes": [
         "Full time"
       ],
@@ -130,11 +206,11 @@
       "roleId": "sql-database-administrator",
       "salaryLabel": "$160k - $175k p.a. + + Super and Bonus",
       "solMetadata": {
-        "searchRequestToken": "cc9ba889-19ea-4eef-b515-9591762b66a1",
-        "token": "0~cc9ba889-19ea-4eef-b515-9591762b66a1",
+        "searchRequestToken": "20945cfc-633b-4741-bb81-279d0b3feab0",
+        "token": "0~20945cfc-633b-4741-bb81-279d0b3feab0",
         "jobId": "95687126",
         "section": "MAIN",
-        "sectionRank": 68,
+        "sectionRank": 69,
         "jobAdType": "ORGANIC",
         "tags": {
           "mordor__flights": "mordor_1242",
@@ -143,7 +219,7 @@
       },
       "teaser": "Senior Database Engineer needed in Sydney CBD. Optimize enterprise SQL Server estates across hybrid cloud environments.",
       "title": "Senior Database Administrator (SQL Server)",
-      "tracking": "ewogICJ0b2tlbiI6ICI5YTFmOWE4MS0wYzAxLTRjYzItYmJkNC05NGI4MTUyMDIwZTBfMiIKfQ==",
+      "tracking": "ewogICJ0b2tlbiI6ICI0MTFjZGQ1Yy1hZDVlLTRkNjEtOWJmZC0zYzc4ZDVmYjY4MWRfMyIKfQ==",
       "workTypes": [
         "Full time"
       ],
@@ -213,11 +289,11 @@
       "roleId": "Data-and-Analytics-Engineer",
       "salaryLabel": "",
       "solMetadata": {
-        "searchRequestToken": "cc9ba889-19ea-4eef-b515-9591762b66a1",
-        "token": "0~cc9ba889-19ea-4eef-b515-9591762b66a1",
+        "searchRequestToken": "20945cfc-633b-4741-bb81-279d0b3feab0",
+        "token": "0~20945cfc-633b-4741-bb81-279d0b3feab0",
         "jobId": "95392513",
         "section": "MAIN",
-        "sectionRank": 69,
+        "sectionRank": 70,
         "jobAdType": "ORGANIC",
         "tags": {
           "mordor__flights": "mordor_1242",
@@ -226,7 +302,7 @@
       },
       "teaser": "Lead the development of modern data platforms, pipelines and analytics solutions using Azure and Databricks.",
       "title": "Senior Data and Analytics Engineer",
-      "tracking": "ewogICJ0b2tlbiI6ICI5YTFmOWE4MS0wYzAxLTRjYzItYmJkNC05NGI4MTUyMDIwZTBfMyIKfQ==",
+      "tracking": "ewogICJ0b2tlbiI6ICI0MTFjZGQ1Yy1hZDVlLTRkNjEtOWJmZC0zYzc4ZDVmYjY4MWRfNCIKfQ==",
       "workTypes": [
         "Full time"
       ],
@@ -289,11 +365,11 @@
       "roleId": "data-engineer",
       "salaryLabel": "$130K - 140K + Super + Bonus",
       "solMetadata": {
-        "searchRequestToken": "cc9ba889-19ea-4eef-b515-9591762b66a1",
-        "token": "0~cc9ba889-19ea-4eef-b515-9591762b66a1",
+        "searchRequestToken": "20945cfc-633b-4741-bb81-279d0b3feab0",
+        "token": "0~20945cfc-633b-4741-bb81-279d0b3feab0",
         "jobId": "95590411",
         "section": "MAIN",
-        "sectionRank": 70,
+        "sectionRank": 71,
         "jobAdType": "ORGANIC",
         "tags": {
           "mordor__flights": "mordor_1242",
@@ -302,7 +378,7 @@
       },
       "teaser": "Global Investment Fund | Python | SQL |  Snowflake | Hybrid Role",
       "title": "Data Engineer - Funds Management",
-      "tracking": "ewogICJ0b2tlbiI6ICI5YTFmOWE4MS0wYzAxLTRjYzItYmJkNC05NGI4MTUyMDIwZTBfNCIKfQ==",
+      "tracking": "ewogICJ0b2tlbiI6ICI0MTFjZGQ1Yy1hZDVlLTRkNjEtOWJmZC0zYzc4ZDVmYjY4MWRfNSIKfQ==",
       "workTypes": [
         "Contract/Temp"
       ],
@@ -374,11 +450,11 @@
       "roleId": "AI-Platform-Engineer",
       "salaryLabel": "",
       "solMetadata": {
-        "searchRequestToken": "cc9ba889-19ea-4eef-b515-9591762b66a1",
-        "token": "0~cc9ba889-19ea-4eef-b515-9591762b66a1",
+        "searchRequestToken": "20945cfc-633b-4741-bb81-279d0b3feab0",
+        "token": "0~20945cfc-633b-4741-bb81-279d0b3feab0",
         "jobId": "95481729",
         "section": "MAIN",
-        "sectionRank": 71,
+        "sectionRank": 72,
         "jobAdType": "ORGANIC",
         "tags": {
           "mordor__flights": "mordor_1242",
@@ -387,7 +463,7 @@
       },
       "teaser": "My client are an Australian based tech business seeking a Principal AI (ML focused) Platform Engineer role to join on a permanent basis",
       "title": "Principal AI Platform Engineer (ML focused leadership role)",
-      "tracking": "ewogICJ0b2tlbiI6ICI5YTFmOWE4MS0wYzAxLTRjYzItYmJkNC05NGI4MTUyMDIwZTBfNSIKfQ==",
+      "tracking": "ewogICJ0b2tlbiI6ICI0MTFjZGQ1Yy1hZDVlLTRkNjEtOWJmZC0zYzc4ZDVmYjY4MWRfNiIKfQ==",
       "workTypes": [
         "Full time"
       ],
@@ -461,11 +537,11 @@
       "roleId": "engineering-team-lead",
       "salaryLabel": "",
       "solMetadata": {
-        "searchRequestToken": "cc9ba889-19ea-4eef-b515-9591762b66a1",
-        "token": "0~cc9ba889-19ea-4eef-b515-9591762b66a1",
+        "searchRequestToken": "20945cfc-633b-4741-bb81-279d0b3feab0",
+        "token": "0~20945cfc-633b-4741-bb81-279d0b3feab0",
         "jobId": "95775272",
         "section": "MAIN",
-        "sectionRank": 72,
+        "sectionRank": 73,
         "jobAdType": "ORGANIC",
         "tags": {
           "mordor__flights": "mordor_1242",
@@ -474,7 +550,7 @@
       },
       "teaser": "Ship AI that matters. Lead Protecht\u2019s AI engineering team, keep your hands on the code, and help shape how risk is managed worldwide.",
       "title": "AI Engineering Team Lead",
-      "tracking": "ewogICJ0b2tlbiI6ICI5YTFmOWE4MS0wYzAxLTRjYzItYmJkNC05NGI4MTUyMDIwZTBfNiIKfQ==",
+      "tracking": "ewogICJ0b2tlbiI6ICI0MTFjZGQ1Yy1hZDVlLTRkNjEtOWJmZC0zYzc4ZDVmYjY4MWRfNyIKfQ==",
       "workTypes": [
         "Full time"
       ],
@@ -546,11 +622,11 @@
       "roleId": "Artificial-Intelligence-Engineer",
       "salaryLabel": "Negotiable",
       "solMetadata": {
-        "searchRequestToken": "cc9ba889-19ea-4eef-b515-9591762b66a1",
-        "token": "0~cc9ba889-19ea-4eef-b515-9591762b66a1",
+        "searchRequestToken": "20945cfc-633b-4741-bb81-279d0b3feab0",
+        "token": "0~20945cfc-633b-4741-bb81-279d0b3feab0",
         "jobId": "95448956",
         "section": "MAIN",
-        "sectionRank": 73,
+        "sectionRank": 74,
         "jobAdType": "ORGANIC",
         "tags": {
           "mordor__flights": "mordor_1242",
@@ -559,7 +635,7 @@
       },
       "teaser": "Shape the Future of AI at Scale We're looking for a  Principal AI Engineer  to lead the design, development and deployment of cutting-edge AI",
       "title": "Senior Prinicipal AI Engineers",
-      "tracking": "ewogICJ0b2tlbiI6ICI5YTFmOWE4MS0wYzAxLTRjYzItYmJkNC05NGI4MTUyMDIwZTBfNyIKfQ==",
+      "tracking": "ewogICJ0b2tlbiI6ICI0MTFjZGQ1Yy1hZDVlLTRkNjEtOWJmZC0zYzc4ZDVmYjY4MWRfOCIKfQ==",
       "workTypes": [
         "Contract/Temp"
       ],
@@ -622,11 +698,11 @@
       "roleId": "Data-Integration-Engineer",
       "salaryLabel": "+ Super and attractive Bonus",
       "solMetadata": {
-        "searchRequestToken": "cc9ba889-19ea-4eef-b515-9591762b66a1",
-        "token": "0~cc9ba889-19ea-4eef-b515-9591762b66a1",
+        "searchRequestToken": "20945cfc-633b-4741-bb81-279d0b3feab0",
+        "token": "0~20945cfc-633b-4741-bb81-279d0b3feab0",
         "jobId": "95568438",
         "section": "MAIN",
-        "sectionRank": 74,
+        "sectionRank": 75,
         "jobAdType": "ORGANIC",
         "tags": {
           "mordor__flights": "mordor_1242",
@@ -635,7 +711,7 @@
       },
       "teaser": "Senior Data Integration Engineer needed in a prestigious financial services giant . Design and build enterprise Azure and Informatica data solutions.",
       "title": "Senior Data Integration Engineer",
-      "tracking": "ewogICJ0b2tlbiI6ICI5YTFmOWE4MS0wYzAxLTRjYzItYmJkNC05NGI4MTUyMDIwZTBfOCIKfQ==",
+      "tracking": "ewogICJ0b2tlbiI6ICI0MTFjZGQ1Yy1hZDVlLTRkNjEtOWJmZC0zYzc4ZDVmYjY4MWRfOSIKfQ==",
       "workTypes": [
         "Full time"
       ],
@@ -697,11 +773,11 @@
       "roleId": "implementation-engineer",
       "salaryLabel": "",
       "solMetadata": {
-        "searchRequestToken": "cc9ba889-19ea-4eef-b515-9591762b66a1",
-        "token": "0~cc9ba889-19ea-4eef-b515-9591762b66a1",
+        "searchRequestToken": "20945cfc-633b-4741-bb81-279d0b3feab0",
+        "token": "0~20945cfc-633b-4741-bb81-279d0b3feab0",
         "jobId": "95680178",
         "section": "MAIN",
-        "sectionRank": 75,
+        "sectionRank": 76,
         "jobAdType": "ORGANIC",
         "tags": {
           "mordor__flights": "mordor_1242",
@@ -710,7 +786,7 @@
       },
       "teaser": "Help build the data pipelines behind a platform that helps organisations manage supply chain risk, improve efficiency and uphold their values.",
       "title": "Staff Data Implementations Engineer (contract or perm)",
-      "tracking": "ewogICJ0b2tlbiI6ICI5YTFmOWE4MS0wYzAxLTRjYzItYmJkNC05NGI4MTUyMDIwZTBfOSIKfQ==",
+      "tracking": "ewogICJ0b2tlbiI6ICI0MTFjZGQ1Yy1hZDVlLTRkNjEtOWJmZC0zYzc4ZDVmYjY4MWRfMTAiCn0=",
       "workTypes": [
         "Full time"
       ],
@@ -782,11 +858,11 @@
       "roleId": ".net-software-engineer",
       "salaryLabel": "",
       "solMetadata": {
-        "searchRequestToken": "cc9ba889-19ea-4eef-b515-9591762b66a1",
-        "token": "0~cc9ba889-19ea-4eef-b515-9591762b66a1",
+        "searchRequestToken": "20945cfc-633b-4741-bb81-279d0b3feab0",
+        "token": "0~20945cfc-633b-4741-bb81-279d0b3feab0",
         "jobId": "95549987",
         "section": "MAIN",
-        "sectionRank": 76,
+        "sectionRank": 77,
         "jobAdType": "ORGANIC",
         "tags": {
           "mordor__flights": "mordor_1242",
@@ -795,7 +871,7 @@
       },
       "teaser": "The next gen of .NET development using AI",
       "title": "Principal AI .NET Engineer",
-      "tracking": "ewogICJ0b2tlbiI6ICI5YTFmOWE4MS0wYzAxLTRjYzItYmJkNC05NGI4MTUyMDIwZTBfMTAiCn0=",
+      "tracking": "ewogICJ0b2tlbiI6ICI0MTFjZGQ1Yy1hZDVlLTRkNjEtOWJmZC0zYzc4ZDVmYjY4MWRfMTEiCn0=",
       "workTypes": [
         "Contract/Temp"
       ],
@@ -869,11 +945,11 @@
       "roleId": "Data-Engineering-Manager",
       "salaryLabel": "",
       "solMetadata": {
-        "searchRequestToken": "cc9ba889-19ea-4eef-b515-9591762b66a1",
-        "token": "0~cc9ba889-19ea-4eef-b515-9591762b66a1",
+        "searchRequestToken": "20945cfc-633b-4741-bb81-279d0b3feab0",
+        "token": "0~20945cfc-633b-4741-bb81-279d0b3feab0",
         "jobId": "95438181",
         "section": "MAIN",
-        "sectionRank": 77,
+        "sectionRank": 78,
         "jobAdType": "ORGANIC",
         "tags": {
           "mordor__flights": "mordor_1242",
@@ -882,7 +958,7 @@
       },
       "teaser": "Architect enterprise delivery ecosystems, elevate engineering standards, and turn architectural vision into robust, production-ready data pipelines.",
       "title": "Senior Manager - Data Engineering",
-      "tracking": "ewogICJ0b2tlbiI6ICI5YTFmOWE4MS0wYzAxLTRjYzItYmJkNC05NGI4MTUyMDIwZTBfMTEiCn0=",
+      "tracking": "ewogICJ0b2tlbiI6ICI0MTFjZGQ1Yy1hZDVlLTRkNjEtOWJmZC0zYzc4ZDVmYjY4MWRfMTIiCn0=",
       "workTypes": [
         "Full time"
       ],
@@ -956,11 +1032,11 @@
       "roleId": "Chief-Engineer",
       "salaryLabel": "",
       "solMetadata": {
-        "searchRequestToken": "cc9ba889-19ea-4eef-b515-9591762b66a1",
-        "token": "0~cc9ba889-19ea-4eef-b515-9591762b66a1",
+        "searchRequestToken": "20945cfc-633b-4741-bb81-279d0b3feab0",
+        "token": "0~20945cfc-633b-4741-bb81-279d0b3feab0",
         "jobId": "94975400",
         "section": "MAIN",
-        "sectionRank": 78,
+        "sectionRank": 79,
         "jobAdType": "ORGANIC",
         "tags": {
           "mordor__flights": "mordor_1242",
@@ -975,7 +1051,7 @@
       ],
       "teaser": "Lead economic crime platform strategy at enterprise scale. Shape cloud-native architecture, ML and analytics modernisation.",
       "title": "Chief Engineer",
-      "tracking": "ewogICJ0b2tlbiI6ICI5YTFmOWE4MS0wYzAxLTRjYzItYmJkNC05NGI4MTUyMDIwZTBfMTIiCn0=",
+      "tracking": "ewogICJ0b2tlbiI6ICI0MTFjZGQ1Yy1hZDVlLTRkNjEtOWJmZC0zYzc4ZDVmYjY4MWRfMTMiCn0=",
       "workTypes": [
         "Full time"
       ],
@@ -1048,11 +1124,11 @@
       "roleId": "data-engineer",
       "salaryLabel": "",
       "solMetadata": {
-        "searchRequestToken": "cc9ba889-19ea-4eef-b515-9591762b66a1",
-        "token": "0~cc9ba889-19ea-4eef-b515-9591762b66a1",
+        "searchRequestToken": "20945cfc-633b-4741-bb81-279d0b3feab0",
+        "token": "0~20945cfc-633b-4741-bb81-279d0b3feab0",
         "jobId": "95408262",
         "section": "MAIN",
-        "sectionRank": 79,
+        "sectionRank": 80,
         "jobAdType": "ORGANIC",
         "tags": {
           "mordor__flights": "mordor_1242",
@@ -1061,7 +1137,7 @@
       },
       "teaser": "We are looking for a highly skilled and experienced Data Engineer to join our Data and Insights team in a full time permanent role.",
       "title": "Data Engineer",
-      "tracking": "ewogICJ0b2tlbiI6ICI5YTFmOWE4MS0wYzAxLTRjYzItYmJkNC05NGI4MTUyMDIwZTBfMTMiCn0=",
+      "tracking": "ewogICJ0b2tlbiI6ICI0MTFjZGQ1Yy1hZDVlLTRkNjEtOWJmZC0zYzc4ZDVmYjY4MWRfMTQiCn0=",
       "workTypes": [
         "Full time"
       ],
@@ -1135,11 +1211,11 @@
       "roleId": "data-scientist",
       "salaryLabel": "",
       "solMetadata": {
-        "searchRequestToken": "cc9ba889-19ea-4eef-b515-9591762b66a1",
-        "token": "0~cc9ba889-19ea-4eef-b515-9591762b66a1",
+        "searchRequestToken": "20945cfc-633b-4741-bb81-279d0b3feab0",
+        "token": "0~20945cfc-633b-4741-bb81-279d0b3feab0",
         "jobId": "95451952",
         "section": "MAIN",
-        "sectionRank": 80,
+        "sectionRank": 81,
         "jobAdType": "ORGANIC",
         "tags": {
           "mordor__flights": "mordor_1242",
@@ -1148,7 +1224,7 @@
       },
       "teaser": "Lead AI innovation in financial crime. Shape the future with GenAI, mentor experts, drive high-impact solutions.",
       "title": "Principal Data Scientist",
-      "tracking": "ewogICJ0b2tlbiI6ICI5YTFmOWE4MS0wYzAxLTRjYzItYmJkNC05NGI4MTUyMDIwZTBfMTQiCn0=",
+      "tracking": "ewogICJ0b2tlbiI6ICI0MTFjZGQ1Yy1hZDVlLTRkNjEtOWJmZC0zYzc4ZDVmYjY4MWRfMTUiCn0=",
       "workTypes": [
         "Full time"
       ],
@@ -1219,11 +1295,11 @@
       "roleId": "data-architect",
       "salaryLabel": "$160 - $180 - inc Super - Weekly Pay Options",
       "solMetadata": {
-        "searchRequestToken": "cc9ba889-19ea-4eef-b515-9591762b66a1",
-        "token": "0~cc9ba889-19ea-4eef-b515-9591762b66a1",
+        "searchRequestToken": "20945cfc-633b-4741-bb81-279d0b3feab0",
+        "token": "0~20945cfc-633b-4741-bb81-279d0b3feab0",
         "jobId": "95497838",
         "section": "MAIN",
-        "sectionRank": 81,
+        "sectionRank": 82,
         "jobAdType": "ORGANIC",
         "tags": {
           "mordor__flights": "mordor_1242",
@@ -1232,7 +1308,7 @@
       },
       "teaser": "Lead the design of logical and end-to-end data, integration and ICT architectures that align with business objectives.\nCall Dan on (02) 6299 1006",
       "title": "Lead Data Architect",
-      "tracking": "ewogICJ0b2tlbiI6ICI5YTFmOWE4MS0wYzAxLTRjYzItYmJkNC05NGI4MTUyMDIwZTBfMTUiCn0=",
+      "tracking": "ewogICJ0b2tlbiI6ICI0MTFjZGQ1Yy1hZDVlLTRkNjEtOWJmZC0zYzc4ZDVmYjY4MWRfMTYiCn0=",
       "workTypes": [
         "Contract/Temp"
       ],
@@ -1259,91 +1335,6 @@
           }
         }
       ]
-    },
-    {
-      "advertiser": {
-        "id": "26846502",
-        "description": "Insight Resourcing"
-      },
-      "bulletPoints": [
-        "Global clean energy tech player, fast-growth Aussie scale-up team",
-        "Huge opportunity to work on AI driven projects and AI products",
-        "Own the data that powers Australia's clean energy transition"
-      ],
-      "branding": {
-        "serpLogoUrl": "https://bx-branding-gateway.cloud.seek.com.au/9ef2a365-74fa-45b6-b21c-3996134753f4.1/jdpLogo"
-      },
-      "classifications": [
-        {
-          "classification": {
-            "id": "6281",
-            "description": "Information & Communication Technology"
-          },
-          "subclassification": {
-            "id": "6290",
-            "description": "Engineering - Software"
-          }
-        }
-      ],
-      "companyName": "Insight Resourcing",
-      "companyProfileStructuredDataId": 347282,
-      "displayStyle": {
-        "search": "sourcrProfile"
-      },
-      "displayType": "standard",
-      "employer": {
-        "id": "347282",
-        "name": "Insight Resourcing"
-      },
-      "id": "95789644",
-      "isFeatured": false,
-      "listingDate": "2026-11-10T00:11:46Z",
-      "listingDateDisplay": "3d ago",
-      "locations": [
-        {
-          "label": "Sydney NSW",
-          "countryCode": "AU",
-          "seoHierarchy": [
-            {
-              "contextualName": "All Sydney NSW"
-            },
-            {
-              "contextualName": "New South Wales NSW"
-            }
-          ]
-        }
-      ],
-      "roleId": "Analytics-Engineer",
-      "salaryLabel": "Commensurate with experience",
-      "solMetadata": {
-        "searchRequestToken": "cc9ba889-19ea-4eef-b515-9591762b66a1",
-        "token": "0~cc9ba889-19ea-4eef-b515-9591762b66a1",
-        "jobId": "95789644",
-        "section": "MAIN",
-        "sectionRank": 82,
-        "jobAdType": "ORGANIC",
-        "tags": {
-          "mordor__flights": "mordor_1242",
-          "mordor__s": "4"
-        }
-      },
-      "teaser": "Exciting opportunity for an Analytics Engineer or Data Analyst to help power the clean energy revolution & drive a global energy tech leader forward.",
-      "title": "Analytics Engineer | Data Analyst | AI - Global Energy Tech leader",
-      "tracking": "ewogICJ0b2tlbiI6ICI5YTFmOWE4MS0wYzAxLTRjYzItYmJkNC05NGI4MTUyMDIwZTBfMTYiCn0=",
-      "workTypes": [
-        "Full time"
-      ],
-      "workArrangements": {
-        "data": [
-          {
-            "id": "2",
-            "label": {
-              "text": "Hybrid"
-            }
-          }
-        ],
-        "displayText": "Hybrid"
-      }
     },
     {
       "advertiser": {
@@ -1392,8 +1383,8 @@
       "roleId": "data-engineer",
       "salaryLabel": "$140,000 \u2013 $180,000 per year",
       "solMetadata": {
-        "searchRequestToken": "cc9ba889-19ea-4eef-b515-9591762b66a1",
-        "token": "0~cc9ba889-19ea-4eef-b515-9591762b66a1",
+        "searchRequestToken": "20945cfc-633b-4741-bb81-279d0b3feab0",
+        "token": "0~20945cfc-633b-4741-bb81-279d0b3feab0",
         "jobId": "95351649",
         "section": "MAIN",
         "sectionRank": 83,
@@ -1411,7 +1402,7 @@
       ],
       "teaser": "Senior GCP Data Engineer - Based in Australia",
       "title": "Senior Data Engineers (GCP, DBT, Vertex AI)",
-      "tracking": "ewogICJ0b2tlbiI6ICI5YTFmOWE4MS0wYzAxLTRjYzItYmJkNC05NGI4MTUyMDIwZTBfMTciCn0=",
+      "tracking": "ewogICJ0b2tlbiI6ICI0MTFjZGQ1Yy1hZDVlLTRkNjEtOWJmZC0zYzc4ZDVmYjY4MWRfMTciCn0=",
       "workTypes": [
         "Full time"
       ],
@@ -1485,8 +1476,8 @@
       "roleId": "Artificial-Intelligence-Engineer",
       "salaryLabel": "",
       "solMetadata": {
-        "searchRequestToken": "cc9ba889-19ea-4eef-b515-9591762b66a1",
-        "token": "0~cc9ba889-19ea-4eef-b515-9591762b66a1",
+        "searchRequestToken": "20945cfc-633b-4741-bb81-279d0b3feab0",
+        "token": "0~20945cfc-633b-4741-bb81-279d0b3feab0",
         "jobId": "95304424",
         "section": "MAIN",
         "sectionRank": 84,
@@ -1504,7 +1495,7 @@
       ],
       "teaser": "Design and deploy enterprise AI applications while leading sub-squads, running agile ceremonies and working closely with senior business stakeholders.",
       "title": "Senior AI Engineer",
-      "tracking": "ewogICJ0b2tlbiI6ICI5YTFmOWE4MS0wYzAxLTRjYzItYmJkNC05NGI4MTUyMDIwZTBfMTgiCn0=",
+      "tracking": "ewogICJ0b2tlbiI6ICI0MTFjZGQ1Yy1hZDVlLTRkNjEtOWJmZC0zYzc4ZDVmYjY4MWRfMTgiCn0=",
       "workTypes": [
         "Full time"
       ],
@@ -1578,8 +1569,8 @@
       "roleId": "Chief-Engineer",
       "salaryLabel": "",
       "solMetadata": {
-        "searchRequestToken": "cc9ba889-19ea-4eef-b515-9591762b66a1",
-        "token": "0~cc9ba889-19ea-4eef-b515-9591762b66a1",
+        "searchRequestToken": "20945cfc-633b-4741-bb81-279d0b3feab0",
+        "token": "0~20945cfc-633b-4741-bb81-279d0b3feab0",
         "jobId": "95423282",
         "section": "MAIN",
         "sectionRank": 85,
@@ -1597,7 +1588,7 @@
       ],
       "teaser": "Lead enterprise tech modernisation. Shape resilience, AI integration & engineering excellence across critical banking platforms.",
       "title": "Chief Engineer",
-      "tracking": "ewogICJ0b2tlbiI6ICI5YTFmOWE4MS0wYzAxLTRjYzItYmJkNC05NGI4MTUyMDIwZTBfMTkiCn0=",
+      "tracking": "ewogICJ0b2tlbiI6ICI0MTFjZGQ1Yy1hZDVlLTRkNjEtOWJmZC0zYzc4ZDVmYjY4MWRfMTkiCn0=",
       "workTypes": [
         "Full time"
       ],
@@ -1659,8 +1650,8 @@
       "roleId": "data-engineer",
       "salaryLabel": "AUD 150000 - 159000 per annum, Impactful Project",
       "solMetadata": {
-        "searchRequestToken": "cc9ba889-19ea-4eef-b515-9591762b66a1",
-        "token": "0~cc9ba889-19ea-4eef-b515-9591762b66a1",
+        "searchRequestToken": "20945cfc-633b-4741-bb81-279d0b3feab0",
+        "token": "0~20945cfc-633b-4741-bb81-279d0b3feab0",
         "jobId": "95511846",
         "section": "MAIN",
         "sectionRank": 86,
@@ -1672,7 +1663,7 @@
       },
       "teaser": "12 month Data Engineer contract: build greenfield Snowflake pipelines and CI/CD standards for a major energy generator. $159k + Super",
       "title": "Data Engineer",
-      "tracking": "ewogICJ0b2tlbiI6ICI5YTFmOWE4MS0wYzAxLTRjYzItYmJkNC05NGI4MTUyMDIwZTBfMjAiCn0=",
+      "tracking": "ewogICJ0b2tlbiI6ICI0MTFjZGQ1Yy1hZDVlLTRkNjEtOWJmZC0zYzc4ZDVmYjY4MWRfMjAiCn0=",
       "workTypes": [
         "Contract/Temp"
       ],
@@ -1741,8 +1732,8 @@
       "roleId": "software-engineer",
       "salaryLabel": "",
       "solMetadata": {
-        "searchRequestToken": "cc9ba889-19ea-4eef-b515-9591762b66a1",
-        "token": "0~cc9ba889-19ea-4eef-b515-9591762b66a1",
+        "searchRequestToken": "20945cfc-633b-4741-bb81-279d0b3feab0",
+        "token": "0~20945cfc-633b-4741-bb81-279d0b3feab0",
         "jobId": "95523224",
         "section": "MAIN",
         "sectionRank": 87,
@@ -1754,7 +1745,7 @@
       },
       "teaser": "Senior Software Engineer role focused on Python, AWS, APIs and end-to-end ownership in a fast-paced data environment.",
       "title": "Senior Software Engineer",
-      "tracking": "ewogICJ0b2tlbiI6ICI5YTFmOWE4MS0wYzAxLTRjYzItYmJkNC05NGI4MTUyMDIwZTBfMjEiCn0=",
+      "tracking": "ewogICJ0b2tlbiI6ICI0MTFjZGQ1Yy1hZDVlLTRkNjEtOWJmZC0zYzc4ZDVmYjY4MWRfMjEiCn0=",
       "workTypes": [
         "Full time"
       ],
@@ -1785,11 +1776,17 @@
     },
     {
       "advertiser": {
-        "id": "2684",
-        "description": "Paxus"
+        "id": "26846502",
+        "description": "Insight Resourcing"
       },
-      "bulletPoints": [],
-      "branding": {},
+      "bulletPoints": [
+        "Global clean energy tech player, fast-growth Aussie scale-up team",
+        "Huge opportunity to work on AI driven projects and AI products",
+        "Own the data that powers Australia's clean energy transition"
+      ],
+      "branding": {
+        "serpLogoUrl": "https://bx-branding-gateway.cloud.seek.com.au/9ef2a365-74fa-45b6-b21c-3996134753f4.1/jdpLogo"
+      },
       "classifications": [
         {
           "classification": {
@@ -1802,37 +1799,40 @@
           }
         }
       ],
-      "companyName": "Paxus",
-      "companyProfileStructuredDataId": 22540,
+      "companyName": "Insight Resourcing",
+      "companyProfileStructuredDataId": 347282,
+      "displayStyle": {
+        "search": "sourcrProfile"
+      },
       "displayType": "standard",
       "employer": {
-        "id": "22540",
-        "name": "Paxus"
+        "id": "347282",
+        "name": "Insight Resourcing"
       },
-      "id": "95821865",
+      "id": "95789644",
       "isFeatured": false,
-      "listingDate": "2026-11-11T02:51:43Z",
-      "listingDateDisplay": "2d ago",
+      "listingDate": "2026-11-10T00:11:46Z",
+      "listingDateDisplay": "3d ago",
       "locations": [
         {
-          "label": "Ultimo, Sydney NSW",
+          "label": "Sydney NSW",
           "countryCode": "AU",
           "seoHierarchy": [
             {
-              "contextualName": "Ultimo NSW 2007"
+              "contextualName": "All Sydney NSW"
             },
             {
-              "contextualName": "All Sydney NSW"
+              "contextualName": "New South Wales NSW"
             }
           ]
         }
       ],
-      "roleId": "platform-engineer",
-      "salaryLabel": "",
+      "roleId": "Analytics-Engineer",
+      "salaryLabel": "Commensurate with experience",
       "solMetadata": {
-        "searchRequestToken": "cc9ba889-19ea-4eef-b515-9591762b66a1",
-        "token": "0~cc9ba889-19ea-4eef-b515-9591762b66a1",
-        "jobId": "95821865",
+        "searchRequestToken": "20945cfc-633b-4741-bb81-279d0b3feab0",
+        "token": "0~20945cfc-633b-4741-bb81-279d0b3feab0",
+        "jobId": "95789644",
         "section": "MAIN",
         "sectionRank": 88,
         "jobAdType": "ORGANIC",
@@ -1841,11 +1841,11 @@
           "mordor__s": "4"
         }
       },
-      "teaser": "Seeking a senior engineer to take charge of our client's technology platforms - how it will  stay reliable, visible and recoverable",
-      "title": "Senior Platform Engineer",
-      "tracking": "ewogICJ0b2tlbiI6ICI5YTFmOWE4MS0wYzAxLTRjYzItYmJkNC05NGI4MTUyMDIwZTBfMjIiCn0=",
+      "teaser": "Exciting opportunity for an Analytics Engineer or Data Analyst to help power the clean energy revolution & drive a global energy tech leader forward.",
+      "title": "Analytics Engineer | Data Analyst | AI - Global Energy Tech leader",
+      "tracking": "ewogICJ0b2tlbiI6ICI0MTFjZGQ1Yy1hZDVlLTRkNjEtOWJmZC0zYzc4ZDVmYjY4MWRfMjIiCn0=",
       "workTypes": [
-        "Contract/Temp"
+        "Full time"
       ],
       "workArrangements": {
         "data": [
@@ -1865,7 +1865,7 @@
     "timeTaken": 50,
     "source": "JobSearch-sm",
     "experiment": "mordor_1242",
-    "newSince": 1794549117
+    "newSince": 1794550609
   },
   "userQueryId": "API7234244878383014960",
   "location": {
@@ -1894,8 +1894,8 @@
     }
   ],
   "solMetadata": {
-    "requestToken": "cc9ba889-19ea-4eef-b515-9591762b66a1",
-    "token": "0~cc9ba889-19ea-4eef-b515-9591762b66a1",
+    "requestToken": "20945cfc-633b-4741-bb81-279d0b3feab0",
+    "token": "0~20945cfc-633b-4741-bb81-279d0b3feab0",
     "keywords": "principal data engineer",
     "sortMode": "RELEVANCE",
     "locations": [
@@ -1910,7 +1910,7 @@
       "mordor:searchMarket": "UNIFIED_AU",
       "mordor:result_count_rst": "3",
       "mordor:result_count_vec": "314",
-      "mordor:rt": "43",
+      "mordor:rt": "42",
       "mordor:count_vec": "314",
       "mordor__flights": "mordor_1242",
       "mordor:count_rst": "3",
