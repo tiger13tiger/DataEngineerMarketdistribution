@@ -21,7 +21,13 @@ from pathlib import Path
 
 import requests
 
-SEARCH_URL = "https://www.seek.com.au/api/chalice-search/v4/search"
+# v4 started returning HTML 404 around 5 Nov 2026; v5 is what seek.com.au uses now.
+# Tried in order; the first that returns JSON is used for the rest of the run.
+SEARCH_URLS = [
+    "https://www.seek.com.au/api/jobsearch/v5/search",
+    "https://www.seek.com.au/api/chalice-search/v4/search",
+]
+_working_url = None
 USER_AGENT = (
     "Mozilla/5.0 (compatible; DataEngineerMarketdistribution-pipeline/1.0; "
     "+https://github.com/tiger13tiger/DataEngineerMarketdistribution)"
@@ -39,6 +45,24 @@ REQUEST_DELAY_RANGE = (1.5, 3.0)
 
 
 def fetch_page(keyword: str, page: int, out_dir: Path) -> dict:
+    global _working_url
+    urls = [_working_url] if _working_url else SEARCH_URLS
+    last_exc = None
+    for url in urls:
+        try:
+            payload = _fetch(url, keyword, page, out_dir)
+        except RuntimeError as exc:
+            last_exc = exc
+            print(f"::warning::[{keyword!r} page {page}] {url} failed: {exc}")
+            continue
+        if _working_url is None:
+            _working_url = url
+            print(f"using search endpoint {url}")
+        return payload
+    raise last_exc
+
+
+def _fetch(url: str, keyword: str, page: int, out_dir: Path) -> dict:
     params = {
         "keywords": keyword,
         "where": WHERE,
@@ -46,9 +70,10 @@ def fetch_page(keyword: str, page: int, out_dir: Path) -> dict:
         "pageSize": PAGE_SIZE,
         "siteKey": "AU-Main",
         "sourcesystem": "houston",
+        "locale": "en-AU",
     }
     resp = requests.get(
-        SEARCH_URL,
+        url,
         params=params,
         headers={"User-Agent": USER_AGENT, "Accept": "application/json"},
         timeout=20,
@@ -57,7 +82,7 @@ def fetch_page(keyword: str, page: int, out_dir: Path) -> dict:
     if not resp.ok or "json" not in resp.headers.get("Content-Type", ""):
         # Save exactly what SEEK sent back so a failure is debuggable from
         # the Action's artifact/log instead of a bare "request failed".
-        dump_path = out_dir / f"_failure_{slugify(keyword)}_page{page}.txt"
+        dump_path = out_dir / f"_failure_{slugify(keyword)}_page{page}_{url.split('/api/')[1].replace('/', '-')}.txt"
         dump_path.write_text(
             f"GET {resp.url}\n"
             f"status: {resp.status_code}\n"
@@ -115,6 +140,7 @@ def main() -> None:
         "fetched_at": datetime.now(timezone.utc).isoformat(),
         "keywords": KEYWORDS,
         "where": WHERE,
+        "endpoint": _working_url,
         "files": fetched,
         "errors": errors,
     }

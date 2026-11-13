@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Delta layer: diff the two most recent golden snapshots into data/deltas/<date>.json.
+"""Delta layer: diff the two most recent automated golden snapshots into data/deltas/<date>.json.
 
 Run after transform_golden.py in the pipeline. No-ops (prints a message,
 exit 0) when fewer than two snapshots exist yet - there's nothing to diff
@@ -39,10 +39,15 @@ def scalar_delta(prev_val, curr_val) -> dict:
 def main() -> None:
     manifest_path = DATA_DIR / "manifest.json"
     manifest = json.loads(manifest_path.read_text())
-    snapshots = manifest.get("snapshots", [])
+    # Only diff like with like: hand-built snapshots use different scope and
+    # full-text matching, so diffing them against automated runs shows fake moves.
+    snapshots = [
+        s for s in manifest.get("snapshots", [])
+        if "automated pipeline" in load_snapshot(s["data"]).get("source", "")
+    ]
 
     if len(snapshots) < 2:
-        print("fewer than 2 snapshots exist; nothing to diff yet, skipping delta")
+        print("fewer than 2 automated snapshots exist; nothing to diff yet, skipping delta")
         return
 
     prev_entry, curr_entry = snapshots[-2], snapshots[-1]
