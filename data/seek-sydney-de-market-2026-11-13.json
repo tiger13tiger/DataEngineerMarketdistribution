@@ -1,0 +1,153 @@
+{
+  "id": "seek-sydney-de-market-2026-11-13",
+  "date": "2026-11-13",
+  "source": "SEEK live ads, All Sydney NSW (automated pipeline)",
+  "totals": {
+    "ads": 66,
+    "senior_plus": 38,
+    "mid_junior": 28
+  },
+  "by_cloud": [
+    {
+      "cloud": "No cloud named",
+      "ads": 45,
+      "senior_plus": null
+    },
+    {
+      "cloud": "Azure",
+      "ads": 10,
+      "senior_plus": null
+    },
+    {
+      "cloud": "AWS",
+      "ads": 10,
+      "senior_plus": null
+    },
+    {
+      "cloud": "GCP",
+      "ads": 3,
+      "senior_plus": null
+    }
+  ],
+  "work_type": {
+    "full_time": 46,
+    "contract": 20,
+    "contract_pct": 30
+  },
+  "level": [
+    {
+      "level": "Junior",
+      "ads": 2
+    },
+    {
+      "level": "Mid",
+      "ads": 26
+    },
+    {
+      "level": "Senior",
+      "ads": 34
+    },
+    {
+      "level": "Principal/Manager",
+      "ads": 4
+    }
+  ],
+  "salary": {
+    "median_aud": 165000,
+    "sample_size": 16,
+    "min_aud": 110000,
+    "max_aud": 275000
+  },
+  "weekly_postings": [
+    {
+      "week_start": "2026-10-12",
+      "ads": 1
+    },
+    {
+      "week_start": "2026-10-19",
+      "ads": 17
+    },
+    {
+      "week_start": "2026-10-26",
+      "ads": 20
+    },
+    {
+      "week_start": "2026-11-02",
+      "ads": 13
+    },
+    {
+      "week_start": "2026-11-09",
+      "ads": 15
+    }
+  ],
+  "skills_pct": [
+    {
+      "skill": "SQL",
+      "pct": 23
+    },
+    {
+      "skill": "Python/PySpark",
+      "pct": 19
+    },
+    {
+      "skill": "Snowflake",
+      "pct": 14
+    },
+    {
+      "skill": "Databricks",
+      "pct": 9
+    },
+    {
+      "skill": "Airflow",
+      "pct": 5
+    },
+    {
+      "skill": "dbt",
+      "pct": 5
+    },
+    {
+      "skill": "Spark",
+      "pct": 2
+    },
+    {
+      "skill": "Power BI",
+      "pct": 2
+    }
+  ],
+  "responsibilities_pct": [
+    {
+      "responsibility": "Pipelines ETL/ELT",
+      "pct": 33
+    },
+    {
+      "responsibility": "Mentoring/leading",
+      "pct": 28
+    },
+    {
+      "responsibility": "Monitoring & support",
+      "pct": 19
+    },
+    {
+      "responsibility": "Platform architecture",
+      "pct": 16
+    },
+    {
+      "responsibility": "Stakeholder collaboration",
+      "pct": 14
+    },
+    {
+      "responsibility": "Data quality/governance/security",
+      "pct": 5
+    },
+    {
+      "responsibility": "Enable BI/reporting",
+      "pct": 5
+    },
+    {
+      "responsibility": "CI/CD & DevOps",
+      "pct": 2
+    }
+  ],
+  "monthly_trend": null,
+  "methodology": "Automated pipeline: SEEK search API, DE-type titles only. Skills/responsibilities % are over the 43 ad(s) with a full detail page or SEEK bullet points (title + teaser + bullets keyword match; shorter than full ad text, so shares run lower than the hand-built snapshots). Cloud counts use the same text. Salary is the median of annual ranges stated in search results (day rates excluded). The JSA monthly-vacancy trend is not computed by the automated pipeline."
+}
