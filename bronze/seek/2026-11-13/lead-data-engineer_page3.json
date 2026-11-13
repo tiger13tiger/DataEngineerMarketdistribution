@@ -2,17 +2,11 @@
   "data": [
     {
       "advertiser": {
-        "id": "45330956",
-        "description": "People2people - HR Solutions"
+        "id": "37849505",
+        "description": "Talenza"
       },
-      "bulletPoints": [
-        "Impact billions of ad impressions through data-driven advertising strategies.",
-        "Enhance your skills with industry-leading tools.",
-        "Collaborate with diverse teams and engage with partners for strategic insights."
-      ],
-      "branding": {
-        "serpLogoUrl": "https://bx-branding-gateway.cloud.seek.com.au/216d4aa0-8355-4fcc-813b-0891d913b56d.1/jdpLogo"
-      },
+      "bulletPoints": [],
+      "branding": {},
       "classifications": [
         {
           "classification": {
@@ -20,25 +14,22 @@
             "description": "Information & Communication Technology"
           },
           "subclassification": {
-            "id": "6283",
-            "description": "Business/Systems Analysts"
+            "id": "6285",
+            "description": "Consultants"
           }
         }
       ],
-      "companyName": "people2people",
-      "companyProfileStructuredDataId": 22531,
-      "displayStyle": {
-        "search": "sourcrProfile"
-      },
+      "companyName": "Talenza",
+      "companyProfileStructuredDataId": 346858,
       "displayType": "standard",
       "employer": {
-        "id": "22531",
-        "name": "people2people"
+        "id": "346858",
+        "name": "Talenza"
       },
-      "id": "95848615",
+      "id": "95688215",
       "isFeatured": false,
-      "listingDate": "2026-11-12T03:14:46Z",
-      "listingDateDisplay": "1d ago",
+      "listingDate": "2026-11-04T06:12:00Z",
+      "listingDateDisplay": "9d ago",
       "locations": [
         {
           "label": "Sydney NSW",
@@ -53,35 +44,36 @@
           ]
         }
       ],
-      "roleId": "data-analyst",
-      "salaryLabel": "",
+      "roleId": "delivery-lead",
+      "salaryLabel": "$180k - $200k p.a. + Super",
       "solMetadata": {
-        "searchRequestToken": "6a39f457-d395-4edb-a868-768def334c16",
-        "token": "0~6a39f457-d395-4edb-a868-768def334c16",
-        "jobId": "95848615",
+        "searchRequestToken": "bf5f68d0-5942-4fbf-be71-114767202d38",
+        "token": "0~bf5f68d0-5942-4fbf-be71-114767202d38",
+        "jobId": "95688215",
         "section": "MAIN",
         "sectionRank": 45,
         "jobAdType": "ORGANIC",
         "tags": {
           "mordor__flights": "mordor_1242",
-          "mordor__s": "4"
+          "mordor__s": "1"
         }
       },
-      "teaser": "Support the Samsung Ads Analytics team in driving insights across AUNZ and Southeast Asia using SQL, Python, and Snowflake for impactful advertising.",
-      "title": "Senior Data Analyst",
-      "tracking": "ewogICJ0b2tlbiI6ICJkODY5M2NmYy05MGMyLTRmNTAtYTJlOS1kMmUzNjczNzIyNWRfMSIKfQ==",
+      "teaser": "Major enterprise organisation seeking an AI Delivery Lead to take AI ideas from concept through to implementation",
+      "title": "AI Delivery Lead",
+      "tracking": "ewogICJ0b2tlbiI6ICI0MjcxNjQzOS1hNzU2LTQwNzktOTUyYi03M2QzNzUyNzRlZjBfMSIKfQ==",
       "workTypes": [
         "Full time"
       ],
       "workArrangements": {
         "data": [
           {
-            "id": "1",
+            "id": "2",
             "label": {
-              "text": "On-site"
+              "text": "Hybrid"
             }
           }
-        ]
+        ],
+        "displayText": "Hybrid"
       }
     },
     {
@@ -140,8 +132,8 @@
       "roleId": "Head-of-Artificial-Intelligence",
       "salaryLabel": "Exceptional Executive Remuneration & Benefits",
       "solMetadata": {
-        "searchRequestToken": "6a39f457-d395-4edb-a868-768def334c16",
-        "token": "0~6a39f457-d395-4edb-a868-768def334c16",
+        "searchRequestToken": "bf5f68d0-5942-4fbf-be71-114767202d38",
+        "token": "0~bf5f68d0-5942-4fbf-be71-114767202d38",
         "jobId": "95842395",
         "section": "MAIN",
         "sectionRank": 46,
@@ -153,7 +145,7 @@
       },
       "teaser": "Lead AI transformation for a leading Australian property group, driving innovation, strategy and enterprise-wide adoption.",
       "title": "Head of AI",
-      "tracking": "ewogICJ0b2tlbiI6ICJkODY5M2NmYy05MGMyLTRmNTAtYTJlOS1kMmUzNjczNzIyNWRfMiIKfQ==",
+      "tracking": "ewogICJ0b2tlbiI6ICI0MjcxNjQzOS1hNzU2LTQwNzktOTUyYi03M2QzNzUyNzRlZjBfMiIKfQ==",
       "workTypes": [
         "Full time"
       ],
@@ -222,8 +214,8 @@
       "roleId": "business-intelligence-developer",
       "salaryLabel": "",
       "solMetadata": {
-        "searchRequestToken": "6a39f457-d395-4edb-a868-768def334c16",
-        "token": "0~6a39f457-d395-4edb-a868-768def334c16",
+        "searchRequestToken": "bf5f68d0-5942-4fbf-be71-114767202d38",
+        "token": "0~bf5f68d0-5942-4fbf-be71-114767202d38",
         "jobId": "95537400",
         "section": "MAIN",
         "sectionRank": 47,
@@ -235,7 +227,7 @@
       },
       "teaser": "Lead BI Developer role in People Insights at a major telco. Power BI, SQL Server and HR analytics. Initial 6 month contract, Sydney hybrid.",
       "title": "Lead BI Developer - People Insights",
-      "tracking": "ewogICJ0b2tlbiI6ICJkODY5M2NmYy05MGMyLTRmNTAtYTJlOS1kMmUzNjczNzIyNWRfMyIKfQ==",
+      "tracking": "ewogICJ0b2tlbiI6ICI0MjcxNjQzOS1hNzU2LTQwNzktOTUyYi03M2QzNzUyNzRlZjBfMyIKfQ==",
       "workTypes": [
         "Contract/Temp"
       ],
@@ -307,8 +299,8 @@
       "roleId": "Backend-Engineering-Lead",
       "salaryLabel": "$230k + super + ESOP",
       "solMetadata": {
-        "searchRequestToken": "6a39f457-d395-4edb-a868-768def334c16",
-        "token": "0~6a39f457-d395-4edb-a868-768def334c16",
+        "searchRequestToken": "bf5f68d0-5942-4fbf-be71-114767202d38",
+        "token": "0~bf5f68d0-5942-4fbf-be71-114767202d38",
         "jobId": "95760648",
         "section": "MAIN",
         "sectionRank": 48,
@@ -320,7 +312,7 @@
       },
       "teaser": "Lead backend architecture for a high-growth SaaS platform expanding internationally. Hands-on technical ownership, complex systems and global scale.",
       "title": "Lead Backend Engineer",
-      "tracking": "ewogICJ0b2tlbiI6ICJkODY5M2NmYy05MGMyLTRmNTAtYTJlOS1kMmUzNjczNzIyNWRfNCIKfQ==",
+      "tracking": "ewogICJ0b2tlbiI6ICI0MjcxNjQzOS1hNzU2LTQwNzktOTUyYi03M2QzNzUyNzRlZjBfNCIKfQ==",
       "workTypes": [
         "Full time"
       ],
@@ -394,8 +386,8 @@
       "roleId": "Data-Engineering-Manager",
       "salaryLabel": "$150,000- $180,000",
       "solMetadata": {
-        "searchRequestToken": "6a39f457-d395-4edb-a868-768def334c16",
-        "token": "0~6a39f457-d395-4edb-a868-768def334c16",
+        "searchRequestToken": "bf5f68d0-5942-4fbf-be71-114767202d38",
+        "token": "0~bf5f68d0-5942-4fbf-be71-114767202d38",
         "jobId": "95535934",
         "section": "MAIN",
         "sectionRank": 49,
@@ -407,7 +399,7 @@
       },
       "teaser": "Join a global insurer driving BAU operations, reporting and data transformation. Hybrid Sydney opportunity.",
       "title": "Data Engineering Manager/Senior Data Engineer",
-      "tracking": "ewogICJ0b2tlbiI6ICJkODY5M2NmYy05MGMyLTRmNTAtYTJlOS1kMmUzNjczNzIyNWRfNSIKfQ==",
+      "tracking": "ewogICJ0b2tlbiI6ICI0MjcxNjQzOS1hNzU2LTQwNzktOTUyYi03M2QzNzUyNzRlZjBfNSIKfQ==",
       "workTypes": [
         "Full time"
       ],
@@ -481,8 +473,8 @@
       "roleId": "Artificial-Intelligence-Engineer",
       "salaryLabel": "",
       "solMetadata": {
-        "searchRequestToken": "6a39f457-d395-4edb-a868-768def334c16",
-        "token": "0~6a39f457-d395-4edb-a868-768def334c16",
+        "searchRequestToken": "bf5f68d0-5942-4fbf-be71-114767202d38",
+        "token": "0~bf5f68d0-5942-4fbf-be71-114767202d38",
         "jobId": "95635914",
         "section": "MAIN",
         "sectionRank": 50,
@@ -494,7 +486,7 @@
       },
       "teaser": "A global automotive powerhouse and shape the future of an iconic brand in Australia.",
       "title": "Development & AI Engineer",
-      "tracking": "ewogICJ0b2tlbiI6ICJkODY5M2NmYy05MGMyLTRmNTAtYTJlOS1kMmUzNjczNzIyNWRfNiIKfQ==",
+      "tracking": "ewogICJ0b2tlbiI6ICI0MjcxNjQzOS1hNzU2LTQwNzktOTUyYi03M2QzNzUyNzRlZjBfNiIKfQ==",
       "workTypes": [
         "Full time"
       ],
@@ -563,8 +555,8 @@
       "roleId": "Data-and-Analytics-Engineer",
       "salaryLabel": "",
       "solMetadata": {
-        "searchRequestToken": "6a39f457-d395-4edb-a868-768def334c16",
-        "token": "0~6a39f457-d395-4edb-a868-768def334c16",
+        "searchRequestToken": "bf5f68d0-5942-4fbf-be71-114767202d38",
+        "token": "0~bf5f68d0-5942-4fbf-be71-114767202d38",
         "jobId": "95601736",
         "section": "MAIN",
         "sectionRank": 51,
@@ -576,7 +568,93 @@
       },
       "teaser": "We are seeking an experienced Data & Analytics Engineer to join our team during an exciting phase of business integration.",
       "title": "Data & Analytics Engineer",
-      "tracking": "ewogICJ0b2tlbiI6ICJkODY5M2NmYy05MGMyLTRmNTAtYTJlOS1kMmUzNjczNzIyNWRfNyIKfQ==",
+      "tracking": "ewogICJ0b2tlbiI6ICI0MjcxNjQzOS1hNzU2LTQwNzktOTUyYi03M2QzNzUyNzRlZjBfNyIKfQ==",
+      "workTypes": [
+        "Full time"
+      ],
+      "workArrangements": {
+        "data": [
+          {
+            "id": "1",
+            "label": {
+              "text": "On-site"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "advertiser": {
+        "id": "3490876",
+        "description": "Commonwealth Bank"
+      },
+      "bulletPoints": [
+        "Grow your potential in a culture built for learning, progress and ambition.",
+        "Belong to a vibrant community united by courage, care and commitment.",
+        "Shape what\u2019s next through work that delivers real impact at scale"
+      ],
+      "branding": {
+        "serpLogoUrl": "https://bx-branding-gateway.cloud.seek.com.au/a071179e-6899-4edd-9cb4-e0c6404ea1af.1/jdpLogo"
+      },
+      "classifications": [
+        {
+          "classification": {
+            "id": "6281",
+            "description": "Information & Communication Technology"
+          },
+          "subclassification": {
+            "id": "6290",
+            "description": "Engineering - Software"
+          }
+        }
+      ],
+      "companyName": "CommBank",
+      "companyProfileStructuredDataId": 2034,
+      "displayStyle": {
+        "search": "sourcrProfile"
+      },
+      "displayType": "standard",
+      "employer": {
+        "id": "2034",
+        "name": "CommBank",
+        "companyId": "432306",
+        "companyUrl": "https://au.seek.com/companies/commbank-432306"
+      },
+      "id": "95852640",
+      "isFeatured": false,
+      "listingDate": "2026-11-12T05:20:07Z",
+      "listingDateDisplay": "1d ago",
+      "locations": [
+        {
+          "label": "Eveleigh, Sydney NSW",
+          "countryCode": "AU",
+          "seoHierarchy": [
+            {
+              "contextualName": "Eveleigh NSW 2015"
+            },
+            {
+              "contextualName": "All Sydney NSW"
+            }
+          ]
+        }
+      ],
+      "roleId": "engineer",
+      "salaryLabel": "",
+      "solMetadata": {
+        "searchRequestToken": "bf5f68d0-5942-4fbf-be71-114767202d38",
+        "token": "0~bf5f68d0-5942-4fbf-be71-114767202d38",
+        "jobId": "95852640",
+        "section": "MAIN",
+        "sectionRank": 52,
+        "jobAdType": "ORGANIC",
+        "tags": {
+          "mordor__flights": "mordor_1242",
+          "mordor__s": "1"
+        }
+      },
+      "teaser": "Shape AI adoption at scale. Lead infrastructure, evaluation and engineering practices for enterprise GenAI.",
+      "title": "Principal Engineer, Gen AI",
+      "tracking": "ewogICJ0b2tlbiI6ICI0MjcxNjQzOS1hNzU2LTQwNzktOTUyYi03M2QzNzUyNzRlZjBfOCIKfQ==",
       "workTypes": [
         "Full time"
       ],
@@ -649,11 +727,11 @@
       "roleId": "engineering-team-lead",
       "salaryLabel": "",
       "solMetadata": {
-        "searchRequestToken": "6a39f457-d395-4edb-a868-768def334c16",
-        "token": "0~6a39f457-d395-4edb-a868-768def334c16",
+        "searchRequestToken": "bf5f68d0-5942-4fbf-be71-114767202d38",
+        "token": "0~bf5f68d0-5942-4fbf-be71-114767202d38",
         "jobId": "95775272",
         "section": "MAIN",
-        "sectionRank": 52,
+        "sectionRank": 53,
         "jobAdType": "ORGANIC",
         "tags": {
           "mordor__flights": "mordor_1242",
@@ -662,7 +740,7 @@
       },
       "teaser": "Ship AI that matters. Lead Protecht\u2019s AI engineering team, keep your hands on the code, and help shape how risk is managed worldwide.",
       "title": "AI Engineering Team Lead",
-      "tracking": "ewogICJ0b2tlbiI6ICJkODY5M2NmYy05MGMyLTRmNTAtYTJlOS1kMmUzNjczNzIyNWRfOCIKfQ==",
+      "tracking": "ewogICJ0b2tlbiI6ICI0MjcxNjQzOS1hNzU2LTQwNzktOTUyYi03M2QzNzUyNzRlZjBfOSIKfQ==",
       "workTypes": [
         "Full time"
       ],
@@ -735,11 +813,11 @@
       "roleId": "data-engineer",
       "salaryLabel": "",
       "solMetadata": {
-        "searchRequestToken": "6a39f457-d395-4edb-a868-768def334c16",
-        "token": "0~6a39f457-d395-4edb-a868-768def334c16",
+        "searchRequestToken": "bf5f68d0-5942-4fbf-be71-114767202d38",
+        "token": "0~bf5f68d0-5942-4fbf-be71-114767202d38",
         "jobId": "95482042",
         "section": "MAIN",
-        "sectionRank": 53,
+        "sectionRank": 54,
         "jobAdType": "ORGANIC",
         "tags": {
           "mordor__flights": "mordor_1242",
@@ -748,7 +826,7 @@
       },
       "teaser": "Here at Investa, we\u2019re all about creating spaces that reflect how people work, live, and thrive today\u2014and how they\u2019ll want to do so in the future.",
       "title": "Senior Data Engineer",
-      "tracking": "ewogICJ0b2tlbiI6ICJkODY5M2NmYy05MGMyLTRmNTAtYTJlOS1kMmUzNjczNzIyNWRfOSIKfQ==",
+      "tracking": "ewogICJ0b2tlbiI6ICI0MjcxNjQzOS1hNzU2LTQwNzktOTUyYi03M2QzNzUyNzRlZjBfMTAiCn0=",
       "workTypes": [
         "Contract/Temp"
       ],
@@ -762,92 +840,6 @@
           }
         ],
         "displayText": "Hybrid"
-      }
-    },
-    {
-      "advertiser": {
-        "id": "3490876",
-        "description": "Commonwealth Bank"
-      },
-      "bulletPoints": [
-        "Grow your potential in a culture built for learning, progress and ambition.",
-        "Belong to a vibrant community united by courage, care and commitment.",
-        "Shape what\u2019s next through work that delivers real impact at scale"
-      ],
-      "branding": {
-        "serpLogoUrl": "https://bx-branding-gateway.cloud.seek.com.au/a071179e-6899-4edd-9cb4-e0c6404ea1af.1/jdpLogo"
-      },
-      "classifications": [
-        {
-          "classification": {
-            "id": "6281",
-            "description": "Information & Communication Technology"
-          },
-          "subclassification": {
-            "id": "6290",
-            "description": "Engineering - Software"
-          }
-        }
-      ],
-      "companyName": "CommBank",
-      "companyProfileStructuredDataId": 2034,
-      "displayStyle": {
-        "search": "sourcrProfile"
-      },
-      "displayType": "standard",
-      "employer": {
-        "id": "2034",
-        "name": "CommBank",
-        "companyId": "432306",
-        "companyUrl": "https://au.seek.com/companies/commbank-432306"
-      },
-      "id": "95852640",
-      "isFeatured": false,
-      "listingDate": "2026-11-12T05:20:07Z",
-      "listingDateDisplay": "1d ago",
-      "locations": [
-        {
-          "label": "Eveleigh, Sydney NSW",
-          "countryCode": "AU",
-          "seoHierarchy": [
-            {
-              "contextualName": "Eveleigh NSW 2015"
-            },
-            {
-              "contextualName": "All Sydney NSW"
-            }
-          ]
-        }
-      ],
-      "roleId": "engineer",
-      "salaryLabel": "",
-      "solMetadata": {
-        "searchRequestToken": "6a39f457-d395-4edb-a868-768def334c16",
-        "token": "0~6a39f457-d395-4edb-a868-768def334c16",
-        "jobId": "95852640",
-        "section": "MAIN",
-        "sectionRank": 54,
-        "jobAdType": "ORGANIC",
-        "tags": {
-          "mordor__flights": "mordor_1242",
-          "mordor__s": "1"
-        }
-      },
-      "teaser": "Shape AI adoption at scale. Lead infrastructure, evaluation and engineering practices for enterprise GenAI.",
-      "title": "Principal Engineer, Gen AI",
-      "tracking": "ewogICJ0b2tlbiI6ICJkODY5M2NmYy05MGMyLTRmNTAtYTJlOS1kMmUzNjczNzIyNWRfMTAiCn0=",
-      "workTypes": [
-        "Full time"
-      ],
-      "workArrangements": {
-        "data": [
-          {
-            "id": "1",
-            "label": {
-              "text": "On-site"
-            }
-          }
-        ]
       }
     },
     {
@@ -904,8 +896,8 @@
       "roleId": "delivery-lead",
       "salaryLabel": "",
       "solMetadata": {
-        "searchRequestToken": "6a39f457-d395-4edb-a868-768def334c16",
-        "token": "0~6a39f457-d395-4edb-a868-768def334c16",
+        "searchRequestToken": "bf5f68d0-5942-4fbf-be71-114767202d38",
+        "token": "0~bf5f68d0-5942-4fbf-be71-114767202d38",
         "jobId": "95703581",
         "section": "MAIN",
         "sectionRank": 55,
@@ -917,7 +909,7 @@
       },
       "teaser": "Deliver effective project management services across BUs and assist stakeholders to identify, develop, design, implement and monitor projects.",
       "title": "Delivery Lead - Data",
-      "tracking": "ewogICJ0b2tlbiI6ICJkODY5M2NmYy05MGMyLTRmNTAtYTJlOS1kMmUzNjczNzIyNWRfMTEiCn0=",
+      "tracking": "ewogICJ0b2tlbiI6ICI0MjcxNjQzOS1hNzU2LTQwNzktOTUyYi03M2QzNzUyNzRlZjBfMTEiCn0=",
       "workTypes": [
         "Contract/Temp"
       ],
@@ -978,8 +970,8 @@
       "roleId": "data-engineer",
       "salaryLabel": "",
       "solMetadata": {
-        "searchRequestToken": "6a39f457-d395-4edb-a868-768def334c16",
-        "token": "0~6a39f457-d395-4edb-a868-768def334c16",
+        "searchRequestToken": "bf5f68d0-5942-4fbf-be71-114767202d38",
+        "token": "0~bf5f68d0-5942-4fbf-be71-114767202d38",
         "jobId": "95458010",
         "section": "MAIN",
         "sectionRank": 56,
@@ -991,7 +983,7 @@
       },
       "teaser": "Data engineering role building dbt transformation models, Snowflake SQL, and Apache Airflow pipelines on AWS.",
       "title": "Senior Data Engineer",
-      "tracking": "ewogICJ0b2tlbiI6ICJkODY5M2NmYy05MGMyLTRmNTAtYTJlOS1kMmUzNjczNzIyNWRfMTIiCn0=",
+      "tracking": "ewogICJ0b2tlbiI6ICI0MjcxNjQzOS1hNzU2LTQwNzktOTUyYi03M2QzNzUyNzRlZjBfMTIiCn0=",
       "workTypes": [
         "Contract/Temp"
       ],
@@ -1062,8 +1054,8 @@
       "roleId": "data-architect",
       "salaryLabel": "$160 - $180 - inc Super - Weekly Pay Options",
       "solMetadata": {
-        "searchRequestToken": "6a39f457-d395-4edb-a868-768def334c16",
-        "token": "0~6a39f457-d395-4edb-a868-768def334c16",
+        "searchRequestToken": "bf5f68d0-5942-4fbf-be71-114767202d38",
+        "token": "0~bf5f68d0-5942-4fbf-be71-114767202d38",
         "jobId": "95497838",
         "section": "MAIN",
         "sectionRank": 57,
@@ -1075,7 +1067,7 @@
       },
       "teaser": "Lead the design of logical and end-to-end data, integration and ICT architectures that align with business objectives.\nCall Dan on (02) 6299 1006",
       "title": "Lead Data Architect",
-      "tracking": "ewogICJ0b2tlbiI6ICJkODY5M2NmYy05MGMyLTRmNTAtYTJlOS1kMmUzNjczNzIyNWRfMTMiCn0=",
+      "tracking": "ewogICJ0b2tlbiI6ICI0MjcxNjQzOS1hNzU2LTQwNzktOTUyYi03M2QzNzUyNzRlZjBfMTMiCn0=",
       "workTypes": [
         "Contract/Temp"
       ],
@@ -1159,8 +1151,8 @@
       "roleId": "data-scientist",
       "salaryLabel": "$110 - $130 - inc Super - Weekly Pay Options",
       "solMetadata": {
-        "searchRequestToken": "6a39f457-d395-4edb-a868-768def334c16",
-        "token": "0~6a39f457-d395-4edb-a868-768def334c16",
+        "searchRequestToken": "bf5f68d0-5942-4fbf-be71-114767202d38",
+        "token": "0~bf5f68d0-5942-4fbf-be71-114767202d38",
         "jobId": "95776595",
         "section": "MAIN",
         "sectionRank": 58,
@@ -1172,7 +1164,7 @@
       },
       "teaser": "Assist transitioning a complex microsimulation model into a robust, scalable, and well-governed production environment. \nCall Dan on (02) 6299 1006.",
       "title": "Data Scientist",
-      "tracking": "ewogICJ0b2tlbiI6ICJkODY5M2NmYy05MGMyLTRmNTAtYTJlOS1kMmUzNjczNzIyNWRfMTQiCn0=",
+      "tracking": "ewogICJ0b2tlbiI6ICI0MjcxNjQzOS1hNzU2LTQwNzktOTUyYi03M2QzNzUyNzRlZjBfMTQiCn0=",
       "workTypes": [
         "Full time"
       ],
@@ -1247,8 +1239,8 @@
       "roleId": "data-engineer",
       "salaryLabel": "",
       "solMetadata": {
-        "searchRequestToken": "6a39f457-d395-4edb-a868-768def334c16",
-        "token": "0~6a39f457-d395-4edb-a868-768def334c16",
+        "searchRequestToken": "bf5f68d0-5942-4fbf-be71-114767202d38",
+        "token": "0~bf5f68d0-5942-4fbf-be71-114767202d38",
         "jobId": "95790529",
         "section": "MAIN",
         "sectionRank": 59,
@@ -1260,7 +1252,7 @@
       },
       "teaser": "Want to put your stamp on a data platform? You\u2019ll own our Azure Databricks platform, set its standards and roadmap, and lead the data side of a...",
       "title": "Senior Data Engineer",
-      "tracking": "ewogICJ0b2tlbiI6ICJkODY5M2NmYy05MGMyLTRmNTAtYTJlOS1kMmUzNjczNzIyNWRfMTUiCn0=",
+      "tracking": "ewogICJ0b2tlbiI6ICI0MjcxNjQzOS1hNzU2LTQwNzktOTUyYi03M2QzNzUyNzRlZjBfMTUiCn0=",
       "workTypes": [
         "Full time"
       ],
@@ -1334,8 +1326,8 @@
       "roleId": "head-of-information-technology",
       "salaryLabel": "From $200,000 plus super, plus salary packaging",
       "solMetadata": {
-        "searchRequestToken": "6a39f457-d395-4edb-a868-768def334c16",
-        "token": "0~6a39f457-d395-4edb-a868-768def334c16",
+        "searchRequestToken": "bf5f68d0-5942-4fbf-be71-114767202d38",
+        "token": "0~bf5f68d0-5942-4fbf-be71-114767202d38",
         "jobId": "95454305",
         "section": "MAIN",
         "sectionRank": 60,
@@ -1347,7 +1339,7 @@
       },
       "teaser": "Lead Salesforce, systems integration and digital transformation to shape strategy and deliver smarter technology solutions.",
       "title": "Head of IT Applications, Data & Solutions",
-      "tracking": "ewogICJ0b2tlbiI6ICJkODY5M2NmYy05MGMyLTRmNTAtYTJlOS1kMmUzNjczNzIyNWRfMTYiCn0=",
+      "tracking": "ewogICJ0b2tlbiI6ICI0MjcxNjQzOS1hNzU2LTQwNzktOTUyYi03M2QzNzUyNzRlZjBfMTYiCn0=",
       "workTypes": [
         "Full time"
       ],
@@ -1419,8 +1411,8 @@
       "roleId": "data-engineer",
       "salaryLabel": "Excellent salary + bonus + benefits",
       "solMetadata": {
-        "searchRequestToken": "6a39f457-d395-4edb-a868-768def334c16",
-        "token": "0~6a39f457-d395-4edb-a868-768def334c16",
+        "searchRequestToken": "bf5f68d0-5942-4fbf-be71-114767202d38",
+        "token": "0~bf5f68d0-5942-4fbf-be71-114767202d38",
         "jobId": "95459633",
         "section": "MAIN",
         "sectionRank": 61,
@@ -1432,7 +1424,7 @@
       },
       "teaser": "Exciting role within a high-performing Data & Integration team at this leading financial services organisation - AWS, PySpark, Glue, Airflow...",
       "title": "Data Engineer",
-      "tracking": "ewogICJ0b2tlbiI6ICJkODY5M2NmYy05MGMyLTRmNTAtYTJlOS1kMmUzNjczNzIyNWRfMTciCn0=",
+      "tracking": "ewogICJ0b2tlbiI6ICI0MjcxNjQzOS1hNzU2LTQwNzktOTUyYi03M2QzNzUyNzRlZjBfMTciCn0=",
       "workTypes": [
         "Full time"
       ],
@@ -1495,8 +1487,8 @@
       "roleId": "implementation-engineer",
       "salaryLabel": "",
       "solMetadata": {
-        "searchRequestToken": "6a39f457-d395-4edb-a868-768def334c16",
-        "token": "0~6a39f457-d395-4edb-a868-768def334c16",
+        "searchRequestToken": "bf5f68d0-5942-4fbf-be71-114767202d38",
+        "token": "0~bf5f68d0-5942-4fbf-be71-114767202d38",
         "jobId": "95680178",
         "section": "MAIN",
         "sectionRank": 62,
@@ -1508,7 +1500,7 @@
       },
       "teaser": "Help build the data pipelines behind a platform that helps organisations manage supply chain risk, improve efficiency and uphold their values.",
       "title": "Staff Data Implementations Engineer (contract or perm)",
-      "tracking": "ewogICJ0b2tlbiI6ICJkODY5M2NmYy05MGMyLTRmNTAtYTJlOS1kMmUzNjczNzIyNWRfMTgiCn0=",
+      "tracking": "ewogICJ0b2tlbiI6ICI0MjcxNjQzOS1hNzU2LTQwNzktOTUyYi03M2QzNzUyNzRlZjBfMTgiCn0=",
       "workTypes": [
         "Full time"
       ],
@@ -1571,8 +1563,8 @@
       "roleId": "engineer",
       "salaryLabel": "",
       "solMetadata": {
-        "searchRequestToken": "6a39f457-d395-4edb-a868-768def334c16",
-        "token": "0~6a39f457-d395-4edb-a868-768def334c16",
+        "searchRequestToken": "bf5f68d0-5942-4fbf-be71-114767202d38",
+        "token": "0~bf5f68d0-5942-4fbf-be71-114767202d38",
         "jobId": "95706999",
         "section": "MAIN",
         "sectionRank": 63,
@@ -1584,7 +1576,7 @@
       },
       "teaser": "Senior Snowflake Engineer to design, build and optimise enterprise-grade data platforms across our key programmes.",
       "title": "Senior Snowflake Engineer",
-      "tracking": "ewogICJ0b2tlbiI6ICJkODY5M2NmYy05MGMyLTRmNTAtYTJlOS1kMmUzNjczNzIyNWRfMTkiCn0=",
+      "tracking": "ewogICJ0b2tlbiI6ICI0MjcxNjQzOS1hNzU2LTQwNzktOTUyYi03M2QzNzUyNzRlZjBfMTkiCn0=",
       "workTypes": [
         "Contract/Temp"
       ],
@@ -1656,8 +1648,8 @@
       "roleId": "delivery-lead",
       "salaryLabel": "$1,100 per day inc. super +GST",
       "solMetadata": {
-        "searchRequestToken": "6a39f457-d395-4edb-a868-768def334c16",
-        "token": "0~6a39f457-d395-4edb-a868-768def334c16",
+        "searchRequestToken": "bf5f68d0-5942-4fbf-be71-114767202d38",
+        "token": "0~bf5f68d0-5942-4fbf-be71-114767202d38",
         "jobId": "95850440",
         "section": "MAIN",
         "sectionRank": 64,
@@ -1669,7 +1661,7 @@
       },
       "teaser": "Delivery Lead with hands-on Scrum Master experience for a large ASX-listed business.",
       "title": "Delivery Lead | Data Platforms | $1,100 P/D",
-      "tracking": "ewogICJ0b2tlbiI6ICJkODY5M2NmYy05MGMyLTRmNTAtYTJlOS1kMmUzNjczNzIyNWRfMjAiCn0=",
+      "tracking": "ewogICJ0b2tlbiI6ICI0MjcxNjQzOS1hNzU2LTQwNzktOTUyYi03M2QzNzUyNzRlZjBfMjAiCn0=",
       "workTypes": [
         "Contract/Temp"
       ],
@@ -1732,8 +1724,8 @@
       "roleId": "data-analyst",
       "salaryLabel": "AUD 130 - 150 per hour, Long Contract!",
       "solMetadata": {
-        "searchRequestToken": "6a39f457-d395-4edb-a868-768def334c16",
-        "token": "0~6a39f457-d395-4edb-a868-768def334c16",
+        "searchRequestToken": "bf5f68d0-5942-4fbf-be71-114767202d38",
+        "token": "0~bf5f68d0-5942-4fbf-be71-114767202d38",
         "jobId": "95451634",
         "section": "MAIN",
         "sectionRank": 65,
@@ -1745,7 +1737,7 @@
       },
       "teaser": "Lead data discovery, tackle complex datasets and shape delivery | 12 month federal contract | $130\u2013150/hr incl. super | Sydney, Canberra or Melbourne",
       "title": "Lead Data Analyst",
-      "tracking": "ewogICJ0b2tlbiI6ICJkODY5M2NmYy05MGMyLTRmNTAtYTJlOS1kMmUzNjczNzIyNWRfMjEiCn0=",
+      "tracking": "ewogICJ0b2tlbiI6ICI0MjcxNjQzOS1hNzU2LTQwNzktOTUyYi03M2QzNzUyNzRlZjBfMjEiCn0=",
       "workTypes": [
         "Contract/Temp"
       ],
@@ -1818,8 +1810,8 @@
       "roleId": "technical-lead",
       "salaryLabel": "",
       "solMetadata": {
-        "searchRequestToken": "6a39f457-d395-4edb-a868-768def334c16",
-        "token": "0~6a39f457-d395-4edb-a868-768def334c16",
+        "searchRequestToken": "bf5f68d0-5942-4fbf-be71-114767202d38",
+        "token": "0~bf5f68d0-5942-4fbf-be71-114767202d38",
         "jobId": "95419759",
         "section": "MAIN",
         "sectionRank": 66,
@@ -1831,7 +1823,7 @@
       },
       "teaser": "Seeking a Strategic & hands-on Tech Lead driving digital transformation, engineering excellence & exceptional customer experiences.",
       "title": "Digital Tech Lead",
-      "tracking": "ewogICJ0b2tlbiI6ICJkODY5M2NmYy05MGMyLTRmNTAtYTJlOS1kMmUzNjczNzIyNWRfMjIiCn0=",
+      "tracking": "ewogICJ0b2tlbiI6ICI0MjcxNjQzOS1hNzU2LTQwNzktOTUyYi03M2QzNzUyNzRlZjBfMjIiCn0=",
       "workTypes": [
         "Full time"
       ],
@@ -1848,12 +1840,12 @@
       }
     }
   ],
-  "totalCount": 582,
+  "totalCount": 581,
   "info": {
-    "timeTaken": 56,
+    "timeTaken": 49,
     "source": "JobSearch-sm",
     "experiment": "mordor_1242",
-    "newSince": 1794550594
+    "newSince": 1794551092
   },
   "userQueryId": "API7293359037933827121",
   "location": {
@@ -1882,8 +1874,8 @@
     }
   ],
   "solMetadata": {
-    "requestToken": "6a39f457-d395-4edb-a868-768def334c16",
-    "token": "0~6a39f457-d395-4edb-a868-768def334c16",
+    "requestToken": "bf5f68d0-5942-4fbf-be71-114767202d38",
+    "token": "0~bf5f68d0-5942-4fbf-be71-114767202d38",
     "keywords": "lead data engineer",
     "sortMode": "RELEVANCE",
     "locations": [
@@ -1893,17 +1885,17 @@
     "locationDistance": 50,
     "pageSize": 22,
     "pageNumber": 3,
-    "totalJobCount": 582,
+    "totalJobCount": 581,
     "tags": {
       "mordor:searchMarket": "UNIFIED_AU",
       "mordor:result_count_rst": "29",
       "mordor:result_count_vec": "218",
-      "mordor:rt": "48",
+      "mordor:rt": "42",
       "mordor:count_vec": "218",
       "mordor__flights": "mordor_1242",
       "mordor:count_rst": "29",
-      "mordor:count_ir": "335",
-      "mordor:result_count_ir": "335"
+      "mordor:count_ir": "334",
+      "mordor:result_count_ir": "334"
     }
   },
   "facets": {},
