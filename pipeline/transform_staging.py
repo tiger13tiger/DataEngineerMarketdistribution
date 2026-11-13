@@ -135,7 +135,7 @@ def main() -> None:
         cloud = matches(CLOUD_PATTERNS, text_for_matching)
         skills = matches(SKILL_PATTERNS, text_for_matching)
         responsibilities = matches(RESPONSIBILITY_PATTERNS, text_for_matching)
-        work_type = (job.get("workType") or job.get("worktype") or "")
+        work_type = (job.get("workType") or job.get("workTypes") or job.get("worktype") or "")  # v5: workTypes list
         if isinstance(work_type, list):
             work_type = " ".join(work_type)
 
@@ -149,7 +149,7 @@ def main() -> None:
                 "skills": ";".join(skills),
                 "responsibilities": ";".join(responsibilities),
                 "listing_date": job.get("listingDate") or job.get("listingDateDisplay") or "",
-                "salary_label": job.get("salaryLabel") or job.get("salaryLabelFull") or "",
+                "salary_label": job.get("salaryLabel") or job.get("salaryLabelFull") or job.get("salary") or "",
                 "has_detail_text": bool(detail_text),
             }
         )
