@@ -3,9 +3,16 @@
     {
       "id": "sydney-de-market-2026-11",
       "date": "2026-11-02",
-      "title": "Sydney Data Engineer market snapshot — 2 Nov 2026",
+      "title": "Sydney Data Engineer market snapshot \u2014 2 Nov 2026",
       "report": "snapshots/sydney-de-market-2026-11.md",
       "data": "data/sydney-de-market-2026-11.json"
+    },
+    {
+      "id": "seek-sydney-de-market-2026-11-13",
+      "date": "2026-11-13",
+      "title": "Sydney Data Engineer market snapshot \u2014 2026-11-13 (automated)",
+      "report": null,
+      "data": "data/seek-sydney-de-market-2026-11-13.json"
     }
   ]
 }
