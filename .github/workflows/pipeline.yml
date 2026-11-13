@@ -12,6 +12,10 @@ on:
         description: "Max ads to fetch full detail text for (skills/responsibilities match). 0 disables."
         required: false
         default: "30"
+      ref:
+        description: "Branch to run the pipeline code from (test a fix branch before merging)."
+        required: false
+        default: "dev"
 
 permissions:
   contents: write
@@ -23,7 +27,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          ref: dev
+          ref: ${{ github.event.inputs.ref || 'dev' }}
 
       - uses: actions/setup-python@v5
         with:
