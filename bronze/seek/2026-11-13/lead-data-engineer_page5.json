@@ -40,7 +40,7 @@
       "id": "95688092",
       "isFeatured": false,
       "listingDate": "2026-11-04T06:09:40Z",
-      "listingDateDisplay": "8d ago",
+      "listingDateDisplay": "9d ago",
       "locations": [
         {
           "label": "Sydney NSW",
@@ -58,8 +58,8 @@
       "roleId": "data-scientist",
       "salaryLabel": "",
       "solMetadata": {
-        "searchRequestToken": "f4e748dd-230d-47a0-b0b3-a67ad71cd5a3",
-        "token": "0~f4e748dd-230d-47a0-b0b3-a67ad71cd5a3",
+        "searchRequestToken": "dddc1568-d209-4532-905e-1710b2ac2048",
+        "token": "0~dddc1568-d209-4532-905e-1710b2ac2048",
         "jobId": "95688092",
         "section": "MAIN",
         "sectionRank": 89,
@@ -71,7 +71,7 @@
       },
       "teaser": "Build impactful machine learning solutions, influence business decisions and help shape the future of mobility and payments.",
       "title": "Senior Data Scientist",
-      "tracking": "ewogICJ0b2tlbiI6ICJmYmMxYzllOC1lNjg0LTQxZTUtODg1Yi05Y2RmMDFkYzZmNTdfMSIKfQ==",
+      "tracking": "ewogICJ0b2tlbiI6ICIxNzNiMDkzNS1kMTNiLTQyZTAtOGYyYS1hYzE4OTczNTJkZDVfMSIKfQ==",
       "workTypes": [
         "Full time"
       ],
@@ -143,8 +143,8 @@
       "roleId": "engineering-manager",
       "salaryLabel": "$270,000",
       "solMetadata": {
-        "searchRequestToken": "f4e748dd-230d-47a0-b0b3-a67ad71cd5a3",
-        "token": "0~f4e748dd-230d-47a0-b0b3-a67ad71cd5a3",
+        "searchRequestToken": "dddc1568-d209-4532-905e-1710b2ac2048",
+        "token": "0~dddc1568-d209-4532-905e-1710b2ac2048",
         "jobId": "95649753",
         "section": "MAIN",
         "sectionRank": 90,
@@ -156,7 +156,7 @@
       },
       "teaser": "An International Financial Services Company are looking for a Hands on AI Engineering Manager to lead their AI Engineering team + develop solutions.",
       "title": "AI Engineering Manager",
-      "tracking": "ewogICJ0b2tlbiI6ICJmYmMxYzllOC1lNjg0LTQxZTUtODg1Yi05Y2RmMDFkYzZmNTdfMiIKfQ==",
+      "tracking": "ewogICJ0b2tlbiI6ICIxNzNiMDkzNS1kMTNiLTQyZTAtOGYyYS1hYzE4OTczNTJkZDVfMiIKfQ==",
       "workTypes": [
         "Full time"
       ],
@@ -174,103 +174,16 @@
     },
     {
       "advertiser": {
-        "id": "41248195",
-        "description": "Fluidra Group Australia Pty Ltd"
+        "id": "25662525",
+        "description": "DPN"
       },
       "bulletPoints": [
-        "Remote work & flexible arrangements",
-        "Global projects & ongoing training & professional development",
-        "Extra perks - birthday leave, wellness support, team discounts"
+        "First senior engineer, leading two AI Engineers technically",
+        "Hands-on: you decide the path, write the spec, build the foundation",
+        "Designer offices by the beach in Cronulla, hybrid"
       ],
       "branding": {
-        "serpLogoUrl": "https://bx-branding-gateway.cloud.seek.com.au/df2a92fe-c875-4496-b70e-731333b2110f.1/jdpLogo"
-      },
-      "classifications": [
-        {
-          "classification": {
-            "id": "6281",
-            "description": "Information & Communication Technology"
-          },
-          "subclassification": {
-            "id": "6290",
-            "description": "Engineering - Software"
-          }
-        }
-      ],
-      "companyName": "Fluidra",
-      "companyProfileStructuredDataId": 407833,
-      "displayStyle": {
-        "search": "sourcrProfile"
-      },
-      "displayType": "standard",
-      "employer": {
-        "id": "407833",
-        "name": "Fluidra",
-        "companyId": "158950326177096",
-        "companyUrl": "https://au.seek.com/companies/fluidra-158950326177096"
-      },
-      "id": "95631088",
-      "isFeatured": false,
-      "listingDate": "2026-11-02T03:08:52Z",
-      "listingDateDisplay": "11d ago",
-      "locations": [
-        {
-          "label": "Sydney NSW",
-          "countryCode": "AU",
-          "seoHierarchy": [
-            {
-              "contextualName": "All Sydney NSW"
-            },
-            {
-              "contextualName": "New South Wales NSW"
-            }
-          ]
-        }
-      ],
-      "roleId": "engineering-lead",
-      "salaryLabel": "$170,000 \u2013 $190,000 per year + Super",
-      "solMetadata": {
-        "searchRequestToken": "f4e748dd-230d-47a0-b0b3-a67ad71cd5a3",
-        "token": "0~f4e748dd-230d-47a0-b0b3-a67ad71cd5a3",
-        "jobId": "95631088",
-        "section": "MAIN",
-        "sectionRank": 91,
-        "jobAdType": "ORGANIC",
-        "tags": {
-          "mordor__flights": "mordor_1242",
-          "mordor__s": "4"
-        }
-      },
-      "teaser": "Hands-on Lead Engineer building Laravel and React/Next.js solutions while leading Pooltrackr\u2019s Australian engineering team and ANZ roadmap.",
-      "title": "Lead Engineer",
-      "tracking": "ewogICJ0b2tlbiI6ICJmYmMxYzllOC1lNjg0LTQxZTUtODg1Yi05Y2RmMDFkYzZmNTdfMyIKfQ==",
-      "workTypes": [
-        "Full time"
-      ],
-      "workArrangements": {
-        "data": [
-          {
-            "id": "2",
-            "label": {
-              "text": "Hybrid"
-            }
-          }
-        ],
-        "displayText": "Hybrid"
-      }
-    },
-    {
-      "advertiser": {
-        "id": "42174407",
-        "description": "Telemattica Corporation"
-      },
-      "bulletPoints": [
-        "Lead a greenfield build with real ownership of technical direction.",
-        "Work with modern TypeScript, React, Node.js and AWS technologies.",
-        "Join a fast-growing Australian tech company with global customers."
-      ],
-      "branding": {
-        "serpLogoUrl": "https://bx-branding-gateway.cloud.seek.com.au/9feaf1be-2ccc-5208-2a52-491598e3994f.1/jdpLogo"
+        "serpLogoUrl": "https://bx-branding-gateway.cloud.seek.com.au/92470a40-3901-1f66-f03f-c28eff84bcfd.1/jdpLogo"
       },
       "classifications": [
         {
@@ -284,27 +197,27 @@
           }
         }
       ],
-      "companyName": "Telemattica Corporation",
-      "companyProfileStructuredDataId": 3375429,
+      "companyName": "DPN Property Management",
+      "companyProfileStructuredDataId": 706752,
       "displayStyle": {
         "search": "sourcrProfile"
       },
       "displayType": "standard",
       "employer": {
-        "id": "3375429",
-        "name": "Telemattica Corporation"
+        "id": "706752",
+        "name": "DPN Property Management"
       },
-      "id": "95732994",
+      "id": "95637681",
       "isFeatured": false,
-      "listingDate": "2026-11-06T01:37:41Z",
-      "listingDateDisplay": "7d ago",
+      "listingDate": "2026-11-02T06:27:37Z",
+      "listingDateDisplay": "10d ago",
       "locations": [
         {
-          "label": "Redfern, Sydney NSW",
+          "label": "Cronulla, Sydney NSW",
           "countryCode": "AU",
           "seoHierarchy": [
             {
-              "contextualName": "Redfern NSW 2016"
+              "contextualName": "Cronulla NSW 2230"
             },
             {
               "contextualName": "All Sydney NSW"
@@ -312,23 +225,23 @@
           ]
         }
       ],
-      "roleId": "full-stack-software-engineer",
+      "roleId": "engineer",
       "salaryLabel": "",
       "solMetadata": {
-        "searchRequestToken": "f4e748dd-230d-47a0-b0b3-a67ad71cd5a3",
-        "token": "0~f4e748dd-230d-47a0-b0b3-a67ad71cd5a3",
-        "jobId": "95732994",
+        "searchRequestToken": "dddc1568-d209-4532-905e-1710b2ac2048",
+        "token": "0~dddc1568-d209-4532-905e-1710b2ac2048",
+        "jobId": "95637681",
         "section": "MAIN",
-        "sectionRank": 92,
+        "sectionRank": 91,
         "jobAdType": "ORGANIC",
         "tags": {
           "mordor__flights": "mordor_1242",
-          "mordor__s": "1"
+          "mordor__s": "4"
         }
       },
-      "teaser": "Lead the development of a new customer-facing IoT platform, transforming complex data into powerful dashboards, analytics and reporting tools.",
-      "title": "Senior Full Stack Engineer - TypeScript",
-      "tracking": "ewogICJ0b2tlbiI6ICJmYmMxYzllOC1lNjg0LTQxZTUtODg1Yi05Y2RmMDFkYzZmNTdfNCIKfQ==",
+      "teaser": "Principal Engineer - Build the system of record for a thirty-year business that has decided to remember everything.",
+      "title": "Principal Engineer",
+      "tracking": "ewogICJ0b2tlbiI6ICIxNzNiMDkzNS1kMTNiLTQyZTAtOGYyYS1hYzE4OTczNTJkZDVfMyIKfQ==",
       "workTypes": [
         "Full time"
       ],
@@ -400,11 +313,11 @@
       "roleId": "data-engineer",
       "salaryLabel": "",
       "solMetadata": {
-        "searchRequestToken": "f4e748dd-230d-47a0-b0b3-a67ad71cd5a3",
-        "token": "0~f4e748dd-230d-47a0-b0b3-a67ad71cd5a3",
+        "searchRequestToken": "dddc1568-d209-4532-905e-1710b2ac2048",
+        "token": "0~dddc1568-d209-4532-905e-1710b2ac2048",
         "jobId": "95275222",
         "section": "MAIN",
-        "sectionRank": 93,
+        "sectionRank": 92,
         "jobAdType": "ORGANIC",
         "tags": {
           "mordor__flights": "mordor_1242",
@@ -419,7 +332,7 @@
       ],
       "teaser": "Join Us at a Defining Moment! At Intelligen, we\u2019re building something different.",
       "title": "Consultant - Data Engineer",
-      "tracking": "ewogICJ0b2tlbiI6ICJmYmMxYzllOC1lNjg0LTQxZTUtODg1Yi05Y2RmMDFkYzZmNTdfNSIKfQ==",
+      "tracking": "ewogICJ0b2tlbiI6ICIxNzNiMDkzNS1kMTNiLTQyZTAtOGYyYS1hYzE4OTczNTJkZDVfNCIKfQ==",
       "workTypes": [
         "Full time"
       ],
@@ -491,11 +404,11 @@
       "roleId": "business-analyst",
       "salaryLabel": "Attractive Daily Rate",
       "solMetadata": {
-        "searchRequestToken": "f4e748dd-230d-47a0-b0b3-a67ad71cd5a3",
-        "token": "0~f4e748dd-230d-47a0-b0b3-a67ad71cd5a3",
+        "searchRequestToken": "dddc1568-d209-4532-905e-1710b2ac2048",
+        "token": "0~dddc1568-d209-4532-905e-1710b2ac2048",
         "jobId": "95848839",
         "section": "MAIN",
-        "sectionRank": 94,
+        "sectionRank": 93,
         "jobAdType": "ORGANIC",
         "tags": {
           "mordor__flights": "mordor_1242",
@@ -504,7 +417,7 @@
       },
       "teaser": "Lead BA required for a major data transformation program, shaping data governance, analytics and reporting across multiple business domains",
       "title": "Lead BA - Analytics Platform Uplift & Governance",
-      "tracking": "ewogICJ0b2tlbiI6ICJmYmMxYzllOC1lNjg0LTQxZTUtODg1Yi05Y2RmMDFkYzZmNTdfNiIKfQ==",
+      "tracking": "ewogICJ0b2tlbiI6ICIxNzNiMDkzNS1kMTNiLTQyZTAtOGYyYS1hYzE4OTczNTJkZDVfNSIKfQ==",
       "workTypes": [
         "Contract/Temp"
       ],
@@ -578,11 +491,11 @@
       "roleId": "data-engineer",
       "salaryLabel": "",
       "solMetadata": {
-        "searchRequestToken": "f4e748dd-230d-47a0-b0b3-a67ad71cd5a3",
-        "token": "0~f4e748dd-230d-47a0-b0b3-a67ad71cd5a3",
+        "searchRequestToken": "dddc1568-d209-4532-905e-1710b2ac2048",
+        "token": "0~dddc1568-d209-4532-905e-1710b2ac2048",
         "jobId": "95458323",
         "section": "MAIN",
-        "sectionRank": 95,
+        "sectionRank": 94,
         "jobAdType": "ORGANIC",
         "tags": {
           "mordor__flights": "mordor_1242",
@@ -591,7 +504,7 @@
       },
       "teaser": "Design, build and optimise scalable data solutions that enable AI, analytics and automation initiatives across Harvey Norman.",
       "title": "Data Engineer",
-      "tracking": "ewogICJ0b2tlbiI6ICJmYmMxYzllOC1lNjg0LTQxZTUtODg1Yi05Y2RmMDFkYzZmNTdfNyIKfQ==",
+      "tracking": "ewogICJ0b2tlbiI6ICIxNzNiMDkzNS1kMTNiLTQyZTAtOGYyYS1hYzE4OTczNTJkZDVfNiIKfQ==",
       "workTypes": [
         "Full time"
       ],
@@ -609,13 +522,11 @@
     },
     {
       "advertiser": {
-        "id": "61634845",
-        "description": "Nuage Technology Group"
+        "id": "63942167",
+        "description": "Curaeon Health Pty Ltd"
       },
       "bulletPoints": [],
-      "branding": {
-        "serpLogoUrl": "https://bx-branding-gateway.cloud.seek.com.au/af2c158d-0013-4474-a316-f37bca70ab87.1/jdpLogo"
-      },
+      "branding": {},
       "classifications": [
         {
           "classification": {
@@ -628,53 +539,45 @@
           }
         }
       ],
-      "companyName": "Nuage Technology Group",
-      "companyProfileStructuredDataId": 696100,
-      "displayStyle": {
-        "search": "sourcrProfile"
-      },
+      "companyProfileStructuredDataId": 0,
       "displayType": "standard",
-      "employer": {
-        "id": "696100",
-        "name": "Nuage Technology Group"
-      },
-      "id": "95874201",
+      "id": "95868892",
       "isFeatured": false,
-      "listingDate": "2026-11-13T03:22:33Z",
-      "listingDateDisplay": "2h ago",
+      "listingDate": "2026-11-13T00:48:05Z",
+      "listingDateDisplay": "5h ago",
       "locations": [
         {
-          "label": "Sydney NSW",
+          "label": "Norwest, Sydney NSW",
           "countryCode": "AU",
           "seoHierarchy": [
             {
-              "contextualName": "All Sydney NSW"
+              "contextualName": "Norwest NSW 2153"
             },
             {
-              "contextualName": "New South Wales NSW"
+              "contextualName": "All Sydney NSW"
             }
           ]
         }
       ],
-      "roleId": "azure-engineer",
-      "salaryLabel": "",
+      "roleId": "Large-Language-Model-Engineer",
+      "salaryLabel": "$90,000 \u2013 $100,000 per year",
       "solMetadata": {
-        "searchRequestToken": "f4e748dd-230d-47a0-b0b3-a67ad71cd5a3",
-        "token": "0~f4e748dd-230d-47a0-b0b3-a67ad71cd5a3",
-        "jobId": "95874201",
+        "searchRequestToken": "dddc1568-d209-4532-905e-1710b2ac2048",
+        "token": "0~dddc1568-d209-4532-905e-1710b2ac2048",
+        "jobId": "95868892",
         "section": "MAIN",
-        "sectionRank": 96,
+        "sectionRank": 95,
         "jobAdType": "ORGANIC",
         "tags": {
           "mordor__flights": "mordor_1242",
           "mordor__s": "4"
         }
       },
-      "teaser": "AI Engineer - Azure",
-      "title": "AI Azure Engineer",
-      "tracking": "ewogICJ0b2tlbiI6ICJmYmMxYzllOC1lNjg0LTQxZTUtODg1Yi05Y2RmMDFkYzZmNTdfOCIKfQ==",
+      "teaser": "Own the local ASR and clinical drafting systems that make every consultation note safer, faster and better.",
+      "title": "ML/LLM Engineer",
+      "tracking": "ewogICJ0b2tlbiI6ICIxNzNiMDkzNS1kMTNiLTQyZTAtOGYyYS1hYzE4OTczNTJkZDVfNyIKfQ==",
       "workTypes": [
-        "Contract/Temp"
+        "Full time"
       ],
       "workArrangements": {
         "data": [
@@ -690,16 +593,101 @@
     },
     {
       "advertiser": {
-        "id": "63048868",
-        "description": "Pair People Pty Limited"
+        "id": "42174407",
+        "description": "Telemattica Corporation"
       },
       "bulletPoints": [
-        "Lead a squad of 5 and stay hands-on in Node/NestJS",
-        "VC-backed scale-up, category leader, base + super + equity",
-        "Hybrid Sydney, AI hackathons, dedicated tech-debt time"
+        "Lead a greenfield build with real ownership of technical direction.",
+        "Work with modern TypeScript, React, Node.js and AWS technologies.",
+        "Join a fast-growing Australian tech company with global customers."
       ],
       "branding": {
-        "serpLogoUrl": "https://bx-branding-gateway.cloud.seek.com.au/554e872f-da94-4fc8-b751-9257bf182d34.1/jdpLogo"
+        "serpLogoUrl": "https://bx-branding-gateway.cloud.seek.com.au/9feaf1be-2ccc-5208-2a52-491598e3994f.1/jdpLogo"
+      },
+      "classifications": [
+        {
+          "classification": {
+            "id": "6281",
+            "description": "Information & Communication Technology"
+          },
+          "subclassification": {
+            "id": "6287",
+            "description": "Developers/Programmers"
+          }
+        }
+      ],
+      "companyName": "Telemattica Corporation",
+      "companyProfileStructuredDataId": 3375429,
+      "displayStyle": {
+        "search": "sourcrProfile"
+      },
+      "displayType": "standard",
+      "employer": {
+        "id": "3375429",
+        "name": "Telemattica Corporation"
+      },
+      "id": "95732994",
+      "isFeatured": false,
+      "listingDate": "2026-11-06T01:37:41Z",
+      "listingDateDisplay": "7d ago",
+      "locations": [
+        {
+          "label": "Redfern, Sydney NSW",
+          "countryCode": "AU",
+          "seoHierarchy": [
+            {
+              "contextualName": "Redfern NSW 2016"
+            },
+            {
+              "contextualName": "All Sydney NSW"
+            }
+          ]
+        }
+      ],
+      "roleId": "full-stack-software-engineer",
+      "salaryLabel": "",
+      "solMetadata": {
+        "searchRequestToken": "dddc1568-d209-4532-905e-1710b2ac2048",
+        "token": "0~dddc1568-d209-4532-905e-1710b2ac2048",
+        "jobId": "95732994",
+        "section": "MAIN",
+        "sectionRank": 96,
+        "jobAdType": "ORGANIC",
+        "tags": {
+          "mordor__flights": "mordor_1242",
+          "mordor__s": "1"
+        }
+      },
+      "teaser": "Lead the development of a new customer-facing IoT platform, transforming complex data into powerful dashboards, analytics and reporting tools.",
+      "title": "Senior Full Stack Engineer - TypeScript",
+      "tracking": "ewogICJ0b2tlbiI6ICIxNzNiMDkzNS1kMTNiLTQyZTAtOGYyYS1hYzE4OTczNTJkZDVfOCIKfQ==",
+      "workTypes": [
+        "Full time"
+      ],
+      "workArrangements": {
+        "data": [
+          {
+            "id": "2",
+            "label": {
+              "text": "Hybrid"
+            }
+          }
+        ],
+        "displayText": "Hybrid"
+      }
+    },
+    {
+      "advertiser": {
+        "id": "41248195",
+        "description": "Fluidra Group Australia Pty Ltd"
+      },
+      "bulletPoints": [
+        "Remote work & flexible arrangements",
+        "Global projects & ongoing training & professional development",
+        "Extra perks - birthday leave, wellness support, team discounts"
+      ],
+      "branding": {
+        "serpLogoUrl": "https://bx-branding-gateway.cloud.seek.com.au/df2a92fe-c875-4496-b70e-731333b2110f.1/jdpLogo"
       },
       "classifications": [
         {
@@ -713,20 +701,22 @@
           }
         }
       ],
-      "companyName": "Pair People Pty Limited",
-      "companyProfileStructuredDataId": 3045105,
+      "companyName": "Fluidra",
+      "companyProfileStructuredDataId": 407833,
       "displayStyle": {
         "search": "sourcrProfile"
       },
       "displayType": "standard",
       "employer": {
-        "id": "3045105",
-        "name": "Pair People Pty Limited"
+        "id": "407833",
+        "name": "Fluidra",
+        "companyId": "158950326177096",
+        "companyUrl": "https://au.seek.com/companies/fluidra-158950326177096"
       },
-      "id": "95842673",
+      "id": "95631088",
       "isFeatured": false,
-      "listingDate": "2026-11-12T00:05:56Z",
-      "listingDateDisplay": "1d ago",
+      "listingDate": "2026-11-02T03:08:52Z",
+      "listingDateDisplay": "11d ago",
       "locations": [
         {
           "label": "Sydney NSW",
@@ -741,23 +731,23 @@
           ]
         }
       ],
-      "roleId": "engineering-manager",
-      "salaryLabel": "$185,000 \u2013 $200,000 per year",
+      "roleId": "engineering-lead",
+      "salaryLabel": "$170,000 \u2013 $190,000 per year + Super",
       "solMetadata": {
-        "searchRequestToken": "f4e748dd-230d-47a0-b0b3-a67ad71cd5a3",
-        "token": "0~f4e748dd-230d-47a0-b0b3-a67ad71cd5a3",
-        "jobId": "95842673",
+        "searchRequestToken": "dddc1568-d209-4532-905e-1710b2ac2048",
+        "token": "0~dddc1568-d209-4532-905e-1710b2ac2048",
+        "jobId": "95631088",
         "section": "MAIN",
         "sectionRank": 97,
         "jobAdType": "ORGANIC",
         "tags": {
           "mordor__flights": "mordor_1242",
-          "mordor__s": "1"
+          "mordor__s": "4"
         }
       },
-      "teaser": "Lead and develop a squad of engineers while staying on the tools. VC-backed Sydney scale-up. Node/NestJS, Vue, PostgreSQL, GCP.",
-      "title": "Engineering Manager (Hands-on) \u2013 TypeScript / Node / NestJS",
-      "tracking": "ewogICJ0b2tlbiI6ICJmYmMxYzllOC1lNjg0LTQxZTUtODg1Yi05Y2RmMDFkYzZmNTdfOSIKfQ==",
+      "teaser": "Hands-on Lead Engineer building Laravel and React/Next.js solutions while leading Pooltrackr\u2019s Australian engineering team and ANZ roadmap.",
+      "title": "Lead Engineer",
+      "tracking": "ewogICJ0b2tlbiI6ICIxNzNiMDkzNS1kMTNiLTQyZTAtOGYyYS1hYzE4OTczNTJkZDVfOSIKfQ==",
       "workTypes": [
         "Full time"
       ],
@@ -829,8 +819,8 @@
       "roleId": "data-scientist",
       "salaryLabel": "$170-190,000 + super",
       "solMetadata": {
-        "searchRequestToken": "f4e748dd-230d-47a0-b0b3-a67ad71cd5a3",
-        "token": "0~f4e748dd-230d-47a0-b0b3-a67ad71cd5a3",
+        "searchRequestToken": "dddc1568-d209-4532-905e-1710b2ac2048",
+        "token": "0~dddc1568-d209-4532-905e-1710b2ac2048",
         "jobId": "95592044",
         "section": "MAIN",
         "sectionRank": 98,
@@ -842,7 +832,7 @@
       },
       "teaser": "Lead a hands-on data science pod for a major banking client, using predictive modelling to reshape customer risk controls and mentor others.",
       "title": "Lead Data Scientist | Banking Risk Analytics",
-      "tracking": "ewogICJ0b2tlbiI6ICJmYmMxYzllOC1lNjg0LTQxZTUtODg1Yi05Y2RmMDFkYzZmNTdfMTAiCn0=",
+      "tracking": "ewogICJ0b2tlbiI6ICIxNzNiMDkzNS1kMTNiLTQyZTAtOGYyYS1hYzE4OTczNTJkZDVfMTAiCn0=",
       "workTypes": [
         "Full time"
       ],
@@ -859,12 +849,16 @@
     },
     {
       "advertiser": {
-        "id": "61634845",
-        "description": "Nuage Technology Group"
+        "id": "63048868",
+        "description": "Pair People Pty Limited"
       },
-      "bulletPoints": [],
+      "bulletPoints": [
+        "Lead a squad of 5 and stay hands-on in Node/NestJS",
+        "VC-backed scale-up, category leader, base + super + equity",
+        "Hybrid Sydney, AI hackathons, dedicated tech-debt time"
+      ],
       "branding": {
-        "serpLogoUrl": "https://bx-branding-gateway.cloud.seek.com.au/af2c158d-0013-4474-a316-f37bca70ab87.1/jdpLogo"
+        "serpLogoUrl": "https://bx-branding-gateway.cloud.seek.com.au/554e872f-da94-4fc8-b751-9257bf182d34.1/jdpLogo"
       },
       "classifications": [
         {
@@ -873,25 +867,25 @@
             "description": "Information & Communication Technology"
           },
           "subclassification": {
-            "id": "6295",
-            "description": "Programme & Project Management"
+            "id": "6290",
+            "description": "Engineering - Software"
           }
         }
       ],
-      "companyName": "Nuage Technology Group",
-      "companyProfileStructuredDataId": 696100,
+      "companyName": "Pair People Pty Limited",
+      "companyProfileStructuredDataId": 3045105,
       "displayStyle": {
         "search": "sourcrProfile"
       },
       "displayType": "standard",
       "employer": {
-        "id": "696100",
-        "name": "Nuage Technology Group"
+        "id": "3045105",
+        "name": "Pair People Pty Limited"
       },
-      "id": "95872426",
+      "id": "95842673",
       "isFeatured": false,
-      "listingDate": "2026-11-13T02:35:44Z",
-      "listingDateDisplay": "3h ago",
+      "listingDate": "2026-11-12T00:05:56Z",
+      "listingDateDisplay": "1d ago",
       "locations": [
         {
           "label": "Sydney NSW",
@@ -906,36 +900,36 @@
           ]
         }
       ],
-      "roleId": "project-delivery-lead",
-      "salaryLabel": "",
+      "roleId": "engineering-manager",
+      "salaryLabel": "$185,000 \u2013 $200,000 per year",
       "solMetadata": {
-        "searchRequestToken": "f4e748dd-230d-47a0-b0b3-a67ad71cd5a3",
-        "token": "0~f4e748dd-230d-47a0-b0b3-a67ad71cd5a3",
-        "jobId": "95872426",
+        "searchRequestToken": "dddc1568-d209-4532-905e-1710b2ac2048",
+        "token": "0~dddc1568-d209-4532-905e-1710b2ac2048",
+        "jobId": "95842673",
         "section": "MAIN",
         "sectionRank": 99,
         "jobAdType": "ORGANIC",
         "tags": {
           "mordor__flights": "mordor_1242",
-          "mordor__s": "4"
+          "mordor__s": "1"
         }
       },
-      "teaser": "Project Delivery Lead AWS Migration",
-      "title": "Project Delivery Lead",
-      "tracking": "ewogICJ0b2tlbiI6ICJmYmMxYzllOC1lNjg0LTQxZTUtODg1Yi05Y2RmMDFkYzZmNTdfMTEiCn0=",
+      "teaser": "Lead and develop a squad of engineers while staying on the tools. VC-backed Sydney scale-up. Node/NestJS, Vue, PostgreSQL, GCP.",
+      "title": "Engineering Manager (Hands-on) \u2013 TypeScript / Node / NestJS",
+      "tracking": "ewogICJ0b2tlbiI6ICIxNzNiMDkzNS1kMTNiLTQyZTAtOGYyYS1hYzE4OTczNTJkZDVfMTEiCn0=",
       "workTypes": [
         "Full time"
       ],
       "workArrangements": {
         "data": [
           {
-            "id": "3",
+            "id": "2",
             "label": {
-              "text": "Remote"
+              "text": "Hybrid"
             }
           }
         ],
-        "displayText": "Remote"
+        "displayText": "Hybrid"
       }
     },
     {
@@ -996,8 +990,8 @@
       "roleId": "Chief-Engineer",
       "salaryLabel": "",
       "solMetadata": {
-        "searchRequestToken": "f4e748dd-230d-47a0-b0b3-a67ad71cd5a3",
-        "token": "0~f4e748dd-230d-47a0-b0b3-a67ad71cd5a3",
+        "searchRequestToken": "dddc1568-d209-4532-905e-1710b2ac2048",
+        "token": "0~dddc1568-d209-4532-905e-1710b2ac2048",
         "jobId": "95701819",
         "section": "MAIN",
         "sectionRank": 100,
@@ -1015,7 +1009,7 @@
       ],
       "teaser": "Shape tomorrow's banking tech. Lead our Engineering Data Platform as Chief Engineer and drive AI-enabled engineering excellence.",
       "title": "Chief Engineer - Engineering Data Platform",
-      "tracking": "ewogICJ0b2tlbiI6ICJmYmMxYzllOC1lNjg0LTQxZTUtODg1Yi05Y2RmMDFkYzZmNTdfMTIiCn0=",
+      "tracking": "ewogICJ0b2tlbiI6ICIxNzNiMDkzNS1kMTNiLTQyZTAtOGYyYS1hYzE4OTczNTJkZDVfMTIiCn0=",
       "workTypes": [
         "Full time"
       ],
@@ -1084,8 +1078,8 @@
       "roleId": "product-director",
       "salaryLabel": "",
       "solMetadata": {
-        "searchRequestToken": "f4e748dd-230d-47a0-b0b3-a67ad71cd5a3",
-        "token": "0~f4e748dd-230d-47a0-b0b3-a67ad71cd5a3",
+        "searchRequestToken": "dddc1568-d209-4532-905e-1710b2ac2048",
+        "token": "0~dddc1568-d209-4532-905e-1710b2ac2048",
         "jobId": "95497664",
         "section": "MAIN",
         "sectionRank": 101,
@@ -1097,7 +1091,7 @@
       },
       "teaser": "The AI tools are in place. The hard part now is getting people to use them every day, without breaking the rules of a heavily regulated business.",
       "title": "Director of Product Engineering - Enterprise AI Platform",
-      "tracking": "ewogICJ0b2tlbiI6ICJmYmMxYzllOC1lNjg0LTQxZTUtODg1Yi05Y2RmMDFkYzZmNTdfMTMiCn0=",
+      "tracking": "ewogICJ0b2tlbiI6ICIxNzNiMDkzNS1kMTNiLTQyZTAtOGYyYS1hYzE4OTczNTJkZDVfMTMiCn0=",
       "workTypes": [
         "Full time"
       ],
@@ -1169,8 +1163,8 @@
       "roleId": "Azure-Cloud-Consultant",
       "salaryLabel": "$180k - $200k p.a. + Superannuation",
       "solMetadata": {
-        "searchRequestToken": "f4e748dd-230d-47a0-b0b3-a67ad71cd5a3",
-        "token": "0~f4e748dd-230d-47a0-b0b3-a67ad71cd5a3",
+        "searchRequestToken": "dddc1568-d209-4532-905e-1710b2ac2048",
+        "token": "0~dddc1568-d209-4532-905e-1710b2ac2048",
         "jobId": "95874685",
         "section": "MAIN",
         "sectionRank": 102,
@@ -1188,7 +1182,7 @@
       ],
       "teaser": "An exciting opportunity for a Senior Cloud Consultant with an interest in people leadership, while remaining hands-on in cloud engineering.",
       "title": "Senior Azure Cloud Consultant / Azure Cloud Lead - MSP",
-      "tracking": "ewogICJ0b2tlbiI6ICJmYmMxYzllOC1lNjg0LTQxZTUtODg1Yi05Y2RmMDFkYzZmNTdfMTQiCn0=",
+      "tracking": "ewogICJ0b2tlbiI6ICIxNzNiMDkzNS1kMTNiLTQyZTAtOGYyYS1hYzE4OTczNTJkZDVfMTQiCn0=",
       "workTypes": [
         "Full time"
       ],
@@ -1275,8 +1269,8 @@
       "roleId": "Artificial-Intelligence-Engineer",
       "salaryLabel": "",
       "solMetadata": {
-        "searchRequestToken": "f4e748dd-230d-47a0-b0b3-a67ad71cd5a3",
-        "token": "0~f4e748dd-230d-47a0-b0b3-a67ad71cd5a3",
+        "searchRequestToken": "dddc1568-d209-4532-905e-1710b2ac2048",
+        "token": "0~dddc1568-d209-4532-905e-1710b2ac2048",
         "jobId": "95799245",
         "section": "MAIN",
         "sectionRank": 103,
@@ -1288,7 +1282,7 @@
       },
       "teaser": "Exciting opportunity for an AI Engineer to join TL Consulting and lead the delivery of innovative AI engagements.",
       "title": "Principal AI Engineer",
-      "tracking": "ewogICJ0b2tlbiI6ICJmYmMxYzllOC1lNjg0LTQxZTUtODg1Yi05Y2RmMDFkYzZmNTdfMTUiCn0=",
+      "tracking": "ewogICJ0b2tlbiI6ICIxNzNiMDkzNS1kMTNiLTQyZTAtOGYyYS1hYzE4OTczNTJkZDVfMTUiCn0=",
       "workTypes": [
         "Full time"
       ],
@@ -1360,8 +1354,8 @@
       "roleId": "engineer",
       "salaryLabel": "",
       "solMetadata": {
-        "searchRequestToken": "f4e748dd-230d-47a0-b0b3-a67ad71cd5a3",
-        "token": "0~f4e748dd-230d-47a0-b0b3-a67ad71cd5a3",
+        "searchRequestToken": "dddc1568-d209-4532-905e-1710b2ac2048",
+        "token": "0~dddc1568-d209-4532-905e-1710b2ac2048",
         "jobId": "95583003",
         "section": "MAIN",
         "sectionRank": 104,
@@ -1379,7 +1373,7 @@
       ],
       "teaser": "Next level GraphQL",
       "title": "Staff Full Stack GraphQL Engineer",
-      "tracking": "ewogICJ0b2tlbiI6ICJmYmMxYzllOC1lNjg0LTQxZTUtODg1Yi05Y2RmMDFkYzZmNTdfMTYiCn0=",
+      "tracking": "ewogICJ0b2tlbiI6ICIxNzNiMDkzNS1kMTNiLTQyZTAtOGYyYS1hYzE4OTczNTJkZDVfMTYiCn0=",
       "workTypes": [
         "Contract/Temp"
       ],
@@ -1453,8 +1447,8 @@
       "roleId": "solutions-engineer",
       "salaryLabel": "",
       "solMetadata": {
-        "searchRequestToken": "f4e748dd-230d-47a0-b0b3-a67ad71cd5a3",
-        "token": "0~f4e748dd-230d-47a0-b0b3-a67ad71cd5a3",
+        "searchRequestToken": "dddc1568-d209-4532-905e-1710b2ac2048",
+        "token": "0~dddc1568-d209-4532-905e-1710b2ac2048",
         "jobId": "95635837",
         "section": "MAIN",
         "sectionRank": 105,
@@ -1466,7 +1460,7 @@
       },
       "teaser": "A global automotive powerhouse and shape the future of an iconic brand in Australia.",
       "title": "Application & Solution Engineer",
-      "tracking": "ewogICJ0b2tlbiI6ICJmYmMxYzllOC1lNjg0LTQxZTUtODg1Yi05Y2RmMDFkYzZmNTdfMTciCn0=",
+      "tracking": "ewogICJ0b2tlbiI6ICIxNzNiMDkzNS1kMTNiLTQyZTAtOGYyYS1hYzE4OTczNTJkZDVfMTciCn0=",
       "workTypes": [
         "Full time"
       ],
@@ -1539,8 +1533,8 @@
       "roleId": "cloud-platform-engineer",
       "salaryLabel": "",
       "solMetadata": {
-        "searchRequestToken": "f4e748dd-230d-47a0-b0b3-a67ad71cd5a3",
-        "token": "0~f4e748dd-230d-47a0-b0b3-a67ad71cd5a3",
+        "searchRequestToken": "dddc1568-d209-4532-905e-1710b2ac2048",
+        "token": "0~dddc1568-d209-4532-905e-1710b2ac2048",
         "jobId": "95395260",
         "section": "MAIN",
         "sectionRank": 106,
@@ -1558,7 +1552,96 @@
       ],
       "teaser": "Compare Club is looking for a hands-on Lead Cloud Platform Engineer (AWS) as the definitive technical authority for our cloud infrastructure.",
       "title": "Lead Cloud Platform Engineer",
-      "tracking": "ewogICJ0b2tlbiI6ICJmYmMxYzllOC1lNjg0LTQxZTUtODg1Yi05Y2RmMDFkYzZmNTdfMTgiCn0=",
+      "tracking": "ewogICJ0b2tlbiI6ICIxNzNiMDkzNS1kMTNiLTQyZTAtOGYyYS1hYzE4OTczNTJkZDVfMTgiCn0=",
+      "workTypes": [
+        "Full time"
+      ],
+      "workArrangements": {
+        "data": [
+          {
+            "id": "2",
+            "label": {
+              "text": "Hybrid"
+            }
+          }
+        ],
+        "displayText": "Hybrid"
+      }
+    },
+    {
+      "advertiser": {
+        "id": "28059951",
+        "description": "Healthdirect Australia"
+      },
+      "bulletPoints": [],
+      "branding": {
+        "serpLogoUrl": "https://bx-branding-gateway.cloud.seek.com.au/8277ac97-f440-4656-91d2-4ec10c292fcc.1/jdpLogo"
+      },
+      "classifications": [
+        {
+          "classification": {
+            "id": "6281",
+            "description": "Information & Communication Technology"
+          },
+          "subclassification": {
+            "id": "6283",
+            "description": "Business/Systems Analysts"
+          }
+        }
+      ],
+      "companyName": "Healthdirect Australia",
+      "companyProfileStructuredDataId": 7682,
+      "displayStyle": {
+        "search": "sourcrProfile"
+      },
+      "displayType": "standard",
+      "employer": {
+        "id": "7682",
+        "name": "Healthdirect Australia",
+        "companyId": "796127",
+        "companyUrl": "https://au.seek.com/companies/healthdirect-australia-796127"
+      },
+      "id": "95878274",
+      "isFeatured": false,
+      "listingDate": "2026-11-13T05:53:34Z",
+      "listingDateDisplay": "23m ago",
+      "locations": [
+        {
+          "label": "Sydney NSW",
+          "countryCode": "AU",
+          "seoHierarchy": [
+            {
+              "contextualName": "All Sydney NSW"
+            },
+            {
+              "contextualName": "New South Wales NSW"
+            }
+          ]
+        }
+      ],
+      "roleId": "systems-engineer",
+      "salaryLabel": "",
+      "solMetadata": {
+        "searchRequestToken": "dddc1568-d209-4532-905e-1710b2ac2048",
+        "token": "0~dddc1568-d209-4532-905e-1710b2ac2048",
+        "jobId": "95878274",
+        "section": "MAIN",
+        "sectionRank": 107,
+        "jobAdType": "ORGANIC",
+        "tags": {
+          "mordor__flights": "mordor_1242",
+          "mordor__s": "1"
+        }
+      },
+      "tags": [
+        {
+          "type": "EARLY_APPLICANT",
+          "label": "Be an early applicant"
+        }
+      ],
+      "teaser": "Own and evolve the identity, endpoint and collaboration technology that powers our peopleJoin a purpose-driven organisation supporting the health of",
+      "title": "Senior Systems Engineer",
+      "tracking": "ewogICJ0b2tlbiI6ICIxNzNiMDkzNS1kMTNiLTQyZTAtOGYyYS1hYzE4OTczNTJkZDVfMTkiCn0=",
       "workTypes": [
         "Full time"
       ],
@@ -1632,11 +1715,11 @@
       "roleId": "Artificial-Intelligence-Engineer",
       "salaryLabel": "",
       "solMetadata": {
-        "searchRequestToken": "f4e748dd-230d-47a0-b0b3-a67ad71cd5a3",
-        "token": "0~f4e748dd-230d-47a0-b0b3-a67ad71cd5a3",
+        "searchRequestToken": "dddc1568-d209-4532-905e-1710b2ac2048",
+        "token": "0~dddc1568-d209-4532-905e-1710b2ac2048",
         "jobId": "95304424",
         "section": "MAIN",
-        "sectionRank": 107,
+        "sectionRank": 108,
         "jobAdType": "ORGANIC",
         "tags": {
           "mordor__flights": "mordor_1242",
@@ -1651,7 +1734,7 @@
       ],
       "teaser": "Design and deploy enterprise AI applications while leading sub-squads, running agile ceremonies and working closely with senior business stakeholders.",
       "title": "Senior AI Engineer",
-      "tracking": "ewogICJ0b2tlbiI6ICJmYmMxYzllOC1lNjg0LTQxZTUtODg1Yi05Y2RmMDFkYzZmNTdfMTkiCn0=",
+      "tracking": "ewogICJ0b2tlbiI6ICIxNzNiMDkzNS1kMTNiLTQyZTAtOGYyYS1hYzE4OTczNTJkZDVfMjAiCn0=",
       "workTypes": [
         "Full time"
       ],
@@ -1716,96 +1799,9 @@
       "roleId": "software-development-engineer",
       "salaryLabel": "",
       "solMetadata": {
-        "searchRequestToken": "f4e748dd-230d-47a0-b0b3-a67ad71cd5a3",
-        "token": "0~f4e748dd-230d-47a0-b0b3-a67ad71cd5a3",
+        "searchRequestToken": "dddc1568-d209-4532-905e-1710b2ac2048",
+        "token": "0~dddc1568-d209-4532-905e-1710b2ac2048",
         "jobId": "95740464",
-        "section": "MAIN",
-        "sectionRank": 108,
-        "jobAdType": "ORGANIC",
-        "tags": {
-          "mordor__flights": "mordor_1242",
-          "mordor__s": "1"
-        }
-      },
-      "teaser": "Build scalable healthcare technology and shape OpenCare\u2019s technical direction as a Senior Software Engineer.",
-      "title": "Senior Software Developer / Engineer - Healthcare",
-      "tracking": "ewogICJ0b2tlbiI6ICJmYmMxYzllOC1lNjg0LTQxZTUtODg1Yi05Y2RmMDFkYzZmNTdfMjAiCn0=",
-      "workTypes": [
-        "Full time"
-      ],
-      "workArrangements": {
-        "data": [
-          {
-            "id": "2",
-            "label": {
-              "text": "Hybrid"
-            }
-          }
-        ],
-        "displayText": "Hybrid"
-      }
-    },
-    {
-      "advertiser": {
-        "id": "3432",
-        "description": "Optus"
-      },
-      "bulletPoints": [
-        "$80 monthly credit and 25% off Optus products",
-        "Additional 'Connected' days to focus on what's important to you",
-        "Carer-neutral paid Parental Leave of up to 16 weeks."
-      ],
-      "branding": {
-        "serpLogoUrl": "https://bx-branding-gateway.cloud.seek.com.au/f3ec493b-16d5-ce8e-90b0-aeb3ea4c533a.1/jdpLogo"
-      },
-      "classifications": [
-        {
-          "classification": {
-            "id": "1209",
-            "description": "Engineering"
-          },
-          "subclassification": {
-            "id": "6042",
-            "description": "Other"
-          }
-        }
-      ],
-      "companyName": "Optus",
-      "companyProfileStructuredDataId": 2799,
-      "displayStyle": {
-        "search": "sourcrProfile"
-      },
-      "displayType": "standard",
-      "employer": {
-        "id": "2799",
-        "name": "Optus",
-        "companyId": "432323",
-        "companyUrl": "https://au.seek.com/companies/optus-432323"
-      },
-      "id": "95871423",
-      "isFeatured": false,
-      "listingDate": "2026-11-13T02:05:10Z",
-      "listingDateDisplay": "3h ago",
-      "locations": [
-        {
-          "label": "Macquarie Park, Sydney NSW",
-          "countryCode": "AU",
-          "seoHierarchy": [
-            {
-              "contextualName": "Macquarie Park NSW 2113"
-            },
-            {
-              "contextualName": "All Sydney NSW"
-            }
-          ]
-        }
-      ],
-      "roleId": "systems-engineer",
-      "salaryLabel": "",
-      "solMetadata": {
-        "searchRequestToken": "f4e748dd-230d-47a0-b0b3-a67ad71cd5a3",
-        "token": "0~f4e748dd-230d-47a0-b0b3-a67ad71cd5a3",
-        "jobId": "95871423",
         "section": "MAIN",
         "sectionRank": 109,
         "jobAdType": "ORGANIC",
@@ -1814,15 +1810,9 @@
           "mordor__s": "1"
         }
       },
-      "tags": [
-        {
-          "type": "EARLY_APPLICANT",
-          "label": "Be an early applicant"
-        }
-      ],
-      "teaser": "Hands-on technical role combining software engineering, systems integration, networking, infrastructure, and operational support.",
-      "title": "Senior Systems Engineer",
-      "tracking": "ewogICJ0b2tlbiI6ICJmYmMxYzllOC1lNjg0LTQxZTUtODg1Yi05Y2RmMDFkYzZmNTdfMjEiCn0=",
+      "teaser": "Build scalable healthcare technology and shape OpenCare\u2019s technical direction as a Senior Software Engineer.",
+      "title": "Senior Software Developer / Engineer - Healthcare",
+      "tracking": "ewogICJ0b2tlbiI6ICIxNzNiMDkzNS1kMTNiLTQyZTAtOGYyYS1hYzE4OTczNTJkZDVfMjEiCn0=",
       "workTypes": [
         "Full time"
       ],
@@ -1894,8 +1884,8 @@
       "roleId": "optimisation-lead",
       "salaryLabel": "",
       "solMetadata": {
-        "searchRequestToken": "f4e748dd-230d-47a0-b0b3-a67ad71cd5a3",
-        "token": "0~f4e748dd-230d-47a0-b0b3-a67ad71cd5a3",
+        "searchRequestToken": "dddc1568-d209-4532-905e-1710b2ac2048",
+        "token": "0~dddc1568-d209-4532-905e-1710b2ac2048",
         "jobId": "95826702",
         "section": "MAIN",
         "sectionRank": 110,
@@ -1907,7 +1897,7 @@
       },
       "teaser": "Use Plus Es' data, scorecards and risk-based planning to improve field assurance effectiveness, resource allocation & provider performance visibility",
       "title": "Field Assurance Optimisation Lead",
-      "tracking": "ewogICJ0b2tlbiI6ICJmYmMxYzllOC1lNjg0LTQxZTUtODg1Yi05Y2RmMDFkYzZmNTdfMjIiCn0=",
+      "tracking": "ewogICJ0b2tlbiI6ICIxNzNiMDkzNS1kMTNiLTQyZTAtOGYyYS1hYzE4OTczNTJkZDVfMjIiCn0=",
       "workTypes": [
         "Full time"
       ],
@@ -1924,12 +1914,12 @@
       }
     }
   ],
-  "totalCount": 583,
+  "totalCount": 582,
   "info": {
-    "timeTaken": 50,
+    "timeTaken": 55,
     "source": "JobSearch-sm",
     "experiment": "mordor_1242",
-    "newSince": 1794549106
+    "newSince": 1794550599
   },
   "userQueryId": "API7293359037933827121",
   "location": {
@@ -1958,8 +1948,8 @@
     }
   ],
   "solMetadata": {
-    "requestToken": "f4e748dd-230d-47a0-b0b3-a67ad71cd5a3",
-    "token": "0~f4e748dd-230d-47a0-b0b3-a67ad71cd5a3",
+    "requestToken": "dddc1568-d209-4532-905e-1710b2ac2048",
+    "token": "0~dddc1568-d209-4532-905e-1710b2ac2048",
     "keywords": "lead data engineer",
     "sortMode": "RELEVANCE",
     "locations": [
@@ -1969,13 +1959,13 @@
     "locationDistance": 50,
     "pageSize": 22,
     "pageNumber": 5,
-    "totalJobCount": 583,
+    "totalJobCount": 582,
     "tags": {
       "mordor:searchMarket": "UNIFIED_AU",
       "mordor:result_count_rst": "29",
-      "mordor:result_count_vec": "219",
-      "mordor:rt": "42",
-      "mordor:count_vec": "219",
+      "mordor:result_count_vec": "218",
+      "mordor:rt": "47",
+      "mordor:count_vec": "218",
       "mordor__flights": "mordor_1242",
       "mordor:count_rst": "29",
       "mordor:count_ir": "335",

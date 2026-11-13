@@ -47,8 +47,8 @@
       "roleId": "data-engineer",
       "salaryLabel": "$140,000 \u2013 $150,000 per year",
       "solMetadata": {
-        "searchRequestToken": "7dfe99be-d983-4bfc-ab06-16a8ef4b2df0",
-        "token": "0~7dfe99be-d983-4bfc-ab06-16a8ef4b2df0",
+        "searchRequestToken": "a4196879-84e5-413f-b744-ba033df30492",
+        "token": "0~a4196879-84e5-413f-b744-ba033df30492",
         "jobId": "95418810",
         "section": "MAIN",
         "sectionRank": 89,
@@ -60,7 +60,7 @@
       },
       "teaser": "Migrate a legacy SQL Server data warehouse to Azure SQL Managed Instance, building secure, tested and well-monitored data solutions.",
       "title": "Data Engineer | Financial Services | MSBI to Azure & ADF",
-      "tracking": "ewogICJ0b2tlbiI6ICI2NGE5OWQ3Yi01ZDBhLTQ4ZDUtODFlNS1iMzFkYzRlMzBiNzdfMSIKfQ==",
+      "tracking": "ewogICJ0b2tlbiI6ICJlOTI3ZjRhNS05MmIzLTQzMmItYWRjMy04OGE0YTJlMjkwMTJfMSIKfQ==",
       "workTypes": [
         "Full time"
       ],
@@ -132,8 +132,8 @@
       "roleId": "Snowflake-Data-Engineer",
       "salaryLabel": "Competitive",
       "solMetadata": {
-        "searchRequestToken": "7dfe99be-d983-4bfc-ab06-16a8ef4b2df0",
-        "token": "0~7dfe99be-d983-4bfc-ab06-16a8ef4b2df0",
+        "searchRequestToken": "a4196879-84e5-413f-b744-ba033df30492",
+        "token": "0~a4196879-84e5-413f-b744-ba033df30492",
         "jobId": "95541250",
         "section": "MAIN",
         "sectionRank": 90,
@@ -145,7 +145,83 @@
       },
       "teaser": "Seeking a Senior Data Engineer with strong experience in Snowflake design and build",
       "title": "Snowflake Data Engineer \u2013 Banking",
-      "tracking": "ewogICJ0b2tlbiI6ICI2NGE5OWQ3Yi01ZDBhLTQ4ZDUtODFlNS1iMzFkYzRlMzBiNzdfMiIKfQ==",
+      "tracking": "ewogICJ0b2tlbiI6ICJlOTI3ZjRhNS05MmIzLTQzMmItYWRjMy04OGE0YTJlMjkwMTJfMiIKfQ==",
+      "workTypes": [
+        "Contract/Temp"
+      ],
+      "workArrangements": {
+        "data": [
+          {
+            "id": "2",
+            "label": {
+              "text": "Hybrid"
+            }
+          }
+        ],
+        "displayText": "Hybrid"
+      }
+    },
+    {
+      "advertiser": {
+        "id": "2684",
+        "description": "Paxus"
+      },
+      "bulletPoints": [],
+      "branding": {},
+      "classifications": [
+        {
+          "classification": {
+            "id": "6281",
+            "description": "Information & Communication Technology"
+          },
+          "subclassification": {
+            "id": "6290",
+            "description": "Engineering - Software"
+          }
+        }
+      ],
+      "companyName": "Paxus",
+      "companyProfileStructuredDataId": 22540,
+      "displayType": "standard",
+      "employer": {
+        "id": "22540",
+        "name": "Paxus"
+      },
+      "id": "95821865",
+      "isFeatured": false,
+      "listingDate": "2026-11-11T02:51:43Z",
+      "listingDateDisplay": "2d ago",
+      "locations": [
+        {
+          "label": "Ultimo, Sydney NSW",
+          "countryCode": "AU",
+          "seoHierarchy": [
+            {
+              "contextualName": "Ultimo NSW 2007"
+            },
+            {
+              "contextualName": "All Sydney NSW"
+            }
+          ]
+        }
+      ],
+      "roleId": "platform-engineer",
+      "salaryLabel": "",
+      "solMetadata": {
+        "searchRequestToken": "a4196879-84e5-413f-b744-ba033df30492",
+        "token": "0~a4196879-84e5-413f-b744-ba033df30492",
+        "jobId": "95821865",
+        "section": "MAIN",
+        "sectionRank": 91,
+        "jobAdType": "ORGANIC",
+        "tags": {
+          "mordor__flights": "mordor_1242",
+          "mordor__s": "4"
+        }
+      },
+      "teaser": "Seeking a senior engineer to take charge of our client's technology platforms - how it will  stay reliable, visible and recoverable",
+      "title": "Senior Platform Engineer",
+      "tracking": "ewogICJ0b2tlbiI6ICJlOTI3ZjRhNS05MmIzLTQzMmItYWRjMy04OGE0YTJlMjkwMTJfMyIKfQ==",
       "workTypes": [
         "Contract/Temp"
       ],
@@ -219,11 +295,11 @@
       "roleId": "Azure-Data-Engineer",
       "salaryLabel": "",
       "solMetadata": {
-        "searchRequestToken": "7dfe99be-d983-4bfc-ab06-16a8ef4b2df0",
-        "token": "0~7dfe99be-d983-4bfc-ab06-16a8ef4b2df0",
+        "searchRequestToken": "a4196879-84e5-413f-b744-ba033df30492",
+        "token": "0~a4196879-84e5-413f-b744-ba033df30492",
         "jobId": "95658355",
         "section": "MAIN",
-        "sectionRank": 91,
+        "sectionRank": 92,
         "jobAdType": "ORGANIC",
         "tags": {
           "mordor__flights": "mordor_1242",
@@ -232,7 +308,7 @@
       },
       "teaser": "Build scalable data pipelines with cloud tech. Work globally on banking solutions. Competitive salary, growth opportunities.",
       "title": "Senior Azure Data Engineer",
-      "tracking": "ewogICJ0b2tlbiI6ICI2NGE5OWQ3Yi01ZDBhLTQ4ZDUtODFlNS1iMzFkYzRlMzBiNzdfMyIKfQ==",
+      "tracking": "ewogICJ0b2tlbiI6ICJlOTI3ZjRhNS05MmIzLTQzMmItYWRjMy04OGE0YTJlMjkwMTJfNCIKfQ==",
       "workTypes": [
         "Full time"
       ],
@@ -302,11 +378,11 @@
       "roleId": "engineer",
       "salaryLabel": "",
       "solMetadata": {
-        "searchRequestToken": "7dfe99be-d983-4bfc-ab06-16a8ef4b2df0",
-        "token": "0~7dfe99be-d983-4bfc-ab06-16a8ef4b2df0",
+        "searchRequestToken": "a4196879-84e5-413f-b744-ba033df30492",
+        "token": "0~a4196879-84e5-413f-b744-ba033df30492",
         "jobId": "95637835",
         "section": "MAIN",
-        "sectionRank": 92,
+        "sectionRank": 93,
         "jobAdType": "ORGANIC",
         "tags": {
           "mordor__flights": "mordor_1242",
@@ -315,7 +391,7 @@
       },
       "teaser": "Principal Software Engineer driving engineering architecture, standards, DevOps, AI, security and technical best practice across global delivery teams",
       "title": "Principal Engineer",
-      "tracking": "ewogICJ0b2tlbiI6ICI2NGE5OWQ3Yi01ZDBhLTQ4ZDUtODFlNS1iMzFkYzRlMzBiNzdfNCIKfQ==",
+      "tracking": "ewogICJ0b2tlbiI6ICJlOTI3ZjRhNS05MmIzLTQzMmItYWRjMy04OGE0YTJlMjkwMTJfNSIKfQ==",
       "workTypes": [
         "Full time"
       ],
@@ -371,7 +447,7 @@
       "id": "95688092",
       "isFeatured": false,
       "listingDate": "2026-11-04T06:09:40Z",
-      "listingDateDisplay": "8d ago",
+      "listingDateDisplay": "9d ago",
       "locations": [
         {
           "label": "Sydney NSW",
@@ -389,11 +465,11 @@
       "roleId": "data-scientist",
       "salaryLabel": "",
       "solMetadata": {
-        "searchRequestToken": "7dfe99be-d983-4bfc-ab06-16a8ef4b2df0",
-        "token": "0~7dfe99be-d983-4bfc-ab06-16a8ef4b2df0",
+        "searchRequestToken": "a4196879-84e5-413f-b744-ba033df30492",
+        "token": "0~a4196879-84e5-413f-b744-ba033df30492",
         "jobId": "95688092",
         "section": "MAIN",
-        "sectionRank": 93,
+        "sectionRank": 94,
         "jobAdType": "ORGANIC",
         "tags": {
           "mordor__flights": "mordor_1242",
@@ -402,7 +478,7 @@
       },
       "teaser": "Build impactful machine learning solutions, influence business decisions and help shape the future of mobility and payments.",
       "title": "Senior Data Scientist",
-      "tracking": "ewogICJ0b2tlbiI6ICI2NGE5OWQ3Yi01ZDBhLTQ4ZDUtODFlNS1iMzFkYzRlMzBiNzdfNSIKfQ==",
+      "tracking": "ewogICJ0b2tlbiI6ICJlOTI3ZjRhNS05MmIzLTQzMmItYWRjMy04OGE0YTJlMjkwMTJfNiIKfQ==",
       "workTypes": [
         "Full time"
       ],
@@ -476,11 +552,11 @@
       "roleId": "data-engineer",
       "salaryLabel": "",
       "solMetadata": {
-        "searchRequestToken": "7dfe99be-d983-4bfc-ab06-16a8ef4b2df0",
-        "token": "0~7dfe99be-d983-4bfc-ab06-16a8ef4b2df0",
+        "searchRequestToken": "a4196879-84e5-413f-b744-ba033df30492",
+        "token": "0~a4196879-84e5-413f-b744-ba033df30492",
         "jobId": "95458323",
         "section": "MAIN",
-        "sectionRank": 94,
+        "sectionRank": 95,
         "jobAdType": "ORGANIC",
         "tags": {
           "mordor__flights": "mordor_1242",
@@ -489,7 +565,7 @@
       },
       "teaser": "Design, build and optimise scalable data solutions that enable AI, analytics and automation initiatives across Harvey Norman.",
       "title": "Data Engineer",
-      "tracking": "ewogICJ0b2tlbiI6ICI2NGE5OWQ3Yi01ZDBhLTQ4ZDUtODFlNS1iMzFkYzRlMzBiNzdfNiIKfQ==",
+      "tracking": "ewogICJ0b2tlbiI6ICJlOTI3ZjRhNS05MmIzLTQzMmItYWRjMy04OGE0YTJlMjkwMTJfNyIKfQ==",
       "workTypes": [
         "Full time"
       ],
@@ -561,11 +637,11 @@
       "roleId": "Head-of-Data-Strategy",
       "salaryLabel": "180000-225000",
       "solMetadata": {
-        "searchRequestToken": "7dfe99be-d983-4bfc-ab06-16a8ef4b2df0",
-        "token": "0~7dfe99be-d983-4bfc-ab06-16a8ef4b2df0",
+        "searchRequestToken": "a4196879-84e5-413f-b744-ba033df30492",
+        "token": "0~a4196879-84e5-413f-b744-ba033df30492",
         "jobId": "95380955",
         "section": "MAIN",
-        "sectionRank": 95,
+        "sectionRank": 96,
         "jobAdType": "ORGANIC",
         "tags": {
           "mordor__flights": "mordor_1242",
@@ -580,7 +656,7 @@
       ],
       "teaser": "Lead data strategy and reporting at a fast-moving Sydney fintech. Hands on, commercial and credible with the C-suite. Hybrid",
       "title": "Head of Data Strategy & Reporting",
-      "tracking": "ewogICJ0b2tlbiI6ICI2NGE5OWQ3Yi01ZDBhLTQ4ZDUtODFlNS1iMzFkYzRlMzBiNzdfNyIKfQ==",
+      "tracking": "ewogICJ0b2tlbiI6ICJlOTI3ZjRhNS05MmIzLTQzMmItYWRjMy04OGE0YTJlMjkwMTJfOCIKfQ==",
       "workTypes": [
         "Full time"
       ],
@@ -654,11 +730,11 @@
       "roleId": "data-engineer",
       "salaryLabel": "",
       "solMetadata": {
-        "searchRequestToken": "7dfe99be-d983-4bfc-ab06-16a8ef4b2df0",
-        "token": "0~7dfe99be-d983-4bfc-ab06-16a8ef4b2df0",
+        "searchRequestToken": "a4196879-84e5-413f-b744-ba033df30492",
+        "token": "0~a4196879-84e5-413f-b744-ba033df30492",
         "jobId": "95606587",
         "section": "MAIN",
-        "sectionRank": 96,
+        "sectionRank": 97,
         "jobAdType": "ORGANIC",
         "tags": {
           "mordor__flights": "mordor_1242",
@@ -673,7 +749,7 @@
       ],
       "teaser": "Lead Pentaho ETL solutions for insurance. Mentor team, mentor developers, shape scalable data architecture globally.",
       "title": "Senior Data Engineer - Pentaho",
-      "tracking": "ewogICJ0b2tlbiI6ICI2NGE5OWQ3Yi01ZDBhLTQ4ZDUtODFlNS1iMzFkYzRlMzBiNzdfOCIKfQ==",
+      "tracking": "ewogICJ0b2tlbiI6ICJlOTI3ZjRhNS05MmIzLTQzMmItYWRjMy04OGE0YTJlMjkwMTJfOSIKfQ==",
       "workTypes": [
         "Full time"
       ],
@@ -728,7 +804,7 @@
       "id": "95871423",
       "isFeatured": false,
       "listingDate": "2026-11-13T02:05:10Z",
-      "listingDateDisplay": "3h ago",
+      "listingDateDisplay": "4h ago",
       "locations": [
         {
           "label": "Macquarie Park, Sydney NSW",
@@ -746,11 +822,11 @@
       "roleId": "systems-engineer",
       "salaryLabel": "",
       "solMetadata": {
-        "searchRequestToken": "7dfe99be-d983-4bfc-ab06-16a8ef4b2df0",
-        "token": "0~7dfe99be-d983-4bfc-ab06-16a8ef4b2df0",
+        "searchRequestToken": "a4196879-84e5-413f-b744-ba033df30492",
+        "token": "0~a4196879-84e5-413f-b744-ba033df30492",
         "jobId": "95871423",
         "section": "MAIN",
-        "sectionRank": 97,
+        "sectionRank": 98,
         "jobAdType": "ORGANIC",
         "tags": {
           "mordor__flights": "mordor_1242",
@@ -765,7 +841,7 @@
       ],
       "teaser": "Hands-on technical role combining software engineering, systems integration, networking, infrastructure, and operational support.",
       "title": "Senior Systems Engineer",
-      "tracking": "ewogICJ0b2tlbiI6ICI2NGE5OWQ3Yi01ZDBhLTQ4ZDUtODFlNS1iMzFkYzRlMzBiNzdfOSIKfQ==",
+      "tracking": "ewogICJ0b2tlbiI6ICJlOTI3ZjRhNS05MmIzLTQzMmItYWRjMy04OGE0YTJlMjkwMTJfMTAiCn0=",
       "workTypes": [
         "Full time"
       ],
@@ -780,109 +856,6 @@
         ],
         "displayText": "Hybrid"
       }
-    },
-    {
-      "advertiser": {
-        "id": "20101884",
-        "description": "PRA"
-      },
-      "bulletPoints": [
-        "Six-month Lead Pega Engineer contract in Sydney, hybrid onsite",
-        "CLSA certified with 6+ years of enterprise Pega experience",
-        "$700 - $800 |Lead a four-person pod with hands-on architecture"
-      ],
-      "branding": {
-        "serpLogoUrl": "https://bx-branding-gateway.cloud.seek.com.au/c5341cdd-1b5e-cd7f-2b77-78e9e3b216b9.1/jdpLogo"
-      },
-      "classifications": [
-        {
-          "classification": {
-            "id": "6281",
-            "description": "Information & Communication Technology"
-          },
-          "subclassification": {
-            "id": "6282",
-            "description": "Architects"
-          }
-        }
-      ],
-      "companyName": "PRA",
-      "companyProfileStructuredDataId": 366779,
-      "displayStyle": {
-        "search": "sourcrProfile"
-      },
-      "displayType": "standard",
-      "employer": {
-        "id": "366779",
-        "name": "PRA"
-      },
-      "id": "95817391",
-      "isFeatured": false,
-      "listingDate": "2026-11-11T00:28:27Z",
-      "listingDateDisplay": "2d ago",
-      "locations": [
-        {
-          "label": "Macquarie Park, Sydney NSW",
-          "countryCode": "AU",
-          "seoHierarchy": [
-            {
-              "contextualName": "Macquarie Park NSW 2113"
-            },
-            {
-              "contextualName": "All Sydney NSW"
-            }
-          ]
-        }
-      ],
-      "salaryLabel": "",
-      "solMetadata": {
-        "searchRequestToken": "7dfe99be-d983-4bfc-ab06-16a8ef4b2df0",
-        "token": "0~7dfe99be-d983-4bfc-ab06-16a8ef4b2df0",
-        "jobId": "95817391",
-        "section": "MAIN",
-        "sectionRank": 98,
-        "jobAdType": "ORGANIC",
-        "tags": {
-          "mordor__flights": "mordor_1242",
-          "mordor__s": "1"
-        }
-      },
-      "tags": [
-        {
-          "type": "EARLY_APPLICANT",
-          "label": "Be an early applicant"
-        }
-      ],
-      "teaser": "The opportunity\r\n\r\nWe're looking for a Lead Pega Engineer to be the principal technical authority and client-facing anchor",
-      "title": "Pega Lead",
-      "tracking": "ewogICJ0b2tlbiI6ICI2NGE5OWQ3Yi01ZDBhLTQ4ZDUtODFlNS1iMzFkYzRlMzBiNzdfMTAiCn0=",
-      "workTypes": [
-        "Contract/Temp"
-      ],
-      "workArrangements": {
-        "data": [
-          {
-            "id": "2",
-            "label": {
-              "text": "Hybrid"
-            }
-          }
-        ],
-        "displayText": "Hybrid"
-      },
-      "externalReferences": [
-        {
-          "id": "32731",
-          "sourceSystem": "sourcr",
-          "type": "recruiter",
-          "metadata": {
-            "assets": {
-              "profilePhotoUrl": "https://media.seekrecruiterprofile.com/uploads/11/53/c1/17/1a/24/2e/15/97/f2/f4/4a/38/3a/77/86/6e58c60cdca29093c75a4f4a5586198d.jpeg"
-            },
-            "name": "Brendan Jacquet"
-          }
-        }
-      ]
     },
     {
       "advertiser": {
@@ -942,8 +915,8 @@
       "roleId": "engineering-manager",
       "salaryLabel": "",
       "solMetadata": {
-        "searchRequestToken": "7dfe99be-d983-4bfc-ab06-16a8ef4b2df0",
-        "token": "0~7dfe99be-d983-4bfc-ab06-16a8ef4b2df0",
+        "searchRequestToken": "a4196879-84e5-413f-b744-ba033df30492",
+        "token": "0~a4196879-84e5-413f-b744-ba033df30492",
         "jobId": "95847947",
         "section": "MAIN",
         "sectionRank": 99,
@@ -955,7 +928,7 @@
       },
       "teaser": "Lead AI-powered engineering at scale. Shape the future of agentic software factories with cutting-edge tools.",
       "title": "Engineering Manager - AI Enablement",
-      "tracking": "ewogICJ0b2tlbiI6ICI2NGE5OWQ3Yi01ZDBhLTQ4ZDUtODFlNS1iMzFkYzRlMzBiNzdfMTEiCn0=",
+      "tracking": "ewogICJ0b2tlbiI6ICJlOTI3ZjRhNS05MmIzLTQzMmItYWRjMy04OGE0YTJlMjkwMTJfMTEiCn0=",
       "workTypes": [
         "Full time"
       ],
@@ -1028,8 +1001,8 @@
       "roleId": "Data-Platform-Manager",
       "salaryLabel": "salary +super",
       "solMetadata": {
-        "searchRequestToken": "7dfe99be-d983-4bfc-ab06-16a8ef4b2df0",
-        "token": "0~7dfe99be-d983-4bfc-ab06-16a8ef4b2df0",
+        "searchRequestToken": "a4196879-84e5-413f-b744-ba033df30492",
+        "token": "0~a4196879-84e5-413f-b744-ba033df30492",
         "jobId": "95507973",
         "section": "MAIN",
         "sectionRank": 100,
@@ -1041,7 +1014,7 @@
       },
       "teaser": "Lead an established team to manage a well-developed data platform and infrastructure",
       "title": "Data Platform Manager",
-      "tracking": "ewogICJ0b2tlbiI6ICI2NGE5OWQ3Yi01ZDBhLTQ4ZDUtODFlNS1iMzFkYzRlMzBiNzdfMTIiCn0=",
+      "tracking": "ewogICJ0b2tlbiI6ICJlOTI3ZjRhNS05MmIzLTQzMmItYWRjMy04OGE0YTJlMjkwMTJfMTIiCn0=",
       "workTypes": [
         "Full time"
       ],
@@ -1108,8 +1081,8 @@
       "roleId": "metering-engineer",
       "salaryLabel": "",
       "solMetadata": {
-        "searchRequestToken": "7dfe99be-d983-4bfc-ab06-16a8ef4b2df0",
-        "token": "0~7dfe99be-d983-4bfc-ab06-16a8ef4b2df0",
+        "searchRequestToken": "a4196879-84e5-413f-b744-ba033df30492",
+        "token": "0~a4196879-84e5-413f-b744-ba033df30492",
         "jobId": "95777307",
         "section": "MAIN",
         "sectionRank": 101,
@@ -1127,100 +1100,7 @@
       ],
       "teaser": "Lead PLUS ES\u2019s technical direction and engineering standards, manage systemic risk and drive innovation in metering, data and grid-edge technology.",
       "title": "Principal Metering Engineer",
-      "tracking": "ewogICJ0b2tlbiI6ICI2NGE5OWQ3Yi01ZDBhLTQ4ZDUtODFlNS1iMzFkYzRlMzBiNzdfMTMiCn0=",
-      "workTypes": [
-        "Full time"
-      ],
-      "workArrangements": {
-        "data": [
-          {
-            "id": "2",
-            "label": {
-              "text": "Hybrid"
-            }
-          }
-        ],
-        "displayText": "Hybrid"
-      }
-    },
-    {
-      "advertiser": {
-        "id": "3127223",
-        "description": "Ricoh Australia Pty Ltd"
-      },
-      "bulletPoints": [
-        "Fair Compensation & Alignment",
-        "Hybrid working - parking onsite available",
-        "Work in the forefront of technology with a supportive team"
-      ],
-      "branding": {
-        "serpLogoUrl": "https://bx-branding-gateway.cloud.seek.com.au/42bbdd15-dea3-1f2d-ec46-8e981c4eae7d.1/jdpLogo"
-      },
-      "classifications": [
-        {
-          "classification": {
-            "id": "6281",
-            "description": "Information & Communication Technology"
-          },
-          "subclassification": {
-            "id": "6293",
-            "description": "Networks & Systems Administration"
-          }
-        }
-      ],
-      "companyName": "Ricoh",
-      "companyProfileStructuredDataId": 2296,
-      "displayStyle": {
-        "search": "sourcrProfile"
-      },
-      "displayType": "standard",
-      "employer": {
-        "id": "2296",
-        "name": "Ricoh",
-        "companyId": "434107",
-        "companyUrl": "https://au.seek.com/companies/ricoh-434107"
-      },
-      "id": "95875334",
-      "isFeatured": false,
-      "listingDate": "2026-11-13T03:53:05Z",
-      "listingDateDisplay": "1h ago",
-      "locations": [
-        {
-          "label": "North Ryde, Sydney NSW",
-          "countryCode": "AU",
-          "seoHierarchy": [
-            {
-              "contextualName": "North Ryde NSW 2113"
-            },
-            {
-              "contextualName": "All Sydney NSW"
-            }
-          ]
-        }
-      ],
-      "roleId": "systems-engineer",
-      "salaryLabel": "",
-      "solMetadata": {
-        "searchRequestToken": "7dfe99be-d983-4bfc-ab06-16a8ef4b2df0",
-        "token": "0~7dfe99be-d983-4bfc-ab06-16a8ef4b2df0",
-        "jobId": "95875334",
-        "section": "MAIN",
-        "sectionRank": 102,
-        "jobAdType": "ORGANIC",
-        "tags": {
-          "mordor__flights": "mordor_1242",
-          "mordor__s": "4"
-        }
-      },
-      "tags": [
-        {
-          "type": "EARLY_APPLICANT",
-          "label": "Be an early applicant"
-        }
-      ],
-      "teaser": "Passionate about Microsoft technologies and solving complex challenges? Join us and help deliver exceptional technical solutions and customer outcomes",
-      "title": "Senior Systems Engineer",
-      "tracking": "ewogICJ0b2tlbiI6ICI2NGE5OWQ3Yi01ZDBhLTQ4ZDUtODFlNS1iMzFkYzRlMzBiNzdfMTQiCn0=",
+      "tracking": "ewogICJ0b2tlbiI6ICJlOTI3ZjRhNS05MmIzLTQzMmItYWRjMy04OGE0YTJlMjkwMTJfMTMiCn0=",
       "workTypes": [
         "Full time"
       ],
@@ -1292,11 +1172,11 @@
       "roleId": "engineer",
       "salaryLabel": "",
       "solMetadata": {
-        "searchRequestToken": "7dfe99be-d983-4bfc-ab06-16a8ef4b2df0",
-        "token": "0~7dfe99be-d983-4bfc-ab06-16a8ef4b2df0",
+        "searchRequestToken": "a4196879-84e5-413f-b744-ba033df30492",
+        "token": "0~a4196879-84e5-413f-b744-ba033df30492",
         "jobId": "95583003",
         "section": "MAIN",
-        "sectionRank": 103,
+        "sectionRank": 102,
         "jobAdType": "ORGANIC",
         "tags": {
           "mordor__flights": "mordor_1242",
@@ -1311,9 +1191,102 @@
       ],
       "teaser": "Next level GraphQL",
       "title": "Staff Full Stack GraphQL Engineer",
-      "tracking": "ewogICJ0b2tlbiI6ICI2NGE5OWQ3Yi01ZDBhLTQ4ZDUtODFlNS1iMzFkYzRlMzBiNzdfMTUiCn0=",
+      "tracking": "ewogICJ0b2tlbiI6ICJlOTI3ZjRhNS05MmIzLTQzMmItYWRjMy04OGE0YTJlMjkwMTJfMTQiCn0=",
       "workTypes": [
         "Contract/Temp"
+      ],
+      "workArrangements": {
+        "data": [
+          {
+            "id": "2",
+            "label": {
+              "text": "Hybrid"
+            }
+          }
+        ],
+        "displayText": "Hybrid"
+      }
+    },
+    {
+      "advertiser": {
+        "id": "3127223",
+        "description": "Ricoh Australia Pty Ltd"
+      },
+      "bulletPoints": [
+        "Fair Compensation & Alignment",
+        "Hybrid working - parking onsite available",
+        "Work in the forefront of technology with a supportive team"
+      ],
+      "branding": {
+        "serpLogoUrl": "https://bx-branding-gateway.cloud.seek.com.au/42bbdd15-dea3-1f2d-ec46-8e981c4eae7d.1/jdpLogo"
+      },
+      "classifications": [
+        {
+          "classification": {
+            "id": "6281",
+            "description": "Information & Communication Technology"
+          },
+          "subclassification": {
+            "id": "6293",
+            "description": "Networks & Systems Administration"
+          }
+        }
+      ],
+      "companyName": "Ricoh",
+      "companyProfileStructuredDataId": 2296,
+      "displayStyle": {
+        "search": "sourcrProfile"
+      },
+      "displayType": "standard",
+      "employer": {
+        "id": "2296",
+        "name": "Ricoh",
+        "companyId": "434107",
+        "companyUrl": "https://au.seek.com/companies/ricoh-434107"
+      },
+      "id": "95875334",
+      "isFeatured": false,
+      "listingDate": "2026-11-13T03:53:05Z",
+      "listingDateDisplay": "2h ago",
+      "locations": [
+        {
+          "label": "North Ryde, Sydney NSW",
+          "countryCode": "AU",
+          "seoHierarchy": [
+            {
+              "contextualName": "North Ryde NSW 2113"
+            },
+            {
+              "contextualName": "All Sydney NSW"
+            }
+          ]
+        }
+      ],
+      "roleId": "systems-engineer",
+      "salaryLabel": "",
+      "solMetadata": {
+        "searchRequestToken": "a4196879-84e5-413f-b744-ba033df30492",
+        "token": "0~a4196879-84e5-413f-b744-ba033df30492",
+        "jobId": "95875334",
+        "section": "MAIN",
+        "sectionRank": 103,
+        "jobAdType": "ORGANIC",
+        "tags": {
+          "mordor__flights": "mordor_1242",
+          "mordor__s": "4"
+        }
+      },
+      "tags": [
+        {
+          "type": "EARLY_APPLICANT",
+          "label": "Be an early applicant"
+        }
+      ],
+      "teaser": "Passionate about Microsoft technologies and solving complex challenges? Join us and help deliver exceptional technical solutions and customer outcomes",
+      "title": "Senior Systems Engineer",
+      "tracking": "ewogICJ0b2tlbiI6ICJlOTI3ZjRhNS05MmIzLTQzMmItYWRjMy04OGE0YTJlMjkwMTJfMTUiCn0=",
+      "workTypes": [
+        "Full time"
       ],
       "workArrangements": {
         "data": [
@@ -1383,8 +1356,8 @@
       "roleId": "automation-specialist",
       "salaryLabel": "Market allowance may be negotiated.",
       "solMetadata": {
-        "searchRequestToken": "7dfe99be-d983-4bfc-ab06-16a8ef4b2df0",
-        "token": "0~7dfe99be-d983-4bfc-ab06-16a8ef4b2df0",
+        "searchRequestToken": "a4196879-84e5-413f-b744-ba033df30492",
+        "token": "0~a4196879-84e5-413f-b744-ba033df30492",
         "jobId": "95742251",
         "section": "MAIN",
         "sectionRank": 104,
@@ -1396,7 +1369,7 @@
       },
       "teaser": "Public Sector People are proud to be partnering with Inner West Council to appoint a Senior Integration and Automation Specialist.",
       "title": "Senior Integration and Automation Specialist",
-      "tracking": "ewogICJ0b2tlbiI6ICI2NGE5OWQ3Yi01ZDBhLTQ4ZDUtODFlNS1iMzFkYzRlMzBiNzdfMTYiCn0=",
+      "tracking": "ewogICJ0b2tlbiI6ICJlOTI3ZjRhNS05MmIzLTQzMmItYWRjMy04OGE0YTJlMjkwMTJfMTYiCn0=",
       "workTypes": [
         "Full time"
       ],
@@ -1483,8 +1456,8 @@
       "roleId": "technical-lead",
       "salaryLabel": "Up to $1,000/day ACN or up to $210K (inc super) Ma",
       "solMetadata": {
-        "searchRequestToken": "7dfe99be-d983-4bfc-ab06-16a8ef4b2df0",
-        "token": "0~7dfe99be-d983-4bfc-ab06-16a8ef4b2df0",
+        "searchRequestToken": "a4196879-84e5-413f-b744-ba033df30492",
+        "token": "0~a4196879-84e5-413f-b744-ba033df30492",
         "jobId": "95848690",
         "section": "MAIN",
         "sectionRank": 105,
@@ -1502,7 +1475,7 @@
       ],
       "teaser": "Lead a critical Db2 for z/OS transformation in a senior hands-on role. Fully remote, long-term engagement.",
       "title": "Senior Db2 for z/OS Technical Lead",
-      "tracking": "ewogICJ0b2tlbiI6ICI2NGE5OWQ3Yi01ZDBhLTQ4ZDUtODFlNS1iMzFkYzRlMzBiNzdfMTciCn0=",
+      "tracking": "ewogICJ0b2tlbiI6ICJlOTI3ZjRhNS05MmIzLTQzMmItYWRjMy04OGE0YTJlMjkwMTJfMTciCn0=",
       "workTypes": [
         "Full time"
       ],
@@ -1574,8 +1547,8 @@
       "roleId": "engineer",
       "salaryLabel": "",
       "solMetadata": {
-        "searchRequestToken": "7dfe99be-d983-4bfc-ab06-16a8ef4b2df0",
-        "token": "0~7dfe99be-d983-4bfc-ab06-16a8ef4b2df0",
+        "searchRequestToken": "a4196879-84e5-413f-b744-ba033df30492",
+        "token": "0~a4196879-84e5-413f-b744-ba033df30492",
         "jobId": "95790166",
         "section": "MAIN",
         "sectionRank": 106,
@@ -1587,7 +1560,7 @@
       },
       "teaser": "Next gen of Dynamics 365",
       "title": "Staff .NET & Microsoft Dynamics 365 Engineer",
-      "tracking": "ewogICJ0b2tlbiI6ICI2NGE5OWQ3Yi01ZDBhLTQ4ZDUtODFlNS1iMzFkYzRlMzBiNzdfMTgiCn0=",
+      "tracking": "ewogICJ0b2tlbiI6ICJlOTI3ZjRhNS05MmIzLTQzMmItYWRjMy04OGE0YTJlMjkwMTJfMTgiCn0=",
       "workTypes": [
         "Contract/Temp"
       ],
@@ -1661,8 +1634,8 @@
       "roleId": "cloud-platform-engineer",
       "salaryLabel": "",
       "solMetadata": {
-        "searchRequestToken": "7dfe99be-d983-4bfc-ab06-16a8ef4b2df0",
-        "token": "0~7dfe99be-d983-4bfc-ab06-16a8ef4b2df0",
+        "searchRequestToken": "a4196879-84e5-413f-b744-ba033df30492",
+        "token": "0~a4196879-84e5-413f-b744-ba033df30492",
         "jobId": "95395260",
         "section": "MAIN",
         "sectionRank": 107,
@@ -1680,7 +1653,7 @@
       ],
       "teaser": "Compare Club is looking for a hands-on Lead Cloud Platform Engineer (AWS) as the definitive technical authority for our cloud infrastructure.",
       "title": "Lead Cloud Platform Engineer",
-      "tracking": "ewogICJ0b2tlbiI6ICI2NGE5OWQ3Yi01ZDBhLTQ4ZDUtODFlNS1iMzFkYzRlMzBiNzdfMTkiCn0=",
+      "tracking": "ewogICJ0b2tlbiI6ICJlOTI3ZjRhNS05MmIzLTQzMmItYWRjMy04OGE0YTJlMjkwMTJfMTkiCn0=",
       "workTypes": [
         "Full time"
       ],
@@ -1754,8 +1727,8 @@
       "roleId": "data-engineer",
       "salaryLabel": "",
       "solMetadata": {
-        "searchRequestToken": "7dfe99be-d983-4bfc-ab06-16a8ef4b2df0",
-        "token": "0~7dfe99be-d983-4bfc-ab06-16a8ef4b2df0",
+        "searchRequestToken": "a4196879-84e5-413f-b744-ba033df30492",
+        "token": "0~a4196879-84e5-413f-b744-ba033df30492",
         "jobId": "95569793",
         "section": "MAIN",
         "sectionRank": 108,
@@ -1773,7 +1746,7 @@
       ],
       "teaser": "Build scalable cloud data platforms. Lead ETL/ELT pipelines with Redshift, Databricks & dbt. Career growth guaranteed.",
       "title": "Lead Data Engineer",
-      "tracking": "ewogICJ0b2tlbiI6ICI2NGE5OWQ3Yi01ZDBhLTQ4ZDUtODFlNS1iMzFkYzRlMzBiNzdfMjAiCn0=",
+      "tracking": "ewogICJ0b2tlbiI6ICJlOTI3ZjRhNS05MmIzLTQzMmItYWRjMy04OGE0YTJlMjkwMTJfMjAiCn0=",
       "workTypes": [
         "Full time"
       ],
@@ -1844,8 +1817,8 @@
       "roleId": "network-engineer",
       "salaryLabel": "$160-190k Plus Super, Parking, Hybrid",
       "solMetadata": {
-        "searchRequestToken": "7dfe99be-d983-4bfc-ab06-16a8ef4b2df0",
-        "token": "0~7dfe99be-d983-4bfc-ab06-16a8ef4b2df0",
+        "searchRequestToken": "a4196879-84e5-413f-b744-ba033df30492",
+        "token": "0~a4196879-84e5-413f-b744-ba033df30492",
         "jobId": "95776875",
         "section": "MAIN",
         "sectionRank": 109,
@@ -1857,7 +1830,7 @@
       },
       "teaser": "Hybrid role in enterprise environment. Hands-on delivery across Fortinet, Palo Alto, MPLS/WAN, HLD/LLD, RCA and security projects.",
       "title": "Senior Network Engineer - Fortinet",
-      "tracking": "ewogICJ0b2tlbiI6ICI2NGE5OWQ3Yi01ZDBhLTQ4ZDUtODFlNS1iMzFkYzRlMzBiNzdfMjEiCn0=",
+      "tracking": "ewogICJ0b2tlbiI6ICJlOTI3ZjRhNS05MmIzLTQzMmItYWRjMy04OGE0YTJlMjkwMTJfMjEiCn0=",
       "workTypes": [
         "Full time"
       ],
@@ -1942,8 +1915,8 @@
       "roleId": "full-stack-software-engineer",
       "salaryLabel": "",
       "solMetadata": {
-        "searchRequestToken": "7dfe99be-d983-4bfc-ab06-16a8ef4b2df0",
-        "token": "0~7dfe99be-d983-4bfc-ab06-16a8ef4b2df0",
+        "searchRequestToken": "a4196879-84e5-413f-b744-ba033df30492",
+        "token": "0~a4196879-84e5-413f-b744-ba033df30492",
         "jobId": "95522590",
         "section": "MAIN",
         "sectionRank": 110,
@@ -1961,7 +1934,7 @@
       ],
       "teaser": "Senior Fullstack Engineer | Technical Lead Pathway | .NET, React, Azure",
       "title": "Senior Fullstack Engineer - Technical Lead Pathway | .NET, React, Azure",
-      "tracking": "ewogICJ0b2tlbiI6ICI2NGE5OWQ3Yi01ZDBhLTQ4ZDUtODFlNS1iMzFkYzRlMzBiNzdfMjIiCn0=",
+      "tracking": "ewogICJ0b2tlbiI6ICJlOTI3ZjRhNS05MmIzLTQzMmItYWRjMy04OGE0YTJlMjkwMTJfMjIiCn0=",
       "workTypes": [
         "Full time"
       ],
@@ -1980,10 +1953,10 @@
   ],
   "totalCount": 375,
   "info": {
-    "timeTaken": 45,
+    "timeTaken": 54,
     "source": "JobSearch-sm",
     "experiment": "mordor_1242",
-    "newSince": 1794549120
+    "newSince": 1794550611
   },
   "userQueryId": "API7234244878383014960",
   "location": {
@@ -2012,8 +1985,8 @@
     }
   ],
   "solMetadata": {
-    "requestToken": "7dfe99be-d983-4bfc-ab06-16a8ef4b2df0",
-    "token": "0~7dfe99be-d983-4bfc-ab06-16a8ef4b2df0",
+    "requestToken": "a4196879-84e5-413f-b744-ba033df30492",
+    "token": "0~a4196879-84e5-413f-b744-ba033df30492",
     "keywords": "principal data engineer",
     "sortMode": "RELEVANCE",
     "locations": [
@@ -2028,7 +2001,7 @@
       "mordor:searchMarket": "UNIFIED_AU",
       "mordor:result_count_rst": "3",
       "mordor:result_count_vec": "314",
-      "mordor:rt": "37",
+      "mordor:rt": "44",
       "mordor:count_vec": "314",
       "mordor__flights": "mordor_1242",
       "mordor:count_rst": "3",
