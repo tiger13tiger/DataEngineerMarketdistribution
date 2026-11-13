@@ -3,9 +3,9 @@
   "date": "2026-11-13",
   "source": "SEEK live ads, All Sydney NSW (automated pipeline)",
   "totals": {
-    "ads": 66,
+    "ads": 65,
     "senior_plus": 38,
-    "mid_junior": 28
+    "mid_junior": 27
   },
   "by_cloud": [
     {
@@ -14,13 +14,13 @@
       "senior_plus": null
     },
     {
-      "cloud": "Azure",
+      "cloud": "AWS",
       "ads": 10,
       "senior_plus": null
     },
     {
-      "cloud": "AWS",
-      "ads": 10,
+      "cloud": "Azure",
+      "ads": 9,
       "senior_plus": null
     },
     {
@@ -30,9 +30,9 @@
     }
   ],
   "work_type": {
-    "full_time": 46,
+    "full_time": 45,
     "contract": 20,
-    "contract_pct": 30
+    "contract_pct": 31
   },
   "level": [
     {
@@ -41,7 +41,7 @@
     },
     {
       "level": "Mid",
-      "ads": 26
+      "ads": 25
     },
     {
       "level": "Senior",
@@ -69,7 +69,7 @@
     },
     {
       "week_start": "2026-10-26",
-      "ads": 20
+      "ads": 19
     },
     {
       "week_start": "2026-11-02",
@@ -106,11 +106,11 @@
       "pct": 5
     },
     {
-      "skill": "Spark",
+      "skill": "Power BI",
       "pct": 2
     },
     {
-      "skill": "Power BI",
+      "skill": "Spark",
       "pct": 2
     }
   ],
