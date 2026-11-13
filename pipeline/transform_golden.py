@@ -86,6 +86,21 @@ def weekly_postings(ads: list) -> list:
     return [{"week_start": k, "ads": v} for k, v in sorted(weeks.items())]
 
 
+def latest_monthly_trend(manifest: dict):
+    """JSA vacancy trend isn't scraped; carry forward the newest one so the dashboard keeps it."""
+    for entry in reversed(manifest.get("snapshots", [])):
+        path = REPO_ROOT / entry["data"]
+        if not path.exists():
+            continue
+        trend = json.loads(path.read_text()).get("monthly_trend")
+        if trend:
+            trend = dict(trend)
+            base = trend.get("note", "").split(" [Carried forward")[0]
+            trend["note"] = f"{base} [Carried forward from snapshot {entry['id']}; update when JSA publishes a new month.]".strip()
+            return trend
+    return None
+
+
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--staging-dir", required=True)
@@ -115,6 +130,10 @@ def main() -> None:
     work_type_counts = Counter(a["work_type"] for a in ads)
     contract = work_type_counts.get("Contract", 0)
 
+    manifest_path = DATA_DIR / "manifest.json"
+    manifest = json.loads(manifest_path.read_text()) if manifest_path.exists() else {"snapshots": []}
+    manifest["snapshots"] = [s for s in manifest["snapshots"] if s["id"] != run_id]
+
     skills_pct, skills_sample = pct_table(ads, "skills", "skill")
     resp_pct, resp_sample = pct_table(ads, "responsibilities", "responsibility")
 
@@ -136,23 +155,20 @@ def main() -> None:
         "weekly_postings": weekly_postings(ads),
         "skills_pct": skills_pct,
         "responsibilities_pct": resp_pct,
-        "monthly_trend": None,
+        "monthly_trend": latest_monthly_trend(manifest),
         "methodology": (
             f"Automated pipeline: SEEK search API, DE-type titles only. Skills/responsibilities "
             f"% are over the {skills_sample} ad(s) with a full detail page or SEEK bullet points "
             "(title + teaser + bullets keyword match; shorter than full ad text, so shares run "
             "lower than the hand-built snapshots). Cloud counts use the same text. Salary is the "
             "median of annual ranges stated in search results (day rates excluded). The JSA "
-            "monthly-vacancy trend is not computed by the automated pipeline."
+            "monthly-vacancy trend is carried forward from the latest snapshot that has it."
         ),
     }
 
     DATA_DIR.mkdir(exist_ok=True)
     (DATA_DIR / f"{run_id}.json").write_text(json.dumps(snapshot, indent=2) + "\n")
 
-    manifest_path = DATA_DIR / "manifest.json"
-    manifest = json.loads(manifest_path.read_text()) if manifest_path.exists() else {"snapshots": []}
-    manifest["snapshots"] = [s for s in manifest["snapshots"] if s["id"] != run_id]
     manifest["snapshots"].append(
         {
             "id": run_id,
