@@ -1,0 +1,246 @@
+{
+  "id": "seek-sydney-de-market-2026-11-14",
+  "date": "2026-11-14",
+  "source": "SEEK live ads, All Sydney NSW (automated pipeline)",
+  "totals": {
+    "ads": 69,
+    "senior_plus": 40,
+    "mid_junior": 29
+  },
+  "by_cloud": [
+    {
+      "cloud": "No cloud named",
+      "ads": 46,
+      "senior_plus": null
+    },
+    {
+      "cloud": "Azure",
+      "ads": 11,
+      "senior_plus": null
+    },
+    {
+      "cloud": "AWS",
+      "ads": 11,
+      "senior_plus": null
+    },
+    {
+      "cloud": "GCP",
+      "ads": 3,
+      "senior_plus": null
+    }
+  ],
+  "work_type": {
+    "full_time": 48,
+    "contract": 21,
+    "contract_pct": 30
+  },
+  "level": [
+    {
+      "level": "Junior",
+      "ads": 2
+    },
+    {
+      "level": "Mid",
+      "ads": 27
+    },
+    {
+      "level": "Senior",
+      "ads": 35
+    },
+    {
+      "level": "Principal/Manager",
+      "ads": 5
+    }
+  ],
+  "salary": {
+    "median_aud": 165000,
+    "sample_size": 16,
+    "min_aud": 110000,
+    "max_aud": 275000
+  },
+  "weekly_postings": [
+    {
+      "week_start": "2026-10-19",
+      "ads": 17
+    },
+    {
+      "week_start": "2026-10-26",
+      "ads": 20
+    },
+    {
+      "week_start": "2026-11-02",
+      "ads": 15
+    },
+    {
+      "week_start": "2026-11-09",
+      "ads": 17
+    }
+  ],
+  "skills_pct": [
+    {
+      "skill": "SQL",
+      "pct": 25
+    },
+    {
+      "skill": "Python/PySpark",
+      "pct": 20
+    },
+    {
+      "skill": "Snowflake",
+      "pct": 14
+    },
+    {
+      "skill": "Databricks",
+      "pct": 9
+    },
+    {
+      "skill": "Airflow",
+      "pct": 5
+    },
+    {
+      "skill": "dbt",
+      "pct": 5
+    },
+    {
+      "skill": "Spark",
+      "pct": 2
+    },
+    {
+      "skill": "Power BI",
+      "pct": 2
+    }
+  ],
+  "responsibilities_pct": [
+    {
+      "responsibility": "Pipelines ETL/ELT",
+      "pct": 32
+    },
+    {
+      "responsibility": "Mentoring/leading",
+      "pct": 27
+    },
+    {
+      "responsibility": "Monitoring & support",
+      "pct": 16
+    },
+    {
+      "responsibility": "Platform architecture",
+      "pct": 16
+    },
+    {
+      "responsibility": "Stakeholder collaboration",
+      "pct": 14
+    },
+    {
+      "responsibility": "Data quality/governance/security",
+      "pct": 5
+    },
+    {
+      "responsibility": "Enable BI/reporting",
+      "pct": 5
+    },
+    {
+      "responsibility": "CI/CD & DevOps",
+      "pct": 2
+    }
+  ],
+  "monthly_trend": {
+    "note": "JSA Internet Vacancy Index, 3-month avg. Levels before Sep 2026 are reconstructed by compounding the published month-on-month % changes back from the Sep 2026 anchor (JSA publishes the % deltas; earlier absolute levels are derived here, not independently sourced, so treat them as approximate). [Carried forward from snapshot seek-sydney-de-market-2026-11-13; update when JSA publishes a new month.]",
+    "metrics": [
+      {
+        "id": "ict-professionals",
+        "label": "Greater Sydney \u2013 ICT Professionals",
+        "latest_level": 2016,
+        "mom_pct": 2.4,
+        "yoy_pct": -15.8,
+        "history": [
+          {
+            "month": "2025-10",
+            "level": 2312,
+            "mom_pct": -3.5
+          },
+          {
+            "month": "2025-11",
+            "level": 2245,
+            "mom_pct": -2.9
+          },
+          {
+            "month": "2025-12",
+            "level": 1985,
+            "mom_pct": -11.6
+          },
+          {
+            "month": "2026-01",
+            "level": 1929,
+            "mom_pct": -2.8
+          },
+          {
+            "month": "2026-02",
+            "level": 1958,
+            "mom_pct": 1.5
+          },
+          {
+            "month": "2026-03",
+            "level": 2225,
+            "mom_pct": 13.6
+          },
+          {
+            "month": "2026-04",
+            "level": 2164,
+            "mom_pct": -2.7
+          },
+          {
+            "month": "2026-05",
+            "level": 2127,
+            "mom_pct": -1.7
+          },
+          {
+            "month": "2026-06",
+            "level": 1959,
+            "mom_pct": -7.9
+          },
+          {
+            "month": "2026-07",
+            "level": 1995,
+            "mom_pct": 1.8
+          },
+          {
+            "month": "2026-08",
+            "level": 1969,
+            "mom_pct": -1.3
+          },
+          {
+            "month": "2026-09",
+            "level": 2016,
+            "mom_pct": 2.4
+          }
+        ]
+      },
+      {
+        "id": "software-programmers",
+        "label": "NSW Software & Applications Programmers (2613)",
+        "latest_level": 1060,
+        "mom_pct": 2.2,
+        "yoy_pct": -28.0,
+        "history": []
+      },
+      {
+        "id": "db-admins-security",
+        "label": "NSW Database/Systems Admins & ICT Security (2621)",
+        "latest_level": 166,
+        "mom_pct": 1.8,
+        "yoy_pct": -8.8,
+        "history": []
+      },
+      {
+        "id": "all-jobs",
+        "label": "Greater Sydney \u2013 all jobs",
+        "latest_level": 44625,
+        "mom_pct": 2.9,
+        "yoy_pct": -2.6,
+        "history": []
+      }
+    ]
+  },
+  "methodology": "Automated pipeline: SEEK search API, DE-type titles only. Skills/responsibilities % are over the 44 ad(s) with a full detail page or SEEK bullet points (title + teaser + bullets keyword match; shorter than full ad text, so shares run lower than the hand-built snapshots). Cloud counts use the same text. Salary is the median of annual ranges stated in search results (day rates excluded). The JSA monthly-vacancy trend is carried forward from the latest snapshot that has it."
+}

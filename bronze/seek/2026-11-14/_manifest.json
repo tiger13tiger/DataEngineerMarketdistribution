@@ -1,0 +1,34 @@
+{
+  "fetched_at": "2026-11-14T00:22:53.133053+00:00",
+  "keywords": [
+    "data engineer",
+    "senior data engineer",
+    "lead data engineer",
+    "principal data engineer"
+  ],
+  "where": "All Sydney NSW",
+  "endpoint": "https://www.seek.com.au/api/jobsearch/v5/search",
+  "files": [
+    "bronze/seek/2026-11-14/data-engineer_page1.json",
+    "bronze/seek/2026-11-14/data-engineer_page2.json",
+    "bronze/seek/2026-11-14/data-engineer_page3.json",
+    "bronze/seek/2026-11-14/data-engineer_page4.json",
+    "bronze/seek/2026-11-14/data-engineer_page5.json",
+    "bronze/seek/2026-11-14/senior-data-engineer_page1.json",
+    "bronze/seek/2026-11-14/senior-data-engineer_page2.json",
+    "bronze/seek/2026-11-14/senior-data-engineer_page3.json",
+    "bronze/seek/2026-11-14/senior-data-engineer_page4.json",
+    "bronze/seek/2026-11-14/senior-data-engineer_page5.json",
+    "bronze/seek/2026-11-14/lead-data-engineer_page1.json",
+    "bronze/seek/2026-11-14/lead-data-engineer_page2.json",
+    "bronze/seek/2026-11-14/lead-data-engineer_page3.json",
+    "bronze/seek/2026-11-14/lead-data-engineer_page4.json",
+    "bronze/seek/2026-11-14/lead-data-engineer_page5.json",
+    "bronze/seek/2026-11-14/principal-data-engineer_page1.json",
+    "bronze/seek/2026-11-14/principal-data-engineer_page2.json",
+    "bronze/seek/2026-11-14/principal-data-engineer_page3.json",
+    "bronze/seek/2026-11-14/principal-data-engineer_page4.json",
+    "bronze/seek/2026-11-14/principal-data-engineer_page5.json"
+  ],
+  "errors": []
+}

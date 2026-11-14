@@ -1,3 +1,10 @@
 {
-  "deltas": []
+  "deltas": [
+    {
+      "date": "2026-11-14",
+      "from": "seek-sydney-de-market-2026-11-13",
+      "to": "seek-sydney-de-market-2026-11-14",
+      "file": "data/deltas/2026-11-14.json"
+    }
+  ]
 }
