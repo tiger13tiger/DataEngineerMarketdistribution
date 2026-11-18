@@ -1,0 +1,1923 @@
+{
+  "data": [
+    {
+      "advertiser": {
+        "id": "20659157",
+        "description": "HammondCare"
+      },
+      "bulletPoints": [
+        "Exciting opportunity to join dynamic NFP",
+        "Increase your take home pay with our salary packaging!",
+        "Make a difference"
+      ],
+      "branding": {
+        "serpLogoUrl": "https://bx-branding-gateway.cloud.seek.com.au/b8e86893-e101-49b6-bc97-aab338570025.1/jdpLogo"
+      },
+      "classifications": [
+        {
+          "classification": {
+            "id": "6281",
+            "description": "Information & Communication Technology"
+          },
+          "subclassification": {
+            "id": "6290",
+            "description": "Engineering - Software"
+          }
+        }
+      ],
+      "companyName": "HammondCare",
+      "companyProfileStructuredDataId": 830,
+      "displayStyle": {
+        "search": "sourcrProfile"
+      },
+      "displayType": "standard",
+      "employer": {
+        "id": "830",
+        "name": "HammondCare",
+        "companyId": "434584",
+        "companyUrl": "https://au.seek.com/companies/hammondcare-434584"
+      },
+      "id": "95574176",
+      "isFeatured": false,
+      "listingDate": "2026-10-29T04:59:27Z",
+      "listingDateDisplay": "19d ago",
+      "locations": [
+        {
+          "label": "St Leonards, Sydney NSW",
+          "countryCode": "AU",
+          "seoHierarchy": [
+            {
+              "contextualName": "St Leonards NSW 2065"
+            },
+            {
+              "contextualName": "All Sydney NSW"
+            }
+          ]
+        }
+      ],
+      "roleId": "data-engineer",
+      "salaryLabel": "",
+      "solMetadata": {
+        "searchRequestToken": "fceca788-2c19-4c27-8b36-56117e536cd8",
+        "token": "0~fceca788-2c19-4c27-8b36-56117e536cd8",
+        "jobId": "95574176",
+        "section": "MAIN",
+        "sectionRank": 67,
+        "jobAdType": "ORGANIC",
+        "tags": {
+          "mordor__flights": "mordor_1242",
+          "mordor__s": "0"
+        }
+      },
+      "teaser": "Provide tech leadership across Data Engineering function by establishing engineering standards,guiding solution design&uplift engineering capability",
+      "title": "Senior Data Engineer",
+      "tracking": "ewogICJ0b2tlbiI6ICIyYzZmMGVjMy0zYzE1LTRjYzQtOWE4YS0zNGMzODFkYTExYWRfMSIKfQ==",
+      "workTypes": [
+        "Full time"
+      ],
+      "workArrangements": {
+        "data": [
+          {
+            "id": "2",
+            "label": {
+              "text": "Hybrid"
+            }
+          }
+        ],
+        "displayText": "Hybrid"
+      }
+    },
+    {
+      "advertiser": {
+        "id": "3490876",
+        "description": "Commonwealth Bank"
+      },
+      "bulletPoints": [
+        "Grow your potential in a culture built for learning, progress and ambition.",
+        "Belong to a vibrant community united by courage, care and commitment.",
+        "Shape what\u2019s next through work that delivers real impact at scale"
+      ],
+      "branding": {
+        "serpLogoUrl": "https://bx-branding-gateway.cloud.seek.com.au/a071179e-6899-4edd-9cb4-e0c6404ea1af.1/jdpLogo"
+      },
+      "classifications": [
+        {
+          "classification": {
+            "id": "6281",
+            "description": "Information & Communication Technology"
+          },
+          "subclassification": {
+            "id": "6283",
+            "description": "Business/Systems Analysts"
+          }
+        }
+      ],
+      "companyName": "CommBank",
+      "companyProfileStructuredDataId": 2034,
+      "displayStyle": {
+        "search": "sourcrProfile"
+      },
+      "displayType": "standard",
+      "employer": {
+        "id": "2034",
+        "name": "CommBank",
+        "companyId": "432306",
+        "companyUrl": "https://au.seek.com/companies/commbank-432306"
+      },
+      "id": "95730128",
+      "isFeatured": false,
+      "listingDate": "2026-11-05T23:33:17Z",
+      "listingDateDisplay": "12d ago",
+      "locations": [
+        {
+          "label": "Eveleigh, Sydney NSW",
+          "countryCode": "AU",
+          "seoHierarchy": [
+            {
+              "contextualName": "Eveleigh NSW 2015"
+            },
+            {
+              "contextualName": "All Sydney NSW"
+            }
+          ]
+        }
+      ],
+      "roleId": "data-scientist",
+      "salaryLabel": "",
+      "solMetadata": {
+        "searchRequestToken": "fceca788-2c19-4c27-8b36-56117e536cd8",
+        "token": "0~fceca788-2c19-4c27-8b36-56117e536cd8",
+        "jobId": "95730128",
+        "section": "MAIN",
+        "sectionRank": 68,
+        "jobAdType": "ORGANIC",
+        "tags": {
+          "mordor__flights": "mordor_1242",
+          "mordor__s": "0"
+        }
+      },
+      "teaser": "Build production-ready generative AI solutions. Shape the future of banking with cutting-edge technology.",
+      "title": "Data Scientist, Gen AI",
+      "tracking": "ewogICJ0b2tlbiI6ICIyYzZmMGVjMy0zYzE1LTRjYzQtOWE4YS0zNGMzODFkYTExYWRfMiIKfQ==",
+      "workTypes": [
+        "Full time"
+      ],
+      "workArrangements": {
+        "data": [
+          {
+            "id": "1",
+            "label": {
+              "text": "On-site"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "advertiser": {
+        "id": "26878441",
+        "description": "News Corp Australia"
+      },
+      "bulletPoints": [
+        "Excellent platform to continue growing your career",
+        "Collaborate with a passionate and like-minded team",
+        "Hybrid working environment with 2 days working from home"
+      ],
+      "branding": {
+        "serpLogoUrl": "https://bx-branding-gateway.cloud.seek.com.au/d0c8e08b-b7bb-f974-96bf-9bc7665ab6f1.1/jdpLogo"
+      },
+      "classifications": [
+        {
+          "classification": {
+            "id": "6281",
+            "description": "Information & Communication Technology"
+          },
+          "subclassification": {
+            "id": "6290",
+            "description": "Engineering - Software"
+          }
+        }
+      ],
+      "companyName": "News Corp",
+      "companyProfileStructuredDataId": 4091,
+      "displayStyle": {
+        "search": "sourcrProfile"
+      },
+      "displayType": "standard",
+      "employer": {
+        "id": "4091",
+        "name": "News Corp",
+        "companyId": "433222",
+        "companyUrl": "https://au.seek.com/companies/news-corp-433222"
+      },
+      "id": "95652771",
+      "isFeatured": false,
+      "listingDate": "2026-11-03T01:54:00Z",
+      "listingDateDisplay": "14d ago",
+      "locations": [
+        {
+          "label": "Surry Hills, Sydney NSW",
+          "countryCode": "AU",
+          "seoHierarchy": [
+            {
+              "contextualName": "Surry Hills NSW 2010"
+            },
+            {
+              "contextualName": "All Sydney NSW"
+            }
+          ]
+        }
+      ],
+      "roleId": "data-engineer",
+      "salaryLabel": "",
+      "solMetadata": {
+        "searchRequestToken": "fceca788-2c19-4c27-8b36-56117e536cd8",
+        "token": "0~fceca788-2c19-4c27-8b36-56117e536cd8",
+        "jobId": "95652771",
+        "section": "MAIN",
+        "sectionRank": 69,
+        "jobAdType": "ORGANIC",
+        "tags": {
+          "mordor__flights": "mordor_1242",
+          "mordor__s": "0"
+        }
+      },
+      "teaser": "Design, Develop and Optimise advanced data platform architecture to support News Corp Australia's requirements",
+      "title": "Senior Data Engineer",
+      "tracking": "ewogICJ0b2tlbiI6ICIyYzZmMGVjMy0zYzE1LTRjYzQtOWE4YS0zNGMzODFkYTExYWRfMyIKfQ==",
+      "workTypes": [
+        "Full time"
+      ],
+      "workArrangements": {
+        "data": [
+          {
+            "id": "2",
+            "label": {
+              "text": "Hybrid"
+            }
+          }
+        ],
+        "displayText": "Hybrid"
+      }
+    },
+    {
+      "advertiser": {
+        "id": "28245416",
+        "description": "Cognizant"
+      },
+      "bulletPoints": [
+        "Make a real impact by solving meaningful challenges for global clients",
+        "Be part of a collaborative culture where every voice is valued",
+        "Grow your career with continuous learning and development opportunities"
+      ],
+      "branding": {
+        "serpLogoUrl": "https://bx-branding-gateway.cloud.seek.com.au/56dc9488-c74f-696b-e720-50754133aed9.1/jdpLogo"
+      },
+      "classifications": [
+        {
+          "classification": {
+            "id": "6281",
+            "description": "Information & Communication Technology"
+          },
+          "subclassification": {
+            "id": "6287",
+            "description": "Developers/Programmers"
+          }
+        }
+      ],
+      "companyName": "Cognizant",
+      "companyProfileStructuredDataId": 81,
+      "displayStyle": {
+        "search": "sourcrProfile"
+      },
+      "displayType": "standard",
+      "employer": {
+        "id": "81",
+        "name": "Cognizant",
+        "companyId": "432362",
+        "companyUrl": "https://au.seek.com/companies/cognizant-432362"
+      },
+      "id": "95658361",
+      "isFeatured": false,
+      "listingDate": "2026-11-03T04:35:30Z",
+      "listingDateDisplay": "14d ago",
+      "locations": [
+        {
+          "label": "Sydney NSW",
+          "countryCode": "AU",
+          "seoHierarchy": [
+            {
+              "contextualName": "All Sydney NSW"
+            },
+            {
+              "contextualName": "New South Wales NSW"
+            }
+          ]
+        }
+      ],
+      "roleId": "Cloud-Data-Engineer",
+      "salaryLabel": "",
+      "solMetadata": {
+        "searchRequestToken": "fceca788-2c19-4c27-8b36-56117e536cd8",
+        "token": "0~fceca788-2c19-4c27-8b36-56117e536cd8",
+        "jobId": "95658361",
+        "section": "MAIN",
+        "sectionRank": 70,
+        "jobAdType": "ORGANIC",
+        "tags": {
+          "mordor__flights": "mordor_1242",
+          "mordor__s": "0"
+        }
+      },
+      "teaser": "Scale global impact with cloud data pipelines. Join Cognizant's innovative tech team and grow your engineering career.",
+      "title": "Cloud Data Engineer",
+      "tracking": "ewogICJ0b2tlbiI6ICIyYzZmMGVjMy0zYzE1LTRjYzQtOWE4YS0zNGMzODFkYTExYWRfNCIKfQ==",
+      "workTypes": [
+        "Full time"
+      ],
+      "workArrangements": {
+        "data": [
+          {
+            "id": "1",
+            "label": {
+              "text": "On-site"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "advertiser": {
+        "id": "3490876",
+        "description": "Commonwealth Bank"
+      },
+      "bulletPoints": [
+        "Grow your potential in a culture built for learning, progress and ambition.",
+        "Belong to a vibrant community united by courage, care and commitment.",
+        "Shape what\u2019s next through work that delivers real impact at scale"
+      ],
+      "branding": {
+        "serpLogoUrl": "https://bx-branding-gateway.cloud.seek.com.au/a071179e-6899-4edd-9cb4-e0c6404ea1af.1/jdpLogo"
+      },
+      "classifications": [
+        {
+          "classification": {
+            "id": "6281",
+            "description": "Information & Communication Technology"
+          },
+          "subclassification": {
+            "id": "6290",
+            "description": "Engineering - Software"
+          }
+        }
+      ],
+      "companyName": "CommBank",
+      "companyProfileStructuredDataId": 2034,
+      "displayStyle": {
+        "search": "sourcrProfile"
+      },
+      "displayType": "standard",
+      "employer": {
+        "id": "2034",
+        "name": "CommBank",
+        "companyId": "432306",
+        "companyUrl": "https://au.seek.com/companies/commbank-432306"
+      },
+      "id": "95915528",
+      "isFeatured": false,
+      "listingDate": "2026-11-16T05:00:10Z",
+      "listingDateDisplay": "1d ago",
+      "locations": [
+        {
+          "label": "Sydney NSW",
+          "countryCode": "AU",
+          "seoHierarchy": [
+            {
+              "contextualName": "All Sydney NSW"
+            },
+            {
+              "contextualName": "New South Wales NSW"
+            }
+          ]
+        }
+      ],
+      "roleId": "data-scientist",
+      "salaryLabel": "",
+      "solMetadata": {
+        "searchRequestToken": "fceca788-2c19-4c27-8b36-56117e536cd8",
+        "token": "0~fceca788-2c19-4c27-8b36-56117e536cd8",
+        "jobId": "95915528",
+        "section": "MAIN",
+        "sectionRank": 71,
+        "jobAdType": "ORGANIC",
+        "tags": {
+          "mordor__flights": "mordor_1242",
+          "mordor__s": "0"
+        }
+      },
+      "teaser": "Work with cutting-edge AI at Australia's #4 ranked AI-mature bank. Hybrid roles, mentoring, real impact.",
+      "title": "Join our Data Science & AI Talent Community at CommBank",
+      "tracking": "ewogICJ0b2tlbiI6ICIyYzZmMGVjMy0zYzE1LTRjYzQtOWE4YS0zNGMzODFkYTExYWRfNSIKfQ==",
+      "workTypes": [
+        "Full time"
+      ],
+      "workArrangements": {
+        "data": [
+          {
+            "id": "2",
+            "label": {
+              "text": "Hybrid"
+            }
+          }
+        ],
+        "displayText": "Hybrid"
+      }
+    },
+    {
+      "advertiser": {
+        "id": "19388886",
+        "description": "Sydney Water"
+      },
+      "bulletPoints": [
+        "Join a supportive team delivering services to millions of customers",
+        "Hybrid role based in Parramatta with flexible work options",
+        "Improve asset performance across water and wastewater networks"
+      ],
+      "branding": {
+        "serpLogoUrl": "https://bx-branding-gateway.cloud.seek.com.au/e9262954-d73b-405c-8dcf-967125bc0e47.1/jdpLogo"
+      },
+      "classifications": [
+        {
+          "classification": {
+            "id": "1209",
+            "description": "Engineering"
+          },
+          "subclassification": {
+            "id": "6041",
+            "description": "Water & Waste Engineering"
+          }
+        }
+      ],
+      "companyName": "Sydney Water",
+      "companyProfileStructuredDataId": 765,
+      "displayStyle": {
+        "search": "sourcrProfile"
+      },
+      "displayType": "standard",
+      "employer": {
+        "id": "765",
+        "name": "Sydney Water",
+        "companyId": "432784",
+        "companyUrl": "https://au.seek.com/companies/sydney-water-432784"
+      },
+      "id": "95742835",
+      "isFeatured": false,
+      "listingDate": "2026-11-06T06:05:15Z",
+      "listingDateDisplay": "11d ago",
+      "locations": [
+        {
+          "label": "Parramatta, Sydney NSW",
+          "countryCode": "AU",
+          "seoHierarchy": [
+            {
+              "contextualName": "Parramatta NSW 2150"
+            },
+            {
+              "contextualName": "All Sydney NSW"
+            }
+          ]
+        }
+      ],
+      "roleId": "Operational-Data-Analyst",
+      "salaryLabel": "",
+      "solMetadata": {
+        "searchRequestToken": "fceca788-2c19-4c27-8b36-56117e536cd8",
+        "token": "0~fceca788-2c19-4c27-8b36-56117e536cd8",
+        "jobId": "95742835",
+        "section": "MAIN",
+        "sectionRank": 72,
+        "jobAdType": "ORGANIC",
+        "tags": {
+          "mordor__flights": "mordor_1242",
+          "mordor__s": "1"
+        }
+      },
+      "teaser": "Use data and analytics to improve water and wastewater operations, driving performance, customer outcomes and continuous improvement.",
+      "title": "Operational Data Analyst",
+      "tracking": "ewogICJ0b2tlbiI6ICIyYzZmMGVjMy0zYzE1LTRjYzQtOWE4YS0zNGMzODFkYTExYWRfNiIKfQ==",
+      "workTypes": [
+        "Full time"
+      ],
+      "workArrangements": {
+        "data": [
+          {
+            "id": "2",
+            "label": {
+              "text": "Hybrid"
+            }
+          }
+        ],
+        "displayText": "Hybrid"
+      }
+    },
+    {
+      "advertiser": {
+        "id": "63429174",
+        "description": "Resource Corner IT Services Ltd"
+      },
+      "bulletPoints": [],
+      "branding": {},
+      "classifications": [
+        {
+          "classification": {
+            "id": "6281",
+            "description": "Information & Communication Technology"
+          },
+          "subclassification": {
+            "id": "6290",
+            "description": "Engineering - Software"
+          }
+        }
+      ],
+      "companyProfileStructuredDataId": 0,
+      "displayStyle": {
+        "search": "sourcrProfile"
+      },
+      "displayType": "standard",
+      "id": "95458010",
+      "isFeatured": false,
+      "listingDate": "2026-10-23T05:14:17Z",
+      "listingDateDisplay": "25d ago",
+      "locations": [
+        {
+          "label": "Sydney NSW",
+          "countryCode": "AU",
+          "seoHierarchy": [
+            {
+              "contextualName": "All Sydney NSW"
+            },
+            {
+              "contextualName": "New South Wales NSW"
+            }
+          ]
+        }
+      ],
+      "roleId": "data-engineer",
+      "salaryLabel": "",
+      "solMetadata": {
+        "searchRequestToken": "fceca788-2c19-4c27-8b36-56117e536cd8",
+        "token": "0~fceca788-2c19-4c27-8b36-56117e536cd8",
+        "jobId": "95458010",
+        "section": "MAIN",
+        "sectionRank": 73,
+        "jobAdType": "ORGANIC",
+        "tags": {
+          "mordor__flights": "mordor_1242",
+          "mordor__s": "0"
+        }
+      },
+      "tags": [
+        {
+          "type": "EXPIRES_SOON",
+          "label": "Expiring soon"
+        }
+      ],
+      "teaser": "Data engineering role building dbt transformation models, Snowflake SQL, and Apache Airflow pipelines on AWS.",
+      "title": "Senior Data Engineer",
+      "tracking": "ewogICJ0b2tlbiI6ICIyYzZmMGVjMy0zYzE1LTRjYzQtOWE4YS0zNGMzODFkYTExYWRfNyIKfQ==",
+      "workTypes": [
+        "Contract/Temp"
+      ],
+      "workArrangements": {
+        "data": [
+          {
+            "id": "1",
+            "label": {
+              "text": "On-site"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "advertiser": {
+        "id": "36964043",
+        "description": "oOh!"
+      },
+      "bulletPoints": [],
+      "branding": {},
+      "classifications": [
+        {
+          "classification": {
+            "id": "6281",
+            "description": "Information & Communication Technology"
+          },
+          "subclassification": {
+            "id": "6287",
+            "description": "Developers/Programmers"
+          }
+        }
+      ],
+      "companyName": "oOh!media",
+      "companyProfileStructuredDataId": 23066,
+      "displayStyle": {
+        "search": "sourcrProfile"
+      },
+      "displayType": "standard",
+      "employer": {
+        "id": "23066",
+        "name": "oOh!media",
+        "companyId": "861517",
+        "companyUrl": "https://au.seek.com/companies/oohmedia-861517"
+      },
+      "id": "95854015",
+      "isFeatured": false,
+      "listingDate": "2026-11-12T06:06:42Z",
+      "listingDateDisplay": "5d ago",
+      "locations": [
+        {
+          "label": "North Sydney, Sydney NSW",
+          "countryCode": "AU",
+          "seoHierarchy": [
+            {
+              "contextualName": "North Sydney NSW 2060"
+            },
+            {
+              "contextualName": "All Sydney NSW"
+            }
+          ]
+        }
+      ],
+      "roleId": "data-scientist",
+      "salaryLabel": "",
+      "solMetadata": {
+        "searchRequestToken": "fceca788-2c19-4c27-8b36-56117e536cd8",
+        "token": "0~fceca788-2c19-4c27-8b36-56117e536cd8",
+        "jobId": "95854015",
+        "section": "MAIN",
+        "sectionRank": 74,
+        "jobAdType": "ORGANIC",
+        "tags": {
+          "mordor__flights": "mordor_1242",
+          "mordor__s": "0"
+        }
+      },
+      "teaser": "We are looking for a Data Scientist to join our team at oOh!media",
+      "title": "Data Scientist",
+      "tracking": "ewogICJ0b2tlbiI6ICIyYzZmMGVjMy0zYzE1LTRjYzQtOWE4YS0zNGMzODFkYTExYWRfOCIKfQ==",
+      "workTypes": [
+        "Full time"
+      ],
+      "workArrangements": {
+        "data": [
+          {
+            "id": "2",
+            "label": {
+              "text": "Hybrid"
+            }
+          }
+        ],
+        "displayText": "Hybrid"
+      }
+    },
+    {
+      "advertiser": {
+        "id": "45143741",
+        "description": "Lanson Partners"
+      },
+      "bulletPoints": [
+        "Build and optimise high-performance KDB+/q platforms and real-time systems",
+        "Work on HDB/RDB, large-scale data, performance, resilience and scalability",
+        "Hybrid model - Sydney ideally but open to Melbourne/Brisbane."
+      ],
+      "branding": {
+        "serpLogoUrl": "https://bx-branding-gateway.cloud.seek.com.au/6e725846-dacb-41ff-a16d-577ba9f59fbd.1/jdpLogo"
+      },
+      "classifications": [
+        {
+          "classification": {
+            "id": "6281",
+            "description": "Information & Communication Technology"
+          },
+          "subclassification": {
+            "id": "6290",
+            "description": "Engineering - Software"
+          }
+        }
+      ],
+      "companyName": "Lanson Partners",
+      "companyProfileStructuredDataId": 451033,
+      "displayStyle": {
+        "search": "sourcrProfile"
+      },
+      "displayType": "standard",
+      "employer": {
+        "id": "451033",
+        "name": "Lanson Partners"
+      },
+      "id": "95940840",
+      "isFeatured": false,
+      "listingDate": "2026-11-17T04:36:45Z",
+      "listingDateDisplay": "21h ago",
+      "locations": [
+        {
+          "label": "Sydney NSW",
+          "countryCode": "AU",
+          "seoHierarchy": [
+            {
+              "contextualName": "All Sydney NSW"
+            },
+            {
+              "contextualName": "New South Wales NSW"
+            }
+          ]
+        }
+      ],
+      "roleId": "KDB-Engineer",
+      "salaryLabel": "",
+      "solMetadata": {
+        "searchRequestToken": "fceca788-2c19-4c27-8b36-56117e536cd8",
+        "token": "0~fceca788-2c19-4c27-8b36-56117e536cd8",
+        "jobId": "95940840",
+        "section": "MAIN",
+        "sectionRank": 75,
+        "jobAdType": "ORGANIC",
+        "tags": {
+          "mordor__flights": "mordor_1242",
+          "mordor__s": "0"
+        }
+      },
+      "tags": [
+        {
+          "type": "EARLY_APPLICANT",
+          "label": "Be an early applicant"
+        }
+      ],
+      "teaser": "Hands-on KDB+/q engineering role focused on performance, scale, reliability and complex real-time systems in a major financial institution.",
+      "title": "KDB Engineer",
+      "tracking": "ewogICJ0b2tlbiI6ICIyYzZmMGVjMy0zYzE1LTRjYzQtOWE4YS0zNGMzODFkYTExYWRfOSIKfQ==",
+      "workTypes": [
+        "Full time"
+      ],
+      "workArrangements": {
+        "data": [
+          {
+            "id": "2",
+            "label": {
+              "text": "Hybrid"
+            }
+          }
+        ],
+        "displayText": "Hybrid"
+      }
+    },
+    {
+      "advertiser": {
+        "id": "28245416",
+        "description": "Cognizant"
+      },
+      "bulletPoints": [
+        "Make a real impact by solving meaningful challenges for global clients",
+        "Be part of a collaborative culture where every voice is valued",
+        "Grow your career with continuous learning and development opportunities"
+      ],
+      "branding": {
+        "serpLogoUrl": "https://bx-branding-gateway.cloud.seek.com.au/56dc9488-c74f-696b-e720-50754133aed9.1/jdpLogo"
+      },
+      "classifications": [
+        {
+          "classification": {
+            "id": "6281",
+            "description": "Information & Communication Technology"
+          },
+          "subclassification": {
+            "id": "6287",
+            "description": "Developers/Programmers"
+          }
+        }
+      ],
+      "companyName": "Cognizant",
+      "companyProfileStructuredDataId": 81,
+      "displayStyle": {
+        "search": "sourcrProfile"
+      },
+      "displayType": "standard",
+      "employer": {
+        "id": "81",
+        "name": "Cognizant",
+        "companyId": "432362",
+        "companyUrl": "https://au.seek.com/companies/cognizant-432362"
+      },
+      "id": "95658357",
+      "isFeatured": false,
+      "listingDate": "2026-11-03T04:35:28Z",
+      "listingDateDisplay": "14d ago",
+      "locations": [
+        {
+          "label": "Sydney NSW",
+          "countryCode": "AU",
+          "seoHierarchy": [
+            {
+              "contextualName": "All Sydney NSW"
+            },
+            {
+              "contextualName": "New South Wales NSW"
+            }
+          ]
+        }
+      ],
+      "roleId": "Azure-Data-Engineer",
+      "salaryLabel": "",
+      "solMetadata": {
+        "searchRequestToken": "fceca788-2c19-4c27-8b36-56117e536cd8",
+        "token": "0~fceca788-2c19-4c27-8b36-56117e536cd8",
+        "jobId": "95658357",
+        "section": "MAIN",
+        "sectionRank": 76,
+        "jobAdType": "ORGANIC",
+        "tags": {
+          "mordor__flights": "mordor_1242",
+          "mordor__s": "0"
+        }
+      },
+      "tags": [
+        {
+          "type": "EARLY_APPLICANT",
+          "label": "Be an early applicant"
+        }
+      ],
+      "teaser": "Lead enterprise data solutions. Work with global teams. Grow your skills in Azure, Spark & banking tech.",
+      "title": "Azure Data Engineer",
+      "tracking": "ewogICJ0b2tlbiI6ICIyYzZmMGVjMy0zYzE1LTRjYzQtOWE4YS0zNGMzODFkYTExYWRfMTAiCn0=",
+      "workTypes": [
+        "Full time"
+      ],
+      "workArrangements": {
+        "data": [
+          {
+            "id": "1",
+            "label": {
+              "text": "On-site"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "advertiser": {
+        "id": "61404587",
+        "description": "SG Fleet Group Ltd"
+      },
+      "bulletPoints": [],
+      "branding": {
+        "serpLogoUrl": "https://bx-branding-gateway.cloud.seek.com.au/a287840f-0238-479c-85a1-bff28d38ea5a.1/jdpLogo"
+      },
+      "classifications": [
+        {
+          "classification": {
+            "id": "6281",
+            "description": "Information & Communication Technology"
+          },
+          "subclassification": {
+            "id": "6286",
+            "description": "Database Development & Administration"
+          }
+        }
+      ],
+      "companyName": "SG Fleet",
+      "companyProfileStructuredDataId": 4335,
+      "displayStyle": {
+        "search": "sourcrProfile"
+      },
+      "displayType": "standard",
+      "employer": {
+        "id": "4335",
+        "name": "SG Fleet",
+        "companyId": "436932",
+        "companyUrl": "https://au.seek.com/companies/sg-fleet-436932"
+      },
+      "id": "95392513",
+      "isFeatured": false,
+      "listingDate": "2026-10-20T23:53:10Z",
+      "listingDateDisplay": "28d ago",
+      "locations": [
+        {
+          "label": "Pymble, Sydney NSW",
+          "countryCode": "AU",
+          "seoHierarchy": [
+            {
+              "contextualName": "Pymble NSW 2073"
+            },
+            {
+              "contextualName": "All Sydney NSW"
+            }
+          ]
+        }
+      ],
+      "roleId": "Data-and-Analytics-Engineer",
+      "salaryLabel": "",
+      "solMetadata": {
+        "searchRequestToken": "fceca788-2c19-4c27-8b36-56117e536cd8",
+        "token": "0~fceca788-2c19-4c27-8b36-56117e536cd8",
+        "jobId": "95392513",
+        "section": "MAIN",
+        "sectionRank": 77,
+        "jobAdType": "ORGANIC",
+        "tags": {
+          "mordor__flights": "mordor_1242",
+          "mordor__s": "0"
+        }
+      },
+      "tags": [
+        {
+          "type": "EXPIRES_SOON",
+          "label": "Expiring soon"
+        }
+      ],
+      "teaser": "Lead the development of modern data platforms, pipelines and analytics solutions using Azure and Databricks.",
+      "title": "Senior Data and Analytics Engineer",
+      "tracking": "ewogICJ0b2tlbiI6ICIyYzZmMGVjMy0zYzE1LTRjYzQtOWE4YS0zNGMzODFkYTExYWRfMTEiCn0=",
+      "workTypes": [
+        "Full time"
+      ],
+      "workArrangements": {
+        "data": [
+          {
+            "id": "2",
+            "label": {
+              "text": "Hybrid"
+            }
+          }
+        ],
+        "displayText": "Hybrid"
+      }
+    },
+    {
+      "advertiser": {
+        "id": "27705684",
+        "description": "Bluefin Resources Pty Limited"
+      },
+      "bulletPoints": [],
+      "branding": {},
+      "classifications": [
+        {
+          "classification": {
+            "id": "6281",
+            "description": "Information & Communication Technology"
+          },
+          "subclassification": {
+            "id": "6286",
+            "description": "Database Development & Administration"
+          }
+        }
+      ],
+      "companyName": "Bluefin Resources",
+      "companyProfileStructuredDataId": 22594,
+      "displayType": "standard",
+      "employer": {
+        "id": "22594",
+        "name": "Bluefin Resources"
+      },
+      "id": "95685042",
+      "isFeatured": false,
+      "listingDate": "2026-11-04T04:32:05Z",
+      "listingDateDisplay": "13d ago",
+      "locations": [
+        {
+          "label": "Sydney NSW",
+          "countryCode": "AU",
+          "seoHierarchy": [
+            {
+              "contextualName": "All Sydney NSW"
+            },
+            {
+              "contextualName": "New South Wales NSW"
+            }
+          ]
+        }
+      ],
+      "roleId": "database-engineer",
+      "salaryLabel": "",
+      "solMetadata": {
+        "searchRequestToken": "fceca788-2c19-4c27-8b36-56117e536cd8",
+        "token": "0~fceca788-2c19-4c27-8b36-56117e536cd8",
+        "jobId": "95685042",
+        "section": "MAIN",
+        "sectionRank": 78,
+        "jobAdType": "ORGANIC",
+        "tags": {
+          "mordor__flights": "mordor_1242",
+          "mordor__s": "0"
+        }
+      },
+      "teaser": "A major bank in Sydney is seeking a Senior SQL Database Engineer (AI Ops) for a permanent role.",
+      "title": "Senior SQL Database Engineer- AI Ops- Major Bank",
+      "tracking": "ewogICJ0b2tlbiI6ICIyYzZmMGVjMy0zYzE1LTRjYzQtOWE4YS0zNGMzODFkYTExYWRfMTIiCn0=",
+      "workTypes": [
+        "Full time"
+      ],
+      "workArrangements": {
+        "data": [
+          {
+            "id": "1",
+            "label": {
+              "text": "On-site"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "advertiser": {
+        "id": "34308753",
+        "description": "The Recruitment Company"
+      },
+      "bulletPoints": [],
+      "branding": {},
+      "classifications": [
+        {
+          "classification": {
+            "id": "6281",
+            "description": "Information & Communication Technology"
+          },
+          "subclassification": {
+            "id": "6287",
+            "description": "Developers/Programmers"
+          }
+        }
+      ],
+      "companyName": "The Recruitment Company",
+      "companyProfileStructuredDataId": 346496,
+      "displayType": "standard",
+      "employer": {
+        "id": "346496",
+        "name": "The Recruitment Company"
+      },
+      "id": "95879868",
+      "isFeatured": false,
+      "listingDate": "2026-11-13T07:11:59Z",
+      "listingDateDisplay": "4d ago",
+      "locations": [
+        {
+          "label": "Sydney NSW",
+          "countryCode": "AU",
+          "seoHierarchy": [
+            {
+              "contextualName": "All Sydney NSW"
+            },
+            {
+              "contextualName": "New South Wales NSW"
+            }
+          ]
+        }
+      ],
+      "roleId": "Data-Engineering-Lead",
+      "salaryLabel": "Daily Rate Contract $$$$$",
+      "solMetadata": {
+        "searchRequestToken": "fceca788-2c19-4c27-8b36-56117e536cd8",
+        "token": "0~fceca788-2c19-4c27-8b36-56117e536cd8",
+        "jobId": "95879868",
+        "section": "MAIN",
+        "sectionRank": 79,
+        "jobAdType": "ORGANIC",
+        "tags": {
+          "mordor__flights": "mordor_1242",
+          "mordor__s": "0"
+        }
+      },
+      "teaser": "Lead the delivery of scalable AWS and Databricks data platforms, drive meaningful outcomes and help shape the future of data engineering.",
+      "title": "AWS Data Engineering Lead",
+      "tracking": "ewogICJ0b2tlbiI6ICIyYzZmMGVjMy0zYzE1LTRjYzQtOWE4YS0zNGMzODFkYTExYWRfMTMiCn0=",
+      "workTypes": [
+        "Contract/Temp"
+      ],
+      "workArrangements": {
+        "data": [
+          {
+            "id": "1",
+            "label": {
+              "text": "On-site"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "advertiser": {
+        "id": "44894396",
+        "description": "PERSOL"
+      },
+      "bulletPoints": [
+        "Own 60-70% of BAU delivery, production support & data engineering initiatives",
+        "Must have Commercial or General Insurance industry experience",
+        "Lead BAU operations, reporting cycles & data transformation projects"
+      ],
+      "branding": {
+        "serpLogoUrl": "https://bx-branding-gateway.cloud.seek.com.au/430a436a-1ee3-4dfc-2a07-2a70c30f31ca.1/jdpLogo"
+      },
+      "classifications": [
+        {
+          "classification": {
+            "id": "6281",
+            "description": "Information & Communication Technology"
+          },
+          "subclassification": {
+            "id": "6286",
+            "description": "Database Development & Administration"
+          }
+        }
+      ],
+      "companyName": "PERSOL",
+      "companyProfileStructuredDataId": 373175,
+      "displayStyle": {
+        "search": "sourcrProfile"
+      },
+      "displayType": "standard",
+      "employer": {
+        "id": "373175",
+        "name": "PERSOL",
+        "companyId": "158440463237956",
+        "companyUrl": "https://au.seek.com/companies/persol-158440463237956"
+      },
+      "id": "95535934",
+      "isFeatured": false,
+      "listingDate": "2026-10-28T00:36:41Z",
+      "listingDateDisplay": "21d ago",
+      "locations": [
+        {
+          "label": "Sydney NSW",
+          "countryCode": "AU",
+          "seoHierarchy": [
+            {
+              "contextualName": "All Sydney NSW"
+            },
+            {
+              "contextualName": "New South Wales NSW"
+            }
+          ]
+        }
+      ],
+      "roleId": "Data-Engineering-Manager",
+      "salaryLabel": "$150,000- $180,000",
+      "solMetadata": {
+        "searchRequestToken": "fceca788-2c19-4c27-8b36-56117e536cd8",
+        "token": "0~fceca788-2c19-4c27-8b36-56117e536cd8",
+        "jobId": "95535934",
+        "section": "MAIN",
+        "sectionRank": 80,
+        "jobAdType": "ORGANIC",
+        "tags": {
+          "mordor__flights": "mordor_1242",
+          "mordor__s": "0"
+        }
+      },
+      "teaser": "Join a global insurer driving BAU operations, reporting and data transformation. Hybrid Sydney opportunity.",
+      "title": "Data Engineering Manager/Senior Data Engineer",
+      "tracking": "ewogICJ0b2tlbiI6ICIyYzZmMGVjMy0zYzE1LTRjYzQtOWE4YS0zNGMzODFkYTExYWRfMTQiCn0=",
+      "workTypes": [
+        "Full time"
+      ],
+      "workArrangements": {
+        "data": [
+          {
+            "id": "2",
+            "label": {
+              "text": "Hybrid"
+            }
+          }
+        ],
+        "displayText": "Hybrid"
+      }
+    },
+    {
+      "advertiser": {
+        "id": "21696545",
+        "description": "Avida"
+      },
+      "bulletPoints": [
+        "Make a real impact through business-critical technology projects",
+        "Collaborate across teams to drive innovation and improvement",
+        "Grow your skills in cloud, data, automation, and AI technologies"
+      ],
+      "branding": {
+        "serpLogoUrl": "https://bx-branding-gateway.cloud.seek.com.au/106470e0-9b2c-0780-8767-9f2930ead484.1/jdpLogo"
+      },
+      "classifications": [
+        {
+          "classification": {
+            "id": "6281",
+            "description": "Information & Communication Technology"
+          },
+          "subclassification": {
+            "id": "6286",
+            "description": "Database Development & Administration"
+          }
+        }
+      ],
+      "companyName": "Avida",
+      "companyProfileStructuredDataId": 347307,
+      "displayStyle": {
+        "search": "sourcrProfile"
+      },
+      "displayType": "standard",
+      "employer": {
+        "id": "347307",
+        "name": "Avida",
+        "companyId": "1024193",
+        "companyUrl": "https://au.seek.com/companies/avida-1024193"
+      },
+      "id": "95930057",
+      "isFeatured": false,
+      "listingDate": "2026-11-16T21:56:55Z",
+      "listingDateDisplay": "1d ago",
+      "locations": [
+        {
+          "label": "Emu Plains, Sydney NSW",
+          "countryCode": "AU",
+          "seoHierarchy": [
+            {
+              "contextualName": "Emu Plains NSW 2750"
+            },
+            {
+              "contextualName": "All Sydney NSW"
+            }
+          ]
+        }
+      ],
+      "roleId": "data-analyst",
+      "salaryLabel": "",
+      "solMetadata": {
+        "searchRequestToken": "fceca788-2c19-4c27-8b36-56117e536cd8",
+        "token": "0~fceca788-2c19-4c27-8b36-56117e536cd8",
+        "jobId": "95930057",
+        "section": "MAIN",
+        "sectionRank": 81,
+        "jobAdType": "ORGANIC",
+        "tags": {
+          "mordor__flights": "mordor_1242",
+          "mordor__s": "4"
+        }
+      },
+      "teaser": "Drive organisation-wide improvements by partnering with stakeholders to deliver smarter IT, better reporting, and innovative technology solutions.",
+      "title": "Data Analyst",
+      "tracking": "ewogICJ0b2tlbiI6ICIyYzZmMGVjMy0zYzE1LTRjYzQtOWE4YS0zNGMzODFkYTExYWRfMTUiCn0=",
+      "workTypes": [
+        "Full time"
+      ],
+      "workArrangements": {
+        "data": [
+          {
+            "id": "1",
+            "label": {
+              "text": "On-site"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "advertiser": {
+        "id": "400021817",
+        "description": "Google"
+      },
+      "bulletPoints": [
+        "Room and opportunities to grow \u2013 on your own and with team mates",
+        "Resources to support your growth, productivity, and wellbeing",
+        "Flexibility to get your best work"
+      ],
+      "branding": {
+        "serpLogoUrl": "https://bx-branding-gateway.cloud.seek.com.au/faf0f148-c066-4509-b8f9-3bfea6e896dc.1/jdpLogo"
+      },
+      "classifications": [
+        {
+          "classification": {
+            "id": "6281",
+            "description": "Information & Communication Technology"
+          },
+          "subclassification": {
+            "id": "6282",
+            "description": "Architects"
+          }
+        }
+      ],
+      "companyName": "Google",
+      "companyProfileStructuredDataId": 4946,
+      "displayStyle": {
+        "search": "sourcrProfile"
+      },
+      "displayType": "standard",
+      "employer": {
+        "id": "4946",
+        "name": "Google",
+        "companyId": "433216",
+        "companyUrl": "https://au.seek.com/companies/google-433216"
+      },
+      "id": "95950243",
+      "isFeatured": false,
+      "listingDate": "2026-11-17T09:48:33Z",
+      "listingDateDisplay": "15h ago",
+      "locations": [
+        {
+          "label": "Sydney NSW",
+          "countryCode": "AU",
+          "seoHierarchy": [
+            {
+              "contextualName": "All Sydney NSW"
+            },
+            {
+              "contextualName": "New South Wales NSW"
+            }
+          ]
+        }
+      ],
+      "roleId": "Cloud-Sales-Specialist",
+      "salaryLabel": "World Class Benefits",
+      "solMetadata": {
+        "searchRequestToken": "fceca788-2c19-4c27-8b36-56117e536cd8",
+        "token": "0~fceca788-2c19-4c27-8b36-56117e536cd8",
+        "jobId": "95950243",
+        "section": "MAIN",
+        "sectionRank": 82,
+        "jobAdType": "ORGANIC",
+        "tags": {
+          "mordor__flights": "mordor_1242",
+          "mordor__s": "0"
+        }
+      },
+      "teaser": "Drive Google Cloud's data and AI growth. Sell cutting-edge solutions to enterprise leaders. Competitive package, Sydney or Melbourne.",
+      "title": "Data Cloud Sales Specialist III, Google Cloud (English)",
+      "tracking": "ewogICJ0b2tlbiI6ICIyYzZmMGVjMy0zYzE1LTRjYzQtOWE4YS0zNGMzODFkYTExYWRfMTYiCn0=",
+      "workTypes": [
+        "Full time"
+      ],
+      "workArrangements": {
+        "data": [
+          {
+            "id": "1",
+            "label": {
+              "text": "On-site"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "advertiser": {
+        "id": "27852761",
+        "description": "Lookahead"
+      },
+      "bulletPoints": [],
+      "branding": {},
+      "classifications": [
+        {
+          "classification": {
+            "id": "6281",
+            "description": "Information & Communication Technology"
+          },
+          "subclassification": {
+            "id": "6290",
+            "description": "Engineering - Software"
+          }
+        }
+      ],
+      "companyName": "Lookahead",
+      "companyProfileStructuredDataId": 465937,
+      "displayType": "standard",
+      "employer": {
+        "id": "465937",
+        "name": "Lookahead"
+      },
+      "id": "95680178",
+      "isFeatured": false,
+      "listingDate": "2026-11-04T02:30:46Z",
+      "listingDateDisplay": "13d ago",
+      "locations": [
+        {
+          "label": "Sydney NSW",
+          "countryCode": "AU",
+          "seoHierarchy": [
+            {
+              "contextualName": "All Sydney NSW"
+            },
+            {
+              "contextualName": "New South Wales NSW"
+            }
+          ]
+        }
+      ],
+      "roleId": "implementation-engineer",
+      "salaryLabel": "",
+      "solMetadata": {
+        "searchRequestToken": "fceca788-2c19-4c27-8b36-56117e536cd8",
+        "token": "0~fceca788-2c19-4c27-8b36-56117e536cd8",
+        "jobId": "95680178",
+        "section": "MAIN",
+        "sectionRank": 83,
+        "jobAdType": "ORGANIC",
+        "tags": {
+          "mordor__flights": "mordor_1242",
+          "mordor__s": "0"
+        }
+      },
+      "teaser": "Help build the data pipelines behind a platform that helps organisations manage supply chain risk, improve efficiency and uphold their values.",
+      "title": "Staff Data Implementations Engineer (contract or perm)",
+      "tracking": "ewogICJ0b2tlbiI6ICIyYzZmMGVjMy0zYzE1LTRjYzQtOWE4YS0zNGMzODFkYTExYWRfMTciCn0=",
+      "workTypes": [
+        "Full time"
+      ],
+      "workArrangements": {
+        "data": [
+          {
+            "id": "3",
+            "label": {
+              "text": "Remote"
+            }
+          }
+        ],
+        "displayText": "Remote"
+      }
+    },
+    {
+      "advertiser": {
+        "id": "401135233",
+        "description": "Recruitment Hive"
+      },
+      "bulletPoints": [
+        "12 + 12 month contract - Baseline clearance required",
+        "Surry Hills, NSW or VIC offices - Flexible work arrangements",
+        "Senior APS6 role - December start date"
+      ],
+      "branding": {
+        "serpLogoUrl": "https://bx-branding-gateway.cloud.seek.com.au/07f5a3fc-92d4-42ca-97a1-46180957d9f8.1/jdpLogo"
+      },
+      "classifications": [
+        {
+          "classification": {
+            "id": "6281",
+            "description": "Information & Communication Technology"
+          },
+          "subclassification": {
+            "id": "6290",
+            "description": "Engineering - Software"
+          }
+        }
+      ],
+      "companyName": "Recruitment Hive",
+      "companyProfileStructuredDataId": 346823,
+      "displayStyle": {
+        "search": "sourcrProfile"
+      },
+      "displayType": "standard",
+      "employer": {
+        "id": "346823",
+        "name": "Recruitment Hive"
+      },
+      "id": "95482390",
+      "isFeatured": false,
+      "listingDate": "2026-10-25T22:46:38Z",
+      "listingDateDisplay": "23d ago",
+      "locations": [
+        {
+          "label": "Surry Hills, Sydney NSW",
+          "countryCode": "AU",
+          "seoHierarchy": [
+            {
+              "contextualName": "Surry Hills NSW 2010"
+            },
+            {
+              "contextualName": "All Sydney NSW"
+            }
+          ]
+        }
+      ],
+      "roleId": "AWS-Data-Engineer",
+      "salaryLabel": "$110 - $125 per hour (inc. super)",
+      "solMetadata": {
+        "searchRequestToken": "fceca788-2c19-4c27-8b36-56117e536cd8",
+        "token": "0~fceca788-2c19-4c27-8b36-56117e536cd8",
+        "jobId": "95482390",
+        "section": "MAIN",
+        "sectionRank": 84,
+        "jobAdType": "ORGANIC",
+        "tags": {
+          "mordor__flights": "mordor_1242",
+          "mordor__s": "0"
+        }
+      },
+      "teaser": "Hands-on AWS data engineering - S3, Glue, Lambda, Athena, EMR, Kinesis and Step Functions.\nPython and advanced SQL - ETL/ELT, data modelling.",
+      "title": "Senior AWS Data Engineer",
+      "tracking": "ewogICJ0b2tlbiI6ICIyYzZmMGVjMy0zYzE1LTRjYzQtOWE4YS0zNGMzODFkYTExYWRfMTgiCn0=",
+      "workTypes": [
+        "Contract/Temp"
+      ],
+      "workArrangements": {
+        "data": [
+          {
+            "id": "1",
+            "label": {
+              "text": "On-site"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "advertiser": {
+        "id": "28031400",
+        "description": "Aurec"
+      },
+      "bulletPoints": [],
+      "branding": {},
+      "classifications": [
+        {
+          "classification": {
+            "id": "6281",
+            "description": "Information & Communication Technology"
+          },
+          "subclassification": {
+            "id": "6286",
+            "description": "Database Development & Administration"
+          }
+        }
+      ],
+      "companyName": "Aurec Group",
+      "companyProfileStructuredDataId": 23682,
+      "displayType": "standard",
+      "employer": {
+        "id": "23682",
+        "name": "Aurec Group"
+      },
+      "id": "95739556",
+      "isFeatured": false,
+      "listingDate": "2026-11-06T04:21:25Z",
+      "listingDateDisplay": "11d ago",
+      "locations": [
+        {
+          "label": "Kogarah, Sydney NSW",
+          "countryCode": "AU",
+          "seoHierarchy": [
+            {
+              "contextualName": "Kogarah NSW 2217"
+            },
+            {
+              "contextualName": "All Sydney NSW"
+            }
+          ]
+        }
+      ],
+      "roleId": "database-engineer",
+      "salaryLabel": "Bonus",
+      "solMetadata": {
+        "searchRequestToken": "fceca788-2c19-4c27-8b36-56117e536cd8",
+        "token": "0~fceca788-2c19-4c27-8b36-56117e536cd8",
+        "jobId": "95739556",
+        "section": "MAIN",
+        "sectionRank": 85,
+        "jobAdType": "ORGANIC",
+        "tags": {
+          "mordor__flights": "mordor_1242",
+          "mordor__s": "0"
+        }
+      },
+      "teaser": "Zero routine tickets, 50/50 flex, and enterprise AI across 4,000+ instances-the most forward-thinking L3 database role in Sydney just opened up!",
+      "title": "Senior Database Engineer - SQL Server / Azure / AI",
+      "tracking": "ewogICJ0b2tlbiI6ICIyYzZmMGVjMy0zYzE1LTRjYzQtOWE4YS0zNGMzODFkYTExYWRfMTkiCn0=",
+      "workTypes": [
+        "Full time"
+      ],
+      "workArrangements": {
+        "data": [
+          {
+            "id": "2",
+            "label": {
+              "text": "Hybrid"
+            }
+          }
+        ],
+        "displayText": "Hybrid"
+      }
+    },
+    {
+      "advertiser": {
+        "id": "61634845",
+        "description": "Nuage Technology Group"
+      },
+      "bulletPoints": [],
+      "branding": {
+        "serpLogoUrl": "https://bx-branding-gateway.cloud.seek.com.au/af2c158d-0013-4474-a316-f37bca70ab87.1/jdpLogo"
+      },
+      "classifications": [
+        {
+          "classification": {
+            "id": "6281",
+            "description": "Information & Communication Technology"
+          },
+          "subclassification": {
+            "id": "6290",
+            "description": "Engineering - Software"
+          }
+        }
+      ],
+      "companyName": "Nuage Technology Group",
+      "companyProfileStructuredDataId": 696100,
+      "displayStyle": {
+        "search": "sourcrProfile"
+      },
+      "displayType": "standard",
+      "employer": {
+        "id": "696100",
+        "name": "Nuage Technology Group"
+      },
+      "id": "95601807",
+      "isFeatured": false,
+      "listingDate": "2026-10-30T05:51:50Z",
+      "listingDateDisplay": "18d ago",
+      "locations": [
+        {
+          "label": "Sydney NSW",
+          "countryCode": "AU",
+          "seoHierarchy": [
+            {
+              "contextualName": "All Sydney NSW"
+            },
+            {
+              "contextualName": "New South Wales NSW"
+            }
+          ]
+        }
+      ],
+      "roleId": "data-scientist",
+      "salaryLabel": "",
+      "solMetadata": {
+        "searchRequestToken": "fceca788-2c19-4c27-8b36-56117e536cd8",
+        "token": "0~fceca788-2c19-4c27-8b36-56117e536cd8",
+        "jobId": "95601807",
+        "section": "MAIN",
+        "sectionRank": 86,
+        "jobAdType": "ORGANIC",
+        "tags": {
+          "mordor__flights": "mordor_1242",
+          "mordor__s": "0"
+        }
+      },
+      "teaser": "AI Engineer with Data Science Background",
+      "title": "AI Engineer Data Science Background",
+      "tracking": "ewogICJ0b2tlbiI6ICIyYzZmMGVjMy0zYzE1LTRjYzQtOWE4YS0zNGMzODFkYTExYWRfMjAiCn0=",
+      "workTypes": [
+        "Contract/Temp"
+      ],
+      "workArrangements": {
+        "data": [
+          {
+            "id": "2",
+            "label": {
+              "text": "Hybrid"
+            }
+          }
+        ],
+        "displayText": "Hybrid"
+      }
+    },
+    {
+      "advertiser": {
+        "id": "3035606",
+        "description": "JMC Academy"
+      },
+      "bulletPoints": [
+        "Join Australia's leading creative industries education provider",
+        "Drive smarter decisions with data, analytics and AI",
+        "Build dashboards and insights that shape student growth and enrolments"
+      ],
+      "branding": {
+        "serpLogoUrl": "https://bx-branding-gateway.cloud.seek.com.au/511a9cf8-e888-4d84-91a1-5080946e23ca.1/jdpLogo"
+      },
+      "classifications": [
+        {
+          "classification": {
+            "id": "6123",
+            "description": "Education & Training"
+          },
+          "subclassification": {
+            "id": "6139",
+            "description": "Other"
+          }
+        }
+      ],
+      "companyName": "JMC Academy",
+      "companyProfileStructuredDataId": 3509,
+      "displayStyle": {
+        "search": "sourcrProfile"
+      },
+      "displayType": "standard",
+      "employer": {
+        "id": "3509",
+        "name": "JMC Academy",
+        "companyId": "435409",
+        "companyUrl": "https://au.seek.com/companies/jmc-academy-435409"
+      },
+      "id": "95909142",
+      "isFeatured": false,
+      "listingDate": "2026-11-16T02:03:16Z",
+      "listingDateDisplay": "1d ago",
+      "locations": [
+        {
+          "label": "Sydney NSW",
+          "countryCode": "AU",
+          "seoHierarchy": [
+            {
+              "contextualName": "All Sydney NSW"
+            },
+            {
+              "contextualName": "New South Wales NSW"
+            }
+          ]
+        }
+      ],
+      "roleId": "Data-And-Performance-Analyst",
+      "salaryLabel": "",
+      "solMetadata": {
+        "searchRequestToken": "fceca788-2c19-4c27-8b36-56117e536cd8",
+        "token": "0~fceca788-2c19-4c27-8b36-56117e536cd8",
+        "jobId": "95909142",
+        "section": "MAIN",
+        "sectionRank": 87,
+        "jobAdType": "ORGANIC",
+        "tags": {
+          "mordor__flights": "mordor_1242",
+          "mordor__s": "0"
+        }
+      },
+      "teaser": "Join JMC Academy and help drive a major data, technology and AI transformation across Australia's leading creative industries institution.",
+      "title": "Data & Performance Analyst (Sydney/Melbourne/Brisbane)",
+      "tracking": "ewogICJ0b2tlbiI6ICIyYzZmMGVjMy0zYzE1LTRjYzQtOWE4YS0zNGMzODFkYTExYWRfMjEiCn0=",
+      "workTypes": [
+        "Full time"
+      ],
+      "workArrangements": {
+        "data": [
+          {
+            "id": "2",
+            "label": {
+              "text": "Hybrid"
+            }
+          }
+        ],
+        "displayText": "Hybrid"
+      }
+    },
+    {
+      "advertiser": {
+        "id": "63825367",
+        "description": "TikTok Australia Pty Ltd"
+      },
+      "bulletPoints": [
+        "Internship from December 2026 to February 2027 in Sydney",
+        "Build trust and safety systems for TikTok's live streaming products",
+        "Help protect users from harmful content and abusive behaviour"
+      ],
+      "branding": {
+        "serpLogoUrl": "https://bx-branding-gateway.cloud.seek.com.au/de8c6cd8-ec35-44c5-b48d-9850e02eee10.1/jdpLogo"
+      },
+      "classifications": [
+        {
+          "classification": {
+            "id": "6281",
+            "description": "Information & Communication Technology"
+          },
+          "subclassification": {
+            "id": "6290",
+            "description": "Engineering - Software"
+          }
+        }
+      ],
+      "companyName": "TikTok",
+      "companyProfileStructuredDataId": 428737,
+      "displayStyle": {
+        "search": "sourcrProfile"
+      },
+      "displayType": "standard",
+      "employer": {
+        "id": "428737",
+        "name": "TikTok",
+        "companyId": "159615434837477",
+        "companyUrl": "https://au.seek.com/companies/tiktok-159615434837477"
+      },
+      "id": "95946813",
+      "isFeatured": false,
+      "listingDate": "2026-11-17T07:48:57Z",
+      "listingDateDisplay": "17h ago",
+      "locations": [
+        {
+          "label": "Sydney NSW",
+          "countryCode": "AU",
+          "seoHierarchy": [
+            {
+              "contextualName": "All Sydney NSW"
+            },
+            {
+              "contextualName": "New South Wales NSW"
+            }
+          ]
+        }
+      ],
+      "roleId": "Backend-Engineering-Intern",
+      "salaryLabel": "",
+      "solMetadata": {
+        "searchRequestToken": "fceca788-2c19-4c27-8b36-56117e536cd8",
+        "token": "0~fceca788-2c19-4c27-8b36-56117e536cd8",
+        "jobId": "95946813",
+        "section": "MAIN",
+        "sectionRank": 88,
+        "jobAdType": "ORGANIC",
+        "tags": {
+          "mordor__flights": "mordor_1242",
+          "mordor__s": "0"
+        }
+      },
+      "teaser": "TikTok is the leading destination for short-form mobile video. Our mission is to inspire creativity and bring joy.",
+      "title": "Backend Software Engineer Intern (Data Trust and Safety) 2027 Start",
+      "tracking": "ewogICJ0b2tlbiI6ICIyYzZmMGVjMy0zYzE1LTRjYzQtOWE4YS0zNGMzODFkYTExYWRfMjIiCn0=",
+      "workTypes": [
+        "Full time"
+      ],
+      "workArrangements": {
+        "data": [
+          {
+            "id": "1",
+            "label": {
+              "text": "On-site"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "totalCount": 776,
+  "info": {
+    "timeTaken": 51,
+    "source": "JobSearch-sm",
+    "experiment": "mordor_1242",
+    "newSince": 1794966004
+  },
+  "userQueryId": "API3761743052594571623",
+  "location": {
+    "description": "All Sydney NSW",
+    "locationDescription": "Sydney",
+    "type": "Location",
+    "whereId": "1000",
+    "localisedDescriptions": {
+      "en": {
+        "contextualName": "All Sydney NSW"
+      }
+    },
+    "isGranular": false,
+    "defaultDistanceKms": 50
+  },
+  "sortModes": [
+    {
+      "isActive": true,
+      "name": "Relevance",
+      "value": "KeywordRelevance"
+    },
+    {
+      "isActive": false,
+      "name": "Date",
+      "value": "ListedDate"
+    }
+  ],
+  "solMetadata": {
+    "requestToken": "fceca788-2c19-4c27-8b36-56117e536cd8",
+    "token": "0~fceca788-2c19-4c27-8b36-56117e536cd8",
+    "keywords": "data engineer",
+    "sortMode": "RELEVANCE",
+    "locations": [
+      "All Sydney NSW",
+      "seek-1000"
+    ],
+    "locationDistance": 50,
+    "pageSize": 22,
+    "pageNumber": 4,
+    "totalJobCount": 776,
+    "tags": {
+      "mordor:searchMarket": "UNIFIED_AU",
+      "mordor:result_count_rst": "453",
+      "mordor:result_count_vec": "60",
+      "mordor:rt": "43",
+      "mordor:count_vec": "60",
+      "mordor__flights": "mordor_1242",
+      "mordor:count_rst": "453",
+      "mordor:count_ir": "263",
+      "mordor:result_count_ir": "263"
+    }
+  },
+  "facets": {},
+  "searchParams": {
+    "keywords": "data engineer",
+    "where": "All Sydney NSW",
+    "page": "4",
+    "pagesize": "22",
+    "sitekey": "AU-Main",
+    "sourcesystem": "houston",
+    "locale": "en-AU"
+  }
+}
