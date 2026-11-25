@@ -1,0 +1,81 @@
+{
+  "date": "2026-11-25",
+  "from_id": "seek-sydney-de-market-2026-11-13",
+  "to_id": "seek-sydney-de-market-2026-11-25",
+  "totals": {
+    "ads": {
+      "from": 65,
+      "to": 72,
+      "change": 7
+    },
+    "senior_plus": {
+      "from": 38,
+      "to": 45,
+      "change": 7
+    },
+    "mid_junior": {
+      "from": 27,
+      "to": 27,
+      "change": 0
+    }
+  },
+  "work_type": {
+    "contract_pct": {
+      "from": 31,
+      "to": 35,
+      "change": 4
+    }
+  },
+  "by_cloud": [
+    {
+      "cloud": "AWS",
+      "from": 10,
+      "to": 12,
+      "change": 2
+    },
+    {
+      "cloud": "Azure",
+      "from": 9,
+      "to": 11,
+      "change": 2
+    },
+    {
+      "cloud": "GCP",
+      "from": 3,
+      "to": 5,
+      "change": 2
+    },
+    {
+      "cloud": "No cloud named",
+      "from": 45,
+      "to": 46,
+      "change": 1
+    }
+  ],
+  "level": [
+    {
+      "level": "Junior",
+      "from": 2,
+      "to": 1,
+      "change": -1
+    },
+    {
+      "level": "Mid",
+      "from": 25,
+      "to": 26,
+      "change": 1
+    },
+    {
+      "level": "Principal/Manager",
+      "from": 4,
+      "to": 6,
+      "change": 2
+    },
+    {
+      "level": "Senior",
+      "from": 34,
+      "to": 39,
+      "change": 5
+    }
+  ]
+}
